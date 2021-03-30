@@ -1,0 +1,44 @@
+// -*- coding: utf-8 -*-
+
+@1    = ~Indira~
+@2    = ~Precz! Nie pokonasz mnie bez walki!~ [J#indi01]
+@3    = ~Ach! Tego już zbyt wiele! Ja... ja muszę odejść, przykro mi!~ [J#indi02]
+@4    = ~Po prostu wspaniale! Założę się, że moglibyśmy zatrudnić barda, który układałby pieśni o naszych wyczynach!~ [J#indi03]
+@5    = ~Nie mogę zrozumieć dlaczego to robisz. To nie jest w porządku.~ [J#indi04]
+@6    = ~Nie chciałam żeby do tego doszło! Wszystko potoczyło się całkowicie źle!~ [J#indi05]
+@7    = ~Dość tego! Ja po prostu... nie mogę dalej iść. Przykro mi.~ [J#indi06]
+@8    = ~Um, tak więc chcesz bym szła przodem? To znaczy, mam swój miecz, ale jestem słaba i takie tam!~ [J#indi07]
+@9    = ~Czy moglibyśmy wkrótce odpocząć? Wydaje mi się, że moje nogi płoną, mój miecz zaś zrobił się CIĘŻK-I.~ [J#indi08]
+@10   = ~Czy nie ma nic co moglibyśmy teraz robić? Na przykład... cokolwiek? Może? Proszę?~ [J#indi09]
+@11   = ~A masz łajdaku! Haha!~ [J#indi10]
+
+@14   = ~Leczenie! Szybko! Proszę!~ [J#indi13]
+@15   = ~Wiesz, mój dom wygląda podobnie. Coś w tym stylu. Tylko inaczej.~ [J#indi14]
+@16   = ~Wiesz, słyszałam, że krasnoludy żyją w takich miejscach. Czy to prawda?~ [J#indi15]
+@17   = ~Wiesz, naprawdę lubię miasta. Nie podoba mi się tylko ten zapach.~ [J#indi16]
+@18   = ~Wiesz, naprawdę lubię gdy jest słonecznie. Lubię też gdy pada deszcz. Śnieg też jest w porządku.~ [J#indi17]
+@19   = ~Wiesz, gdybym nie była taka dzielna, prawdopodobnie bym się teraz bała. Ale nie boję się! Jasne, że nie. Nie ja. Nie.~ [J#indi18]
+@20   = ~Jestem gotowa!~ [J#indi19]
+@21   = ~Kto ja?~ [J#indi20]
+@22   = ~W drogę!~ [J#indi21]
+@23   = ~Czas przejść do interesów!~ [J#indi22]
+@24   = ~Pewnie!~ [J#indi23]
+@25   = ~Ty to powiedziałeś!~ [J#indi24]
+@26   = ~Zapytana o przeszłość, INDIRA mówi, że wychowała się w małej elfickiej wiosce na wschód Scornubel. Ta bliskość z ludźmi podzieliła między sobą elfy żyjące w tej małej społeczności i po wielu argumentach i dyskusjach zdecydowano, że cała wioska odejdzie.
+
+Kilka elfów oraz większość potomstwa ludzi i elfów pozostało, chociaż nie byli oni liczni. Reszta wyruszyła w podróż do Cormanthor. Ci, którzy pozostali mieli skłonność do bycia samodzielnymi, a ponieważ nie było nikogo kto by im przewodził szybko się rozdzielili. Niektórzy podróżowali po świecie, część zamieszkała w miastach, pozostali zaś trzymali się ze sobą.
+
+Indi była jedną z tych osób, które chciały podróżować, w Scornubel zaś spotkała grupę najemników poszukujących pradawnych artefaktów. To z tą grupą Indi przybyła na Wybrzeże Mieczy i razem wpadli w zasadzkę przygotowaną przez koboldów w ruinach mostu Firewine~
+@27   = ~Koszulka kolcza Indiry~
+@28   = ~Zdaje się to być lekką koszulką kolczą ukształtowaną na wzór zwykłej kolczugi. Została ona doskonale wykonana i jest bardziej elastyczna niż mogło by się wydawać. Nosząc go, Indira, lub jakikolwiek inny mag, może bez przeszkód rzucać czary.
+
+PARAMETRY:
+
+Klasa Pancerza: 7 (5 przeciw broniom siecznym, 9 przeciw obuchowym)
+
+Wymagania:
+– Siła: 8
+
+Waga: 20
+ 
+~

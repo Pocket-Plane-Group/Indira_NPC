@@ -1,0 +1,12 @@
+IF
+	InParty("J#Indi")
+	Global("er_IndiraLeavesBGT","GLOBAL",0)
+THEN
+	RESPONSE #100
+		ActionOverride("J#Indi",LeaveParty())
+		ActionOverride("J#Indi",ChangeAIScript("",DEFAULT))
+		ActionOverride("J#Indi",ClearAllActions())
+		ActionOverride("J#Indi",DestroySelf())
+		SetGlobal("er_IndiraLeavesBGT","GLOBAL",1)
+		Continue()
+END

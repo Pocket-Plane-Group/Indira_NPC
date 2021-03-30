@@ -1,4 +1,4 @@
-BEGIN _bimoen
+BEGIN %er_bimoen%
 
 IF ~False()~ shah
   SAY #12345

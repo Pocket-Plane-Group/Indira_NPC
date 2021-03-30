@@ -1,0 +1,40 @@
+// -*- coding: ASCII -*-
+
+@1    = ~Indira~
+@2    = ~Away!  You'll not take me without a fight!~ [J#indi01]
+@3    = ~Ah!  This is too much!  I... I'm sorry, I've got to go!~ [J#indi02]
+@4    = ~This is just great!  I bet we could hire a bard who'd write down our tales!~ [J#indi03]
+@5    = ~I just can't understand why you're doing this.  It's not right.~ [J#indi04]
+@6    = ~I never wanted this to happen!  Everything's going horribly wrong!~ [J#indi05]
+@7    = ~This is it!  I just... I can't go on.  I'm sorry.~ [J#indi06]
+@8    = ~Um, are you sure you want me at the front?  I mean, ah, I have my sword but I'm all puny and stuff!~ [J#indi07]
+@9    = ~Can we stop soon?  My legs feel like they're on fire and my sword is getting HEAV-Y.~ [J#indi08]
+@10   = ~Isn't there something else we could be doing?  Like... anything?  Maybe?  Please?~ [J#indi09]
+@11   = ~Have at ye, villains!  Haha!~ [J#indi10]
+
+@14   = ~Healing!  Quick!  Please!~ [J#indi13]
+@15   = ~Y'know, my home was almost like this.  Sort of.  Only not.~ [J#indi14]
+@16   = ~Y'know, I heard dwarves actually live in places like this.  Is that true?~ [J#indi15]
+@17   = ~Y'know, I really like the city.  Too bad about the smell, though.~ [J#indi16]
+@18   = ~Y'know, I sure do enjoy the sunshine.  Rain, too.  Snow's okay, I guess.~ [J#indi17]
+@19   = ~Y'know, if I weren't so brave, I'd probably be sort of spooked right now.  But I'm not!  No sirree.  Not me.  Nope.~ [J#indi18]
+@20   = ~I'm all set!~ [J#indi19]
+@21   = ~Who, me?~ [J#indi20]
+@22   = ~Ready to go!~ [J#indi21]
+@23   = ~Time to get to business!~ [J#indi22]
+@24   = ~Yeah!~ [J#indi23]
+@25   = ~You said it!~ [J#indi24]
+@26   = ~When asked about her past, INDIRA tells you in a slightly defiant tone that she was raised in a small elven village just east of Scornubel.  This proximity to humans proved to divide the elves of the small community, and after much argument and discussion, it was decided that the entire village would leave.
+
+A bare few pure-blooded elves remained, and most of the offspring who'd come from a union of elf and man remained, though they too were few in number.  The rest trekked east to Cormanthor.  Those who remained tended to be of an independent nature to begin with, and with no guiding force holding them together, they drifted apart.  Some travelled the world, others moved to the city, and others simply kept to themselves.
+
+Indi was one of those who was bitten by the wanderlust, and in Scornubel she found a like-minded group of mercenaries who hired themselves out as seekers of ancient artifacts.  It was with this group that Indi journeyed to the Sword Coast and together they remained until the disastrous ambush in the Firewine Ruins at the hands of the kobolds.~
+@27   = ~Indi's Chain Vest~
+@28   = ~This appears to be a light chain shirt fashioned in much the same way as a normal suit of chain mail.  Its craftsmanship is of excellent quality, and it allows more flexibility than you would expect.  While wearing it, Indira, or any mage, can cast spells unhindered.
+
+STATISTICS:
+
+Armor Class: 7
+Weight: 20
+Not Usable By:
+ Druid~

@@ -1,0 +1,40 @@
+// -*- coding: utf-8 -*-
+
+@1 = ~Indira~
+@2 = ~Eloignez vous ! Vous ne m'aurez pas sans combattre !~ [J#indi01]
+@3 = ~Ah ! C'en est trop ! Je... je suis désolée, il me faut partir !~ [J#indi02]
+@4 = ~C'est fabuleux ! Je parie même que nous pourrions engager quelque barde pour mettre en récit nos aventures !~ [J#indi03]
+@5 = ~Je ne parviens pas à comprendre pourquoi tu agis comme cela. Ce n'est pas juste.~ [J#indi04]
+@6 = ~Jamais je n'ai voulu en arriver là ! Tout va si mal !~ [J#indi05]
+@7 = ~Je n'en peux plus ! Je...je ne peux continuer ainsi ! Je suis désolée.~ [J#indi06]
+@8 = ~Euh, es-tu certain de vouloir me mettre en première ligne ? Je veux dire, hum, je suis certes armée d'une épée mais je suis toute frêle et tout ce qui s'en suit !~ [J#indi07] ~Euh, es-tu certaine de vouloir me mettre en première ligne ? Je veux dire, hum, je suis certes armée d'une épée mais je suis toute frêle et tout ce qui s'en suit !~ [J#indi07]
+@9 = ~Pouvons-nous nous reposer sans tarder ? Mes jambes sont en feu et mon épée devient de plus en plus LOURDE.~ [J#indi08]
+@10 = ~N'y a-t-il pas autre chose que nous pourrions faire ? Une activité quelconque ? Peut-être ? S'il te plaît ?~ [J#indi09]
+@11 = ~Gare à vous, scélérats ! Héhé !~ [J#indi10]
+
+@14 = ~Soignez-moi ! Viite ! Je vous en prie !~ [J#indi13]
+@15 = ~Tu sais, c'était presque pareil chez moi. Si l'on peut dire. Mais pas seulement.~ [J#indi14]
+@16 = ~Tu sais, j'ai cru entendre que les nains vivaient vraiment dans de tels endroits. C'est vrai ?~ [J#indi15]
+@17 = ~Tu sais, j'adore vraiment la ville. Quel dommage pour la puanteur.~ [J#indi16]
+@18 = ~Tu sais, j'aime beaucoup le soleil. La pluie aussi, d'ailleurs. Remarque la neige ne me gêne pas non plus, enfin je pense.~
+@19 = ~Tu sais, si je n'étais pas aussi intrépide, la peur m'aurait sûrement envahie à l'heure qu'il est. Mais c'est pas le cas. Oh que non, chef ! Pas moi! Jamais de la vie !~ [J#indi18]
+@20 = ~Je suis prête !~ [J#indi19]
+@21 = ~Qui, moi ?~ [J#indi20]
+@22 = ~Prête à y aller !~ [J#indi21]
+@23 = ~C'est l'heure d'en découdre !~ [J#indi22]
+@24 = ~Ouéé !~ [J#indi23]
+@25 = ~Tu l'as dit !~ [J#indi24]
+@26 = ~Quand vous l'interrogez sur son passé, Indira vous révèle, avec un air mutin, qu'elle a été élevée dans un petit village elfe situé juste à l'est de Scornubel. Vivre si près des humains a fini par causer de profondes dissensions parmi les elfes de cette petite communauté, et après de nombreux conflits et pourparlers, l'exode de l'intégralité du village fut décidé.
+
+A peine quelques individus d'ascendance elfique pure ont subsisté, la majeure partie à rester étant constituée de descendants de l'union d'un elfe avec un humain, même si ces derniers étaient aussi en faible nombre. Les autres natifs du village allèrent s'établir encore plus à l'est, vers le Cormanthor. Ainsi, ceux qui demeurèrent finirent par développer un esprit d'indépendance assez solide, et sans force supérieure pour les guider et préserver leurs liens, la communauté s'est désagrégée. Certains ont choisi de voyager à travers Féérune, d'autres se sont installés dans des cités, les derniers choisirent de rester entre eux.
+
+Indi fut l'une de ceux qui furent frappés par la soif d'aventure, et elle découvrit à Scornubel un petit groupe de mercenaires qui pensaient tout comme elle et proposaient leurs services comme prospecteurs d'artefacts anciens. A leurs côtés, Indi voyagea vers la Côte des Epées, et ils restèrent unis jusqu'à l'épisode funeste de l'embuscade tendue par les kobolds dans les Ruines de Flammevin.~
+@27 = ~La veste en mailles d'Indi~
+@28 = ~Cette armure ressemble à une chemise en mailles légères, confectionnée de la même manière qu'une cotte de mailles classique. Son élaboration, d'excellente facture, lui confère une qualité hors du commun et autorise plus de souplesse que l'on pourrait penser au premier abord. En la revêtant, Indira, ou n'importe quel autre mage, est capable de lancer des sorts sans gêne aucune.
+
+PARAMÈTRES :
+
+Classe d'armure : 7 (9 contre les armes contondantes, 5 contre les armes tranchantes)
+Nécessite : 8 en Force
+
+Poids : 20~

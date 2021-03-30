@@ -86,7 +86,7 @@ DO ~SetGlobal("A#MURN_INDI","GLOBAL",1)~
 == J#INDIB @24 
 == BA#MURN @25
 == J#INDIB @26
-== ~_BFALDO~ IF ~InParty("FALDORN")
+== ~%er_tutu%BFALDO~ IF ~InParty("FALDORN")
 See("FALDORN")
 !StateCheck("FALDORN",STATE_SLEEPING)
 !Dead("FALDORN")~ THEN @27
@@ -94,23 +94,23 @@ See("FALDORN")
 == J#INDIB @29
 == BA#MURN @30
 == J#INDIB @31
-== ~_BALORA~ IF ~InParty("ALORA")
+== ~%er_tutu%BALORA~ IF ~InParty("ALORA")
 See("ALORA")
 !StateCheck("ALORA",STATE_SLEEPING)
 !Dead("ALORA")~ THEN @32
 == BA#MURN @33
-== ~_BMONTA~ IF ~InParty("MONTARON")
+== ~%er_tutu%BMONTA~ IF ~InParty("MONTARON")
 See("MONTARON")
 !StateCheck("MONTARON",STATE_SLEEPING)
 !Dead("MONTARON")~ THEN @34
 == J#INDIB @35
 == BA#MURN @36
-== ~_BXZAR~ IF ~InParty("XZAR")
+== ~%er_tutu%BXZAR~ IF ~InParty("XZAR")
 See("XZAR")
 !StateCheck("XZAR",STATE_SLEEPING)
 !Dead("XZAR")~ THEN @37
 == J#INDIB @38
-== ~_BAJANT~ IF ~InParty("AJANTIS")
+== ~%er_tutu%BAJANT~ IF ~InParty("AJANTIS")
 See("AJANTIS")
 !StateCheck("AJANTIS",STATE_SLEEPING)
 !Dead("AJANTIS")~ THEN @39
@@ -125,7 +125,7 @@ CHAIN ~BA#MURN~ Murn_Indi_2
 @45 
 == J#INDIB @46 
 == BA#MURN @47
-== ~_BXZAR~ IF ~InParty("XZAR")
+== ~%er_tutu%BXZAR~ IF ~InParty("XZAR")
 See("XZAR")
 !StateCheck("XZAR",STATE_SLEEPING)
 !Dead("XZAR")~ THEN @48
@@ -146,7 +146,7 @@ InParty("A#MURN")
 !Dead("J#INDI")~ THEN ~BA#MURN~ Murn_Indi_3
 @52 
 DO ~SetGlobal("A#MURN_INDI","GLOBAL",3)~
-== ~_BELDOT~ IF ~InParty("ELDOTH")
+== ~%er_tutu%BELDOT~ IF ~InParty("ELDOTH")
 See("ELDOTH")
 !StateCheck("ELDOTH",STATE_SLEEPING)
 !Dead("ELDOTH")~ THEN @53

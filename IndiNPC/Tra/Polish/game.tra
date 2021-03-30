@@ -1,0 +1,40 @@
+// -*- coding: cp1250 -*-
+
+@1    = ~Indira~
+@2    = ~Precz! Nie pokonasz mnie bez walki!~ [J#indi01]
+@3    = ~Ach! Tego ju¿ zbyt wiele! Ja... ja muszê odejœæ, przykro mi!~ [J#indi02]
+@4    = ~Po prostu wspaniale! Za³o¿ê siê, ¿e moglibyœmy zatrudniæ barda, który uk³ada³by pieœni o naszych wyczynach!~ [J#indi03]
+@5    = ~Nie mogê zrozumieæ dlaczego to robisz. To nie jest w porz¹dku.~ [J#indi04]
+@6    = ~Nie chcia³am ¿eby do tego dosz³o! Wszystko potoczy³o siê ca³kowicie Ÿle!~ [J#indi05]
+@7    = ~Doœæ tego! Ja po prostu... nie mogê dalej iœæ. Przykro mi.~ [J#indi06]
+@8    = ~Um, tak wiêc chcesz bym sz³a przodem? To znaczy, mam swój miecz, ale jestem s³aba i takie tam!~ [J#indi07]
+@9    = ~Czy moglibyœmy wkrótce odpocz¹æ? Wydaje mi siê, ¿e moje nogi p³on¹, mój miecz zaœ zrobi³ siê CIÊ¯K-I.~ [J#indi08]
+@10   = ~Czy nie ma nic co moglibyœmy teraz robiæ? Na przyk³ad... cokolwiek? Mo¿e? Proszê?~ [J#indi09]
+@11   = ~A masz ³ajdaku! Haha!~ [J#indi10]
+
+@14   = ~Leczenie! Szybko! Proszê!~ [J#indi13]
+@15   = ~Wiesz, mój dom wygl¹da podobnie. Coœ w tym stylu. Tylko inaczej.~ [J#indi14]
+@16   = ~Wiesz, s³ysza³am, ¿e krasnoludy ¿yj¹ w takich miejscach. Czy to prawda?~ [J#indi15]
+@17   = ~Wiesz, naprawdê lubiê miasta. Nie podoba mi siê tylko ten zapach.~ [J#indi16]
+@18   = ~Wiesz, naprawdê lubiê gdy jest s³onecznie. Lubiê te¿ gdy pada deszcz. Œnieg te¿ jest w porz¹dku.~ [J#indi17]
+@19   = ~Wiesz, gdybym nie by³a taka dzielna, prawdopodobnie bym siê teraz ba³a. Ale nie bojê siê! Jasne, ¿e nie. Nie ja. Nie.~ [J#indi18]
+@20   = ~Jestem gotowa!~ [J#indi19]
+@21   = ~Kto ja?~ [J#indi20]
+@22   = ~W drogê!~ [J#indi21]
+@23   = ~Czas przejœæ do interesów!~ [J#indi22]
+@24   = ~Pewnie!~ [J#indi23]
+@25   = ~Ty to powiedzia³eœ!~ [J#indi24]
+@26   = ~Zapytana o przesz³oœæ, INDIRA mówi, ¿e wychowa³a siê w ma³ej elfickiej wiosce na wschód Scornubel. Ta bliskoœæ z ludŸmi podzieli³a miêdzy sob¹ elfy ¿yj¹ce w tej ma³ej spo³ecznoœci i po wielu argumentach i dyskusjach zdecydowano, ¿e ca³a wioska odejdzie.
+
+Kilka elfów oraz wiêkszoœæ potomstwa ludzi i elfów pozosta³o, chocia¿ nie byli oni liczni. Reszta wyruszy³a w podró¿ do Cormanthor. Ci, którzy pozostali mieli sk³onnoœæ do bycia samodzielnymi, a poniewa¿ nie by³o nikogo kto by im przewodzi³ szybko siê rozdzielili. Niektórzy podró¿owali po œwiecie, czêœæ zamieszka³a w miastach, pozostali zaœ trzymali siê ze sob¹.
+
+Indi by³a jedn¹ z tych osób, które chcia³y podró¿owaæ, w Scornubel zaœ spotka³a grupê najemników poszukuj¹cych pradawnych artefaktów. To z t¹ grup¹ Indi przyby³a na Wybrze¿e Mieczy i razem wpadli w zasadzkê przygotowan¹ przez koboldów w ruinach mostu Firewine~
+@27   = ~Koszulka kolcza Indiry~
+@28   = ~Zdaje siê to byæ lekk¹ koszulk¹ kolcz¹ ukszta³towan¹ na wzór zwyk³ej kolczugi. Zosta³a ona doskonale wykonana i jest bardziej elastyczna ni¿ mog³o by siê wydawaæ. Nosz¹c go, Indira, lub jakikolwiek inny mag, mo¿e bez przeszkód rzucaæ czary.
+
+PARAMETRY:
+
+Klasa pancerza: 7
+Waga: 20
+Nie mo¿e u¿ywaæ:
+ Druid~

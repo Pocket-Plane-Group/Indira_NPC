@@ -1,0 +1,183 @@
+// Define main variables
+OUTER_SPRINT er_tutu ~~
+OUTER_SPRINT er_tutc ~c~
+OUTER_SPRINT er_port ~Tutu~
+OUTER_SPRINT er_imoen ~Imoen~
+OUTER_SPRINT er_uimoen ~IMOEN~
+OUTER_SPRINT er_tra_path ~%MOD_FOLDER%/Tra~
+
+// (Re)define variables to handle differences between Tutu, BG:EE and BGT
+ACTION_IF GAME_IS ~tutu tutu_totsc~ THEN BEGIN
+  OUTER_SPRINT er_tutu ~_~
+  OUTER_SPRINT er_tutc ~-~
+  OUTER_SPRINT er_bdynah ~_BDYNAH~
+  OUTER_SPRINT er_bimoen ~_BIMOEN~
+  OUTER_SPRINT er_bjahei ~_BJAHEI~
+  OUTER_SPRINT er_bvicon ~_BVICON~
+  OUTER_SPRINT er_dynahj ~_DYNAHJ~
+  OUTER_SPRINT er_BladeStarsL1 ~FW0105~
+  OUTER_SPRINT er_BlushingMermaidL1 ~FW0114~
+  OUTER_SPRINT er_BlushingMermaidL2 ~FW0115~
+  OUTER_SPRINT er_HelmCloakL1 ~FW0116~
+  OUTER_SPRINT er_MerchantLeagueL2 ~FW0128~
+  OUTER_SPRINT er_LowLanternL1 ~FW0133~
+  OUTER_SPRINT er_KeexieTavernL1 ~FW0154~
+  OUTER_SPRINT er_NWBG_GenericTavernL1 ~FW0165~
+  OUTER_SPRINT er_KeexieTavernL2 ~FW0171~
+  OUTER_SPRINT er_IronThroneL4 ~FW0614~
+  OUTER_SPRINT er_ElfsongTavernL1 ~FW0705~
+  OUTER_SPRINT er_ElfsongTavernL2 ~FW0706~
+  OUTER_SPRINT er_DrakonTavern ~FW0720~
+  OUTER_SPRINT er_EBG_GenericInnL1 ~FW0807~
+  OUTER_SPRINT er_EBG_GenericInnL2 ~FW0808~
+  OUTER_SPRINT er_UlgothBeardsInn ~FW1001~
+  OUTER_SPRINT er_SWBG_GenericTavernL1 ~FW1109~
+  OUTER_SPRINT er_SWBG_GenericTavernL2 ~FW1110~
+  OUTER_SPRINT er_YeOldeInnL1 ~FW1113~
+  OUTER_SPRINT er_JopalinsTavern ~FW1215~
+  OUTER_SPRINT er_SEBG_GenericInnL1 ~FW1306~
+  OUTER_SPRINT er_FriendlyArmInnL1 ~FW2301~
+  OUTER_SPRINT er_FriendlyArmInnL2 ~FW2302~
+  OUTER_SPRINT er_FriendlyArmInnL3 ~FW2303~
+  OUTER_SPRINT er_CandlekeepCh6InnL1 ~FW2629~
+  OUTER_SPRINT er_CandlekeepCh6InnL2 ~FW2630~
+  OUTER_SPRINT er_CandlekeepCh6Barracks ~FW2631~
+  OUTER_SPRINT er_JovialJugglerL1 ~FW3304~
+  OUTER_SPRINT er_JovialJugglerL2 ~FW3305~
+  OUTER_SPRINT er_BurningWizardL1 ~FW3307~
+  OUTER_SPRINT er_BurningWizardL2 ~FW3308~
+  OUTER_SPRINT er_FeldepostsInnL1 ~FW3351~
+  OUTER_SPRINT er_FeldepostsInnL2 ~FW3352~
+  OUTER_SPRINT er_RedSheafL1 ~FW3357~
+  OUTER_SPRINT er_NashkelInn ~FW4801~
+  OUTER_SPRINT er_BelchingDragonTavern ~FW4809~
+  OUTER_SPRINT er_FirewineRuins ~FW5201~
+  OUTER_SPRINT er_5201 ~_AR5201~
+END ELSE BEGIN
+  ACTION_IF GAME_IS ~bgee~ THEN BEGIN
+    OUTER_SPRINT er_port ~BGEE~
+    OUTER_SPRINT er_tra_path ~%MOD_FOLDER%/Tra/BGEE~
+    OUTER_SPRINT er_bdynah ~BDYNAH~
+    OUTER_SPRINT er_bimoen ~BIMOEN~
+    OUTER_SPRINT er_bjahei ~BJAHEI~
+    OUTER_SPRINT er_bvicon ~BVICON~
+    OUTER_SPRINT er_dynahj ~DYNAHJ~
+    OUTER_SPRINT er_BladeStarsL1 ~AR0105~
+    OUTER_SPRINT er_BlushingMermaidL1 ~AR0114~
+    OUTER_SPRINT er_BlushingMermaidL2 ~AR0115~
+    OUTER_SPRINT er_HelmCloakL1 ~AR0116~
+    OUTER_SPRINT er_MerchantLeagueL2 ~AR0128~
+    OUTER_SPRINT er_LowLanternL1 ~AR0133~
+    OUTER_SPRINT er_KeexieTavernL1 ~AR0154~
+    OUTER_SPRINT er_NWBG_GenericTavernL1 ~AR0165~
+    OUTER_SPRINT er_KeexieTavernL2 ~AR0171~
+    OUTER_SPRINT er_IronThroneL4 ~AR0614~
+    OUTER_SPRINT er_ElfsongTavernL1 ~AR0705~
+    OUTER_SPRINT er_ElfsongTavernL2 ~AR0706~
+    OUTER_SPRINT er_DrakonTavern ~AR0720~
+    OUTER_SPRINT er_EBG_GenericInnL1 ~AR0807~
+    OUTER_SPRINT er_EBG_GenericInnL2 ~AR0808~
+    OUTER_SPRINT er_UlgothBeardsInn ~AR1001~
+    OUTER_SPRINT er_SWBG_GenericTavernL1 ~AR1109~
+    OUTER_SPRINT er_SWBG_GenericTavernL2 ~AR1110~
+    OUTER_SPRINT er_YeOldeInnL1 ~AR1113~
+    OUTER_SPRINT er_JopalinsTavern ~AR1215~
+    OUTER_SPRINT er_SEBG_GenericInnL1 ~AR1306~
+    OUTER_SPRINT er_FriendlyArmInnL1 ~AR2301~
+    OUTER_SPRINT er_FriendlyArmInnL2 ~AR2302~
+    OUTER_SPRINT er_FriendlyArmInnL3 ~AR2303~
+    OUTER_SPRINT er_CandlekeepCh6InnL1 ~AR2629~
+    OUTER_SPRINT er_CandlekeepCh6InnL2 ~AR2630~
+    OUTER_SPRINT er_CandlekeepCh6Barracks ~AR2631~
+    OUTER_SPRINT er_JovialJugglerL1 ~AR3304~
+    OUTER_SPRINT er_JovialJugglerL2 ~AR3305~
+    OUTER_SPRINT er_BurningWizardL1 ~AR3307~
+    OUTER_SPRINT er_BurningWizardL2 ~AR3308~
+    OUTER_SPRINT er_FeldepostsInnL1 ~AR3351~
+    OUTER_SPRINT er_FeldepostsInnL2 ~AR3352~
+    OUTER_SPRINT er_RedSheafL1 ~AR3357~
+    OUTER_SPRINT er_NashkelInn ~AR4801~
+    OUTER_SPRINT er_BelchingDragonTavern ~AR4809~
+    OUTER_SPRINT er_FirewineRuins ~AR5201~
+    OUTER_SPRINT er_5201 ~AR5201~
+  END ELSE BEGIN
+    ACTION_IF GAME_IS ~bgt~ THEN BEGIN
+      OUTER_SPRINT er_imoen ~Imoen2~
+      OUTER_SPRINT er_uimoen ~IMOEN2~
+      OUTER_SPRINT er_bdynah ~BDYNA~
+      OUTER_SPRINT er_bimoen ~BIMOEN2~
+      OUTER_SPRINT er_bjahei ~BJAHEIR~
+      OUTER_SPRINT er_bvicon ~BVICONI~
+      OUTER_SPRINT er_dynahj ~DYNAJ~
+      OUTER_SPRINT er_BladeStarsL1 ~AR7205~
+      OUTER_SPRINT er_BlushingMermaidL1 ~AR7214~
+      OUTER_SPRINT er_BlushingMermaidL2 ~AR7215~
+      OUTER_SPRINT er_HelmCloakL1 ~AR7216~
+      OUTER_SPRINT er_MerchantLeagueL2 ~AR7228~
+      OUTER_SPRINT er_LowLanternL1 ~AR7233~
+      OUTER_SPRINT er_KeexieTavernL1 ~AR7254~
+      OUTER_SPRINT er_NWBG_GenericTavernL1 ~AR7265~
+      OUTER_SPRINT er_KeexieTavernL2 ~AR7271~
+      OUTER_SPRINT er_IronThroneL4 ~AR7614~
+      OUTER_SPRINT er_ElfsongTavernL1 ~AR7705~
+      OUTER_SPRINT er_ElfsongTavernL2 ~AR7706~
+      OUTER_SPRINT er_DrakonTavern ~AR7720~
+      OUTER_SPRINT er_EBG_GenericInnL1 ~AR7807~
+      OUTER_SPRINT er_EBG_GenericInnL2 ~AR7808~
+      OUTER_SPRINT er_UlgothBeardsInn ~ARU001~
+      OUTER_SPRINT er_SWBG_GenericTavernL1 ~AR8009~
+      OUTER_SPRINT er_SWBG_GenericTavernL2 ~AR8010~
+      OUTER_SPRINT er_YeOldeInnL1 ~AR8013~
+      OUTER_SPRINT er_JopalinsTavern ~AR8115~
+      OUTER_SPRINT er_SEBG_GenericInnL1 ~AR8206~
+      OUTER_SPRINT er_FriendlyArmInnL1 ~AR6801~
+      OUTER_SPRINT er_FriendlyArmInnL2 ~AR6802~
+      OUTER_SPRINT er_FriendlyArmInnL3 ~AR6803~
+      OUTER_SPRINT er_CandlekeepCh6InnL1 ~AR6529~
+      OUTER_SPRINT er_CandlekeepCh6InnL2 ~AR6530~
+      OUTER_SPRINT er_CandlekeepCh6Barracks ~AR6531~
+      OUTER_SPRINT er_JovialJugglerL1 ~AR6704~
+      OUTER_SPRINT er_JovialJugglerL2 ~AR6705~
+      OUTER_SPRINT er_BurningWizardL1 ~AR6707~
+      OUTER_SPRINT er_BurningWizardL2 ~AR6708~
+      OUTER_SPRINT er_FeldepostsInnL1 ~AR6751~
+      OUTER_SPRINT er_FeldepostsInnL2 ~AR6752~
+      OUTER_SPRINT er_RedSheafL1 ~AR6757~
+      OUTER_SPRINT er_NashkelInn ~AR3701~
+      OUTER_SPRINT er_BelchingDragonTavern ~AR3709~
+      OUTER_SPRINT er_FirewineRuins ~AR3401~
+      OUTER_SPRINT er_5201 ~AR3401~
+    END
+  END
+END
+
+// Macros to handle multiple tra encodings (slightly adapted from Wisp's original code)
+DEFINE_ACTION_MACRO bgee_language BEGIN
+  ACTION_IF GAME_IS ~bgee bg2ee~ BEGIN
+    LOAD_TRA ~%MOD_FOLDER%/Tra/BGEE/English/game.tra~
+    LOAD_TRA ~%MOD_FOLDER%/Tra/BGEE/%LANGUAGE%/game.tra~
+  END
+END
+DEFINE_ACTION_FUNCTION autotra_workaround BEGIN
+  ACTION_IF ENGINE_IS ~bgee bg2ee~ AND !FILE_EXISTS ~%MOD_FOLDER%/Tra/%LANGUAGE%/utf8.mrk~ BEGIN
+    COPY ~%MOD_FOLDER%/Tra/BGEE/%LANGUAGE%~ ~%MOD_FOLDER%/Tra/%LANGUAGE%~
+    COPY_EXISTING sw1h01.itm ~%MOD_FOLDER%/Tra/%LANGUAGE%/utf8.mrk~
+  END
+END
+
+// Convert items on Indira inventory (from BG:EE/BGT to Tutu names)
+DEFINE_PATCH_MACRO ~ER_PATCH_ITEMS_ON_INDIRA~ 
+BEGIN
+  PATCH_IF GAME_IS ~tutu tutu_totsc~ BEGIN
+    READ_LONG 0x2bc er_ioff
+    READ_LONG 0x2c0 er_inum
+    FOR (er_count = 0; er_count < %er_inum%; er_count += 1) BEGIN
+      er_pos = er_ioff+er_count*0x14
+      READ_ASCII  er_pos er_item (8)
+      INNER_PATCH_SAVE er_imod ~%er_item%~ BEGIN
+        REPLACE_TEXTUALLY ~^\([^J]\)~ ~_\1~
+      END
+      WRITE_EVALUATED_ASCII er_pos ~%er_imod%~ (8)
+    END
+  END
+END

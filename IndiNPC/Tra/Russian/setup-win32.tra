@@ -1,0 +1,7 @@
+// -*- coding: cp1251 -*-
+//This file is encoded in cp1251, the encoding used by Windows terminals in more recent Russian versions of Windows
+//Windows XP and older versions use cp866
+
+/* // Since Windows XP and later cannot both be accommodated, we'll display the following string in English during installation
+@0    = ~Индира НПС~
+*/

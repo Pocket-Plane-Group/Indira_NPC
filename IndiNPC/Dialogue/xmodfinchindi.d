@@ -3,7 +3,7 @@ IF ~CombatCounter(0)
 InParty("J#Indi")
 See("J#Indi")
 !StateCheck("j#indi",STATE_SLEEPING)
-!AreaCheck("FW5201")
+!AreaCheck("%er_FirewineRuins%")
 Global("FinchIndi1","LOCALS",0)~ THEN BSUFINCH FirewineBanter
 @1009  DO ~SetGlobal("FinchIndi1","LOCALS",1)~ 
 == J#INDIB @1010 
@@ -15,42 +15,42 @@ EXIT
 //Must add AreaChecks. Don't want this to happen in an inn area.
 CHAIN
 IF ~CombatCounter(0)
-!AreaCheck("FW0105")
-!AreaCheck("FW0114")
-!AreaCheck("FW0115")
-!AreaCheck("FW0116")
-!AreaCheck("FW0128")
-!AreaCheck("FW0133")
-!AreaCheck("FW0154")
-!AreaCheck("FW0165")
-!AreaCheck("FW0171")
-!AreaCheck("FW0614")
-!AreaCheck("FW0705")
-!AreaCheck("FW0706")
-!AreaCheck("FW0720")
-!AreaCheck("FW0807")
-!AreaCheck("FW0808")
-!AreaCheck("FW1001")
-!AreaCheck("FW1109")
-!AreaCheck("FW1110")
-!AreaCheck("FW1113")
-!AreaCheck("FW1215")
-!AreaCheck("FW1306")
-!AreaCheck("FW2301")
-!AreaCheck("FW2302")
-!AreaCheck("FW2303")
-!AreaCheck("FW2629")
-!AreaCheck("FW2630")
-!AreaCheck("FW2631")
-!AreaCheck("FW3304")
-!AreaCheck("FW3305")
-!AreaCheck("FW3307")
-!AreaCheck("FW3308")
-!AreaCheck("FW3351")
-!AreaCheck("FW3352")
-!AreaCheck("FW3357")
-!AreaCheck("FW4801")
-!AreaCheck("FW4809")
+!AreaCheck("%er_BladeStarsL1%")
+!AreaCheck("%er_BlushingMermaidL1%")
+!AreaCheck("%er_BlushingMermaidL2%")
+!AreaCheck("%er_HelmCloakL1%")
+!AreaCheck("%er_MerchantLeagueL2%")
+!AreaCheck("%er_LowLanternL1%")
+!AreaCheck("%er_KeexieTavernL1%")
+!AreaCheck("%er_NWBG_GenericTavernL1%")
+!AreaCheck("%er_KeexieTavernL2%")
+!AreaCheck("%er_IronThroneL4%")
+!AreaCheck("%er_ElfsongTavernL1%")
+!AreaCheck("%er_ElfsongTavernL2%")
+!AreaCheck("%er_DrakonTavern%")
+!AreaCheck("%er_EBG_GenericInnL1%")
+!AreaCheck("%er_EBG_GenericInnL2%")
+!AreaCheck("%er_UlgothBeardsInn%")
+!AreaCheck("%er_SWBG_GenericTavernL1%")
+!AreaCheck("%er_SWBG_GenericTavernL2%")
+!AreaCheck("%er_YeOldeInnL1%")
+!AreaCheck("%er_JopalinsTavern%")
+!AreaCheck("%er_SEBG_GenericInnL1%")
+!AreaCheck("%er_FriendlyArmInnL1%")
+!AreaCheck("%er_FriendlyArmInnL2%")
+!AreaCheck("%er_FriendlyArmInnL3%")
+!AreaCheck("%er_CandlekeepCh6InnL1%")
+!AreaCheck("%er_CandlekeepCh6InnL2%")
+!AreaCheck("%er_CandlekeepCh6Barracks%")
+!AreaCheck("%er_JovialJugglerL1%")
+!AreaCheck("%er_JovialJugglerL2%")
+!AreaCheck("%er_BurningWizardL1%")
+!AreaCheck("%er_BurningWizardL2%")
+!AreaCheck("%er_FeldepostsInnL1%")
+!AreaCheck("%er_FeldepostsInnL2%")
+!AreaCheck("%er_RedSheafL1%")
+!AreaCheck("%er_NashkelInn%")
+!AreaCheck("%er_BelchingDragonTavern%")
 InParty("SUFINCH")
 See("SUFINCH")
 !StateCheck("SUFINCH",STATE_SLEEPING)
@@ -115,9 +115,9 @@ APPEND J#INDIB
 IF ~Global("FinchIndiRevengeOfFork", "GLOBAL",1)~ THEN BEGIN ForkFightPt2
 SAY @1048 
 IF ~!InParty("Edwin") !InParty("Dynaheir") !InParty("Skie")~ THEN DO ~SetGlobal("FinchIndiRevengeOfFork", "GLOBAL",2)~ GOTO IndiNoForks
-IF ~InParty("Edwin") !InParty("Dynaheir") !InParty("Skie")~ THEN DO ~SetGlobal("FinchIndiRevengeOfFork", "GLOBAL",2)~ EXTERN _EDWINJ EdwinNoForks
-IF ~InParty("Dynaheir") !InParty("Skie")~ THEN DO ~SetGlobal("FinchIndiRevengeOfFork", "GLOBAL",2)~ EXTERN _DYNAHJ DynaNoForks
-IF ~InParty("Skie")~ THEN DO ~SetGlobal("FinchIndiRevengeOfFork", "GLOBAL",2)~ EXTERN _SKIEJ SkieNoForks
+IF ~InParty("Edwin") !InParty("Dynaheir") !InParty("Skie")~ THEN DO ~SetGlobal("FinchIndiRevengeOfFork", "GLOBAL",2)~ EXTERN %er_tutu%EDWINJ EdwinNoForks
+IF ~InParty("Dynaheir") !InParty("Skie")~ THEN DO ~SetGlobal("FinchIndiRevengeOfFork", "GLOBAL",2)~ EXTERN %er_dynahj% DynaNoForks
+IF ~InParty("Skie")~ THEN DO ~SetGlobal("FinchIndiRevengeOfFork", "GLOBAL",2)~ EXTERN %er_tutu%SKIEJ SkieNoForks
 END
 
 IF ~~ THEN BEGIN IndiNoForks
@@ -136,44 +136,44 @@ IF ~~ THEN EXTERN SUFINCHJ ForkFini
 END
 END
 
-APPEND _SKIEJ
+APPEND %er_tutu%SKIEJ
 
 IF ~~ THEN BEGIN SkieNoForks
 SAY @1052
 IF ~!InParty("Edwin") !InParty("Dynaheir") !InParty("Eldoth")~ THEN EXTERN J#INDIB IndiNoForks
-IF ~InParty("Edwin") !InParty("Dynaheir") !InParty("Eldoth")~ THEN EXTERN _EDWINJ EdwinNoForks
-IF ~InParty("Dynaheir") !InParty("Eldoth")~ THEN EXTERN _DYNAHJ DynaNoForks
-IF ~InParty("Eldoth")~ THEN EXTERN _ELDOTJ EldothNoForks
+IF ~InParty("Edwin") !InParty("Dynaheir") !InParty("Eldoth")~ THEN EXTERN %er_tutu%EDWINJ EdwinNoForks
+IF ~InParty("Dynaheir") !InParty("Eldoth")~ THEN EXTERN %er_dynahj% DynaNoForks
+IF ~InParty("Eldoth")~ THEN EXTERN %er_tutu%ELDOTJ EldothNoForks
 END
 
 IF ~~ THEN BEGIN SkieForkWhine
 SAY @1053
 IF ~!InParty("Edwin") !InParty("Dynaheir")~ THEN EXTERN J#INDIB IndiNoForks
-IF ~InParty("Edwin") !InParty("Dynaheir")~ THEN EXTERN _EDWINJ EdwinNoForks
-IF ~InParty("Dynaheir")~ THEN EXTERN _DYNAHJ DynaNoForks
+IF ~InParty("Edwin") !InParty("Dynaheir")~ THEN EXTERN %er_tutu%EDWINJ EdwinNoForks
+IF ~InParty("Dynaheir")~ THEN EXTERN %er_dynahj% DynaNoForks
 END
 END
 
-APPEND _ELDOTJ
+APPEND %er_tutu%ELDOTJ
 
 IF ~~ THEN BEGIN EldothNoForks
 SAY @1054
 =
 @1055
-IF ~~ THEN EXTERN _SKIEJ SkieForkWhine
+IF ~~ THEN EXTERN %er_tutu%SKIEJ SkieForkWhine
 END
 END
 
-APPEND _DYNAHJ
+APPEND %er_dynahj%
 
 IF ~~ THEN BEGIN DynaNoForks
 SAY @1056
 IF ~!InParty("Edwin")~ THEN EXTERN J#INDIB IndiNoForks
-IF ~InParty("Edwin")~ THEN EXTERN _EDWINJ EdwinNoForks
+IF ~InParty("Edwin")~ THEN EXTERN %er_tutu%EDWINJ EdwinNoForks
 END
 END
 
-APPEND _EDWINJ
+APPEND %er_tutu%EDWINJ
 
 IF ~~ THEN BEGIN EdwinNoForks
 SAY @1057
@@ -185,9 +185,9 @@ APPEND SUFINCHJ
 
 IF ~~ THEN BEGIN FinchForksNoFuss
 SAY @1058
-IF ~!InParty("Imoen") !InParty("Garrick")~ THEN EXTERN J#INDIB IndiSpiesForks
-IF ~!InParty("Imoen") InParty("Garrick")~ THEN EXTERN _GARRIJ GarrickSpiesForks
-IF ~InParty("Imoen")~ THEN EXTERN _BIMOEN ImoenSpiesForks
+IF ~!InParty("%er_imoen%") !InParty("Garrick")~ THEN EXTERN J#INDIB IndiSpiesForks
+IF ~!InParty("%er_imoen%") InParty("Garrick")~ THEN EXTERN %er_tutu%GARRIJ GarrickSpiesForks
+IF ~InParty("%er_imoen%")~ THEN EXTERN %er_bimoen% ImoenSpiesForks
 END
 
 IF ~~ THEN BEGIN FinchShushImoen
@@ -197,7 +197,7 @@ END
 
 IF ~~ THEN BEGIN FinchShushGarrick
 SAY @1060
-IF ~~ THEN EXTERN _GARRIJ GarrickGiveUpForks
+IF ~~ THEN EXTERN %er_tutu%GARRIJ GarrickGiveUpForks
 END
 
 IF ~~ THEN BEGIN FinchShushIndi
@@ -212,7 +212,7 @@ END
 
 END
 
-APPEND _BIMOEN
+APPEND %er_bimoen%
 
 IF ~~ THEN BEGIN ImoenSpiesForks
 SAY @1063
@@ -220,7 +220,7 @@ IF ~~ THEN EXTERN SUFINCHJ FinchShushImoen
 END
 END
 
-APPEND _GARRIJ
+APPEND %er_tutu%GARRIJ
 
 IF ~~  THEN BEGIN GarrickSpiesForks
 SAY @1064

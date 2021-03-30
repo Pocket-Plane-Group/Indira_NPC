@@ -1,0 +1,40 @@
+// -*- coding: cp1252 -*-
+
+@1    = ~Indira~
+@2    = ~¡Fuera! ¡No me llevaréis sin pelear!~ [J#indi01]
+@3    = ~¡Ah! ¡Esto es demasiado! Lo... Lo siento, ¡tengo que irme!~ [J#indi02]
+@4    = ~¡Esto es perfecto! ¡Apuesto a que podríamos contratar un bardo para que escribiera nuestras historias!~ [J#indi03]
+@5    = ~No entiendo por qué estáis haciendo esto. No está bien.~ [J#indi04]
+@6    = ~¡Nunca quise que esto sucediera! ¡Todo está saliendo mal!~ [J#indi05]
+@7    = ~¡Basta ya! Yo... no puedo seguir. Lo siento.~ [J#indi06]
+@8    = ~Um, ¿estáis seguro de que me queréis al frente? Digo, ah, ¡tengo una espada pero soy débil y tal!~ [J#indi07] ~Um, ¿estáis segura de que me queréis al frente? Digo, ah, ¡tengo una espada pero soy débil y tal!~ [J#indi07]
+@9    = ~¿Podemos detenernos? Mis piernas se sienten como si estuvieran quemándose y mi espada ya me PE-SA.~ [J#indi08]
+@10   = ~¿No hay algo más que pudiéramos estar haciendo? Como... ¿algo? ¿Tal vez? ¿Por favor?~ [J#indi09]
+@11   = ~¡Tomad ya, villanos! ¡Jajaja!~ [J#indi10]
+
+@14   = ~¡Curación! ¡Rápido! ¡Por favor!~ [J#indi13]
+@15   = ~Sabéis, mi casa era casi como esto. Algo así. Sólo que no tanto.~ [J#indi14]
+@16   = ~Sabéis, oí que los enanos viven en estos lugares. ¿Es verdad?~ [J#indi15]
+@17   = ~Sabéis, de verdad que me gusta la ciudad. Qué mal lo del olor, la verdad.~ [J#indi16]
+@18   = ~Sabéis, me encanta el brillo del sol. La lluvia también. Y la nieve, supongo.~ [J#indi17]
+@19   = ~Sabéis, si no fuera tan valiente, estaría un poco asustada ahora. ¡Pero no lo estoy! No señoooor. Yo no. Nope.~ [J#indi18]
+@20   = ~¡Estoy lista!~ [J#indi19]
+@21   = ~¿Quién, yo?~ [J#indi20]
+@22   = ~¡Lista para partir!~ [J#indi21]
+@23   = ~¡Hora de ponerse en marcha!~ [J#indi22]
+@24   = ~¡Sí!~ [J#indi23]
+@25   = ~¡Eso mismo!~ [J#indi24]
+@26   = ~Cuando le preguntáis por su pasado, INDIRA os dice en un tono un poco desafiante, que se crió en una villa elfa muy pequeña al este de Scornubel. Esta proximidad con los humanos dividía a los elfos de la comunidad, y luego de muchas discusiones, se decidió que la villa entera se marcharía.
+
+Muy pocos elfos puros y la mayoría de los medio-elfos, aunque también muy escasos en número, quedaron. El resto marchó a Cormanthor. Los que quedaron de por sí tienen una naturaleza independiente, y al no tener niguna fuerza que los uniese, se alejaron. Algunos viajaron por el mundo, otros se fueron a la ciudad, y otros simplemente se quedaron consigo mismos.
+
+A Indi le dió por salir por ahí, y en Scornubel encontró a un grupo de mercenarios que se alquilaban para buscar artefactos antiguos.  Fue con este grupo que Indi llegó a la Costa de la Espada y juntos permanecieron hasta la desastrosa emboscada en las Ruinas de Firewine a manos de un grupo de kobolds.~
+@27   = ~Chaleco de Cota de Malla de Indi~
+@28   = ~Este parece ser un chaleco de cota de malla creado de la misma forma que uno normal.  Es una pieza de gran calidad y más flexible de lo que se esperaría. Mientras se equipe, Indira, o cualquier otro mago puede lanzar hechizos.
+
+ESTADÍSTICAS:
+
+Clase de Armadura: 7
+Peso: 20
+No Usable Por:
+ El Druida~

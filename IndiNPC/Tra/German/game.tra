@@ -1,0 +1,40 @@
+// -*- coding: cp1252 -*-
+
+@1 = ~Indira ~
+@2 = ~Geht weg! Ihr werdet mich ohne einen Kampf nicht kriegen! ~ [J#indi01]
+@3 = ~Ah! Das ist zu viel! Es... es tut mir leid, dass ich gehen muss! ~ [J#indi02]
+@4 = ~Das ist einfach prima! Ich wette, dass wir einen Barden anstellen könnten, der unsere Märchen niederschreiben würde! ~ [J#indi03]
+@5 = ~Ich kann nur nicht verstehen, warum Ihr das tut. Das ist nicht richtig. ~ [J#indi04]
+@6 = ~Ich wollte nie, dass das geschah! Alles ist furchtbar falsche gelaufen! ~ [J#indi05]
+@7 = ~Das ist es! Ich kann nur... ich kann nicht weitergehen. Es tut mir leid. ~ [J#indi06]
+@8 = ~Ähm, seid Ihr sicher, dass Ihr mich an der vorderen Linie haben wollt? Ich meine, äh, ich habe mein Schwert, aber ich bin ganz schwächlich und so! ~ [J#indi07]
+@9 = ~Können wir bald anhalten? Meine Beine brennen wie Feuer, und mein Schwert wird SCHWER. ~ [J#indi08]
+@10 = ~Gibt es nicht etwas anderes, das wir tun könnten? Wie... irgendetwas? Vielleicht? Bitte? ~ [J#indi09]
+@11 = ~Da habt Ihr es, Bengel! Haha! ~ [J#indi10]
+
+@14 = ~Heilung! Schnell! Bitte! ~ [J#indi13]
+@15 = ~Wisst Ihr, mein Haus war dem fast ähnlich. In der Art. Nicht ganz. ~ [J#indi14]
+@16 = ~Wisst Ihr, ich hörte, dass Zwerge tatsächlich an Plätzen wie diesem leben. Ist das wahr? ~ [J#indi15]
+@17 = ~Wisst Ihr, ich mag wirklich die Stadt. Zu schlecht der Geruch, dennoch. ~ [J#indi16]
+@18 = ~Wisst Ihr, ich genieße wirklich den Sonnenschein. Regen, auch. Schnee ist auch in Ordnung, schätze ich. ~ [J#indi17]
+@19 = ~Wisst Ihr, wenn ich nicht so mutig wäre, hätte ich wahrscheinlich in diesem Augenblick eine Art Schrecken bekommen. Habe ich aber nicht! Nicht ich. Nein. ~ [J#indi18]
+@20 = ~Ich bin ganz sicher! ~ [J#indi19]
+@21 = ~Wer, ich? ~ [J#indi20]
+@22 = ~Fertig, um zu gehen! ~ [J#indi21]
+@23 = ~Zeit, um zum Geschäft zu kommen! ~ [J#indi22]
+@24 = ~Ja! ~ [J#indi23]
+@25 = ~Ihr sagt es! ~ [J#indi24]
+@26 = ~Wenn sie nach ihrer Vergangenheit gefragt wird, sagt Euch INDIRA in einem ein bisschen aufsässigen Ton, dass sie in einem kleinen Dorf der Elfen ganz im Osten von Scornubel erzogen wurde. Diese Nähe zu Menschen stellte unter Beweis, die Elfen von der kleinen Gemeinschaft zu trennen, und nach viel Streit und Diskussion wurde entschieden, dass das komplette Dorf abreisen würde.
+
+Bloß einige wenige reinrassige Elfen blieben, und der grösste Teil der Nachkommenschaft, die aus einer Vereinigung der Elfen und Menschen hervorgegangen waren, blieb, obwohl auch sie gering in der Zahl waren. Der Rest zog östlich nach Cormanthor. Diejenigen, die blieben, neigten dazu, von einer unabhängigen Natur zu sein, und begannen sich mit oder ohne Führungmacht, die sie zusammenhält, auseinander zu leben. Einige bereisten die Welt, andere zogen in die Stadt, und andere blieben einfach unter sich.
+
+Indi war eine von denjenigen, die von der Reiselust gepackt wurde, und in Scornubel fand sie eine gleichgesinnte Gruppe von Söldnern, die sich selbst als Sucher von alten Kunsterzeugnissen vermieteten. Mit dieser Gruppe zusammen reiste Indi zu der Schwertüste, bis zu dem verhängnisvollen Angriff aus dem Hinterhalt in den Feuerweinruinen durch die Kobolde. ~
+@27 = ~Indis Kettenweste ~
+@28 = ~Dieses scheint ein leichtes Kettenhemd zu sein, geformt auf ziemlich die gleiche Weise wie eine normale Garnitur eines Kettenpanzers. Seine fachmännische Arbeit ist von ausgezeichneter Qualität, und es erlaubt mehr Bewegungsfreiheit, als Ihr erwarten würdet. Indem es getragen wird, kann Indira, oder jeder Magier, ungehindert Zauber wirken.
+
+STATISTIK:
+
+Rüstungsklasse: 7
+Gewicht: 20
+Kann nicht verwendet werden von:
+ Druiden ~
