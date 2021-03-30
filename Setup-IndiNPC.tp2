@@ -1,0 +1,149 @@
+BACKUP ~IndiNPC/Backup~
+AUTHOR ~ghreyfain@pocketplane.net~
+
+AUTO_TRA ~IndiNPC/%s~
+
+LANGUAGE ~English~
+         ~english~
+         ~IndiNPC/English/setup.TRA~
+LANGUAGE ~Italian (by Andariel)~
+         ~italian~
+         ~IndiNPC/Italian/setup.TRA~
+LANGUAGE ~Francais~
+         ~french~
+         ~IndiNPC/French/setup.TRA~
+LANGUAGE ~Polish~
+         ~polish~
+         ~IndiNPC/Polish/setup.TRA~
+
+LANGUAGE ~Spanish~
+         ~spanish~
+         ~IndiNPC/Spanish/setup.TRA~
+
+         
+BEGIN @0
+
+COPY ~IndiNPC/Creatures/J#Indi01.cre~ ~override/J#Indi01.cre~
+  WRITE_SHORT 0x28 0x6111
+  SAY NAME1 @1
+  SAY NAME2 @1
+  SAY INITIAL_MEETING @2 
+  SAY MORALE @3 
+  SAY HAPPY @4 
+  SAY UNHAPPY_ANNOYED @5 
+  SAY UNHAPPY_SERIOUS @6 
+  SAY UNHAPPY_BREAKING @7 
+  SAY LEADER @8 
+  SAY TIRED @9 
+  SAY BORED @10 
+  SAY BATTLE_CRY1 @11 
+  SAY DAMAGE ~~ [J#indi11]
+  SAY DYING ~~ [J#indi12]
+  SAY HURT @14 
+  SAY AREA_FOREST @15 
+  SAY AREA_DUNGEON @16 
+  SAY AREA_CITY @17 
+  SAY AREA_DAY @18 
+  SAY AREA_NIGHT @19 
+  SAY SELECT_COMMON1 @20 
+  SAY SELECT_COMMON2 @21 
+  SAY SELECT_COMMON3 @22 
+  SAY SELECT_ACTION1 @23 
+  SAY SELECT_ACTION2 @24 
+  SAY SELECT_ACTION3 @25 
+  SAY BIO @26
+/* This stuff was originally so the thing could work with BG1.  Converted to Tutu, so it's unnecessary.
+ADD_GAME_NPC ~J#Indi01~ ~AR5201~ #1012 #1467 */
+
+COPY ~IndiNPC/Creatures/J#Indi03.cre~ ~override/J#Indi03.cre~
+     ~IndiNPC/Creatures/J#Indi04.cre~ ~override/J#Indi04.cre~
+  WRITE_SHORT 0x28 0x6111
+  SAY NAME1 @1
+  SAY NAME2 @1
+  SAY INITIAL_MEETING @2 
+  SAY MORALE @3 
+  SAY HAPPY @4 
+  SAY UNHAPPY_ANNOYED @5 
+  SAY UNHAPPY_SERIOUS @6 
+  SAY UNHAPPY_BREAKING @7 
+  SAY LEADER @8 
+  SAY TIRED @9 
+  SAY BORED @10 
+  SAY BATTLE_CRY1 @11 
+  SAY DAMAGE ~~ [J#indi11]
+  SAY DYING ~~ [J#indi12]
+  SAY HURT @14 
+  SAY AREA_FOREST @15 
+  SAY AREA_DUNGEON @16 
+  SAY AREA_CITY @17 
+  SAY AREA_DAY @18 
+  SAY AREA_NIGHT @19 
+  SAY SELECT_COMMON1 @20 
+  SAY SELECT_COMMON2 @21 
+  SAY SELECT_COMMON3 @22 
+  SAY SELECT_ACTION1 @23 
+  SAY SELECT_ACTION2 @24 
+  SAY SELECT_ACTION3 @25 
+  SAY BIO @26
+
+ACTION_IF FILE_EXISTS_IN_GAME ~_bimoen.dlg~
+ THEN BEGIN
+END
+ELSE BEGIN
+  COMPILE ~indinpc/bimoen.d~
+END
+
+COPY_EXISTING ~FW5201.are~ ~override/FW5201.are~
+  WRITE_ASCII 0x94 ~_AR5201~
+BUT_ONLY_IF_IT_CHANGES
+
+APPEND ~Interdia.2da~
+~Imoen        _bimoen~
+UNLESS ~Imoen~
+
+COMPILE ~indinpc/dialogue/indi.d~
+  USING ~indinpc/english/indi.tra~
+        ~indinpc/%s/indi.tra~
+
+//Mur'Neth-Indira banter
+ACTION_IF FILE_EXISTS ~override/BA#MURN.DLG~ AND NOT FILE_EXISTS ~override/INDIRAMURNETH.XXX~
+THEN BEGIN
+COPY_EXISTING ~SW1H01.ITM~ ~override/INDIRAMURNETH.XXX~
+COMPILE ~IndiNPC/dialogue/murnethbanter.d~
+END
+
+COPY ~indinpc/graphics~ ~override~
+COPY ~indinpc/sounds~ ~override~
+COPY ~indinpc/portraits~ ~override~
+COPY ~indinpc/items/J#indi01.itm~ ~override/J#indi01.itm~
+  SAY NAME1 @27
+  SAY NAME2 @27
+  SAY DESC @28
+
+//Finch-Indira banter
+ACTION_IF FILE_EXISTS ~override/bsufinch.DLG~ AND NOT FILE_EXISTS ~override/INDIRAFINCH.XXX~
+THEN BEGIN
+  COPY_EXISTING ~SW1H01.ITM~ ~override/INDIRAFINCH.XXX~
+  COMPILE ~IndiNPC/dialogue/xmodfinchindi.d~
+  EXTEND_TOP ~J#indi.bcs~ ~indiNPC/scripts/append_j#indi.baf~
+END
+
+EXTEND_TOP ~_AR5201.bcs~ ~indinpc/scripts/_ar5201.baf~
+
+/* APPEND ~NPCLevel.2da~
+~J#Indi      J#Indi01    J#Indi03    J#Indi03    J#Indi04    J#Indi04    J#Indi04   J#Indi04    J#Indi04    J#Indi04    J#Indi04    J#Indi04   J#Indi04  J#Indi04  J#Indi04    J#Indi04    J#Indi04   J#Indi04   J#Indi04    J#Indi04~
+UNLESS ~J#Indi~ */
+APPEND ~PDialog.2da~
+~J#Indi       J#IndiP            J#IndiJ~
+UNLESS ~J#Indi~
+APPEND ~Interdia.2da~
+~J#Indi       J#IndiB~
+UNLESS ~J#Indi~
+
+COPY ~indinpc/sounds~ ~override~
+COPY ~indinpc/indiaudio.bat~ ~indiaudio.bat~
+
+AT_INTERACTIVE_EXIT ~VIEW indinpc/indi_readme.html~
+AT_INTERACTIVE_EXIT ~indiaudio.bat~
+AT_INTERACTIVE_UNINSTALL ~IndiNPC/indiuninstall.bat~
+

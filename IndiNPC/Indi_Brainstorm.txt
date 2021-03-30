@@ -1,0 +1,249 @@
+Name:		Indi
+Race:		Half-elf
+Class:		Fighter/Mage
+Alignment:	LG
+Gender:		Female
+
+Stats:
+STR 14
+DEX 17
+CON 15
+INT 16
+WIS 7
+CHR 13
+
+Inventory:
+Broken weapon
+Modified chain shirt (AC 7, allows spell-casting)
+Short bow
+6 fire arrows
+3 normal arrows
+
+Levels:
+J#Indi01.cre - 2153 XP
+J#Indi03.cre - 10531 XP
+J#Indi04.cre - 29944 XP
+
+Spells:
+Chromatic Orb (1)
+Identify (1)
+Sleep (1)
+Magic Missile (3)
+Blur (3)
+Strength (3)
+Stinking Cloud (5)
+Monster Summoning I (5)
+
+Location:
+The Firewine ruins, in the dungeon.
+
+
+Story:
+Indi was hired by a mage in Baldur's Gate to investigate the ruins
+of Firewine, as his divination magic had uncovered a source of
+fairly powerful magic there.  He couldn't tell, but speculated that
+it was because of some ancient elven magic left over from their days
+of glory 400 years ago.
+
+Expecting to run into no more trouble than a few bedraggled bands of
+kobolds, they entered the ruins cautiously but confidently.  Once
+inside, they realized their mistake.  These kobolds weren't stupid,
+and they were strong.
+
+Half her group was slain in an ambush, and in their mad dash through
+the maze, the other two companions were separated from Indi.  She
+reckons she's been in the ruins for three days; hiding, nursing her
+wounds, and trying to avoid capture by the kobolds.  She either
+wants to rescue her companions and escape, or find and kill the
+leader of the kobolds.
+
+
+Biography:
+When asked about her past, INDIRA tells you in a slightly defiant tone
+that she was raised in a small elven village just east of Scornubel.
+This proximity to humans proved to divide the elves of the small
+community, and after much argument and discussion, it was decided
+that the entire village would leave.
+
+A bare few pure-blooded elves remained, and most of the offspring
+who'd come from a union of elf and man remained, though they too
+were few in number.  The rest trekked east to Cormanthor.  Those
+who remained tended to be of an independent nature to begin with,
+and with no guiding force holding them together, they drifted apart.
+Some travelled the world, others moved to the city, and others
+simply kept to themselves.
+
+Indi was one of those who was bitten by the wanderlust, and in Scornubel she found
+a like-minded group of mercenaries who hired themselves out as
+seekers of ancient artifacts.  It was with this group that Indi
+journeyed to the Sword Coast and together they remained until the
+disastrous ambush in the Firewine Ruins at the hands of the kobolds.
+
+
+Banter:
+
+Xzar
+X: "You're a-scaring MEEEE!  Leave me alone, witchy witch!"
+Indi: "Funny, I was about to say the same of you.  I think we'll have no problems granting each other's wishes."
+X: "Wishes, you say?  Wishes!  If, at some point in the future... you have no need of your wish, might I... have it in your stead?"
+Indi: "I... um, yes, Xzar.  Just not now.  Excuse me."
+(Indi Runs away from Xzar for two seconds)
+
+Montaron
+Indi: "Whoa!  Watch where you're slinging that blade!  You almost caught me in the knee!"
+M: "Don't be standin' so close, then!  Mayhaps next time I'll be puttin' more effort into me swing!"
+
+Garrick
+G: "As you may know, Indi, I've been writing down the details of our epic adventure, but I'm getting rather bored of it."
+I: "Bored?  If someone should chance to ask me, I'd call my time in the party anything but boring."
+G: "Anyways, I was wondering if you'd tell me a bit about your adventures.  Surely you did more exciting things than all this walking?"
+I: "I'm afraid that's mostly what we did, too.  Sorry to disappoint."
+G: "(sigh) That's okay."
+
+Kagain
+K: "Hey, stop!  That ring you're wearing is the one I found on that dead gnoll!  Missy, if you've been pilferin' more than your share of the loot, you're gonna' get such a tanning."
+I: "Ring?  What, THIS ring?  I've had this since I left home!  What are you trying to pull?"
+K: "Hmph.  You got lucky this time.  Just remember I'm watching you.  Can't trust an elf, I always say."
+
+Jaheira
+J: "Indira, your talents with magic are quite impressive, but I wonder whether you'll ever truly learn how to use that talent."
+I: "Oh, I'll improve, you mark my words.  What I know now is nothing compared to what I'm going to learn."
+J: "That was not what I meant, young one.  You have immense talent, but your judgment when using it seems inadequate.  I shall take it upon myself to teach you something of what I know, if you are willing."
+I: "You know magic?  I mean, arcane magic?  That'd be great, Jaheira!  What is it you wanted to show me?  Bigby's Crushing Hand?  Mordenkainen's Sword?  I can't wait!  Where's your spellbook?  How did you keep it hidden all this time?"
+J: "(sigh)"
+
+Khalid
+I: "That was a nice trick you pulled last battle, Khalid.  I didn't think anyone expected it."
+K: "Tr... trick?  I don't remem... remem... recall any trick."
+I: "I mean that one where you ducked and then spun around, cleaving the poor thing right through.  Could you teach me to do something like that?"
+K: "Ohhh, that.  I-I-I suppose I c... could teach it.  The k-key is harnessing your f-f-fear, you see..."
+
+Kivan
+K: "Move quickly, Indi.  There is no time for idling about."
+I: "I wasn't idling, I was just thinking!"
+K: "Thinking at inopportune times can get a man killed.  Move on."
+I: "Kivan, I... hope one of these days you'll realize that you can't be angry at the world forever."
+K: "..."
+   "Move on, child.  Move on."
+
+Edwin
+E: "One of these days, Indi, I shall expect your magic will fail you.  It's just been luck that's kept you alive so far."
+I: "I'm of the opinion that people make their own luck, Edwin.  Some people make it harder for themselves than others, though."
+E: "You have proven my point adequately.  A fiery wit without the talent to back it up makes you easy prey.  I am feeling benevolent today, and have decided that you have potential."
+   "I shall personally oversee your schooling, so long as you listen intently and obey my words.  (And while you're obeying me, perhaps I shall give you a schooling of a different sort.)"
+I: "Edwin, you stay away from me!  I knew there was a reason I didn't like you, and now I know what it is."
+
+Dynaheir
+D: "I have been thinking, Indira, that it seems many of the attributes Minsc and I have between the two of us are bottled up together in that thin frame of yours."
+   "How must it be to contain so many... conflicting signals."
+I: "What are you trying to say?  I think I have a bit firmer grip on reality than Minsc, and you, well, I can't say I'm quite as... 'proud' as you are."
+D: "Hah!  You are such a delight!  Your words of denial seem to prove my thoughts true.  I mean not to offend, but I am truly curious; you have the savage warrior inside, the impetuous youth, and the prodigious mage all together... how does that make you feel?"
+I: "Makes me feel fine.  Just fine."
+D: "So you have decided to be stubborn.  Very well, let us carry on."
+
+Xan
+I: "Cheer up, Xan.  Soon we'll find out who's behind things and you can go back to Evereska."
+X: "It is always the ones who shine brightest that end in tragedy.  No doubt you will wind up the same."
+   "I expect my demise shall follow shortly after.  No doubt I am fated to see your gruesome death only long enough for the taste of utter horror to overwhelm me, then to be snuffed out without a soul in the world so much as shedding a tear."
+I: "(Hmm, that didn't work as well as I'd expected...)"
+   "Xan, when the party is trapped by ravenous wyverns and we have no hope of escape, would you do me one last favour?"
+X: "I'm sure I shall have died long before that, but if not, then I will do what I can.  What is the favour?"
+I: "Smile?"
+X: "On the surface that seems like a simple request.  I hope I shall be able to grant it.  So--if my face hasn't been torn off by some horrible creature, or hideously malformed by an opponents spell--I will try my best, Indira."
+I: "Heheh, you're such a sweety, Xan."
+
+Shar-teel
+S: "How can someone so puny do so well in battle?  It's amazing to watch you fight."
+I: "You mean to say you've had the chance to watch me fight, and didn't joined in to help?  Gee, thanks."
+S: "Only when I knew you were in no danger.  If you can't defeat a foe in one-on-one combat, I'm not about to endanger myself to save you."
+I: "Hmph, I'll remember this, Shar-teel."
+S: "Bah, you may fight well, but you're still a weakling."
+
+Viconia
+V: "Among the female drow, it is considered a vile degradation of oneself to practice arcane magic, or to rely solely on physical prowess in battle.  I find it amusing that you do both.  It's almost as if you were a lowly male."
+I: "Just leave me alone, Viconia.  I didn't ask for your opinion."
+V: "You confirm my suspicions with your weakness.  Attempting to ignore a problem is no way of solving it."
+I: "Hmph.  And YOU confirm MY suspicions with your words.  Admitting you're a problem is the first step towards change."
+V: "Hah!  Well done, child.  You may yet rise above the level of iblith."
+
+Ajantis
+I: "
+
+Faldorn
+F: "
+
+Eldoth
+E: "Indi, be a darling and help me with this equipment.  You strut about like a peacock while I seem to be treated like the group's pack-mule."
+I: "Despite your overacting, you still don't look like you're carrying any more than you ought to be, Eldoth."
+   "Personally, I don't see why <CHARNAME> trusts you to carry as much as you do."
+E: "I didn't ask you to make feeble attempts at wit, now take hold of this bag, wench."
+I: "Ha!"
+
+Quayle
+Q: "Indi!  Think fast!  What's the sum of the root of seven quadrangles appended vertically over the north arc of a circle?"
+I: "Five?"
+Q: "Wrong!  You are so, so, so wrong.  I could've worked that out in my head in less time than it takes a talented chimp to eat a banana."
+I: "Well, you've got me there.  On an unrelated note, what exactly was it that you've been scribbling on that parchment for the past several hours, by the way?"
+Q: "What note?  Oh, this note?  Why, this is just some plans for a, um, temple that I've been... designing!  It has a lot of... er, new engineering concepts that I've invented, and such."
+   "You wouldn't understand a bit of it, so I won't show it to you, just in case you get confused."
+I: "I wouldn't like being confused, no.  It's just that I could've sworn it looked an awful lot like a circle with some notes written beside it."
+   "In fact, I could almost make out the words 'quadrangle' and 'north arc'."
+Q: "Yes, yes.  Architecture is like that.  Anyways, carry on, I have important thinking to do now."
+
+Tiax
+I: "Ouch!  Tiax, you just stepped on my toe.  On purpose!"
+T: "Tiax knows whereof his mighty feet have been.  Seek not to question his motives, and count yourself blessed that he has deigned to go out of his way to acknowledge the presence of your feet, however unworthy they may seem!"
+I: "Ooh!  You just...!  You!  You're infuriating!  Leave my feet be!"
+T: "The great Tiax is not infuriating, he is indecipherable.  His motives are beyond the ken of puny beings such as you.  Hahahahaha!"
+
+Skie
+
+Safana
+S: "So tell me, Indira, what do you hope to gain by flaunting your stuff in front of the boys?"
+I: "Flaunting?  I don't know what you're talking about."
+S: "Don't pretend otherwise.  I've seen your--ahaha--rather novice attempts to draw their attention."
+   "Oh, don't be shy.  If you like, I can give you some... advice.  Women need to practical about this sort of thing, my dear.  We need to stick together."
+I: "Uh, sure Safana.  I'll keep that in mind for the future."
+S: "Mmm, you're so cute when you blush!  It's absolutely delicious!  Now I think we'd best get moving along, my darling."
+
+Minsc
+M: "Indira, Boo and I could not help but notice that you have no warrior to protect you."
+   "Who is it, then, that makes certain you can cast your spells in battle without worrying about swords?"
+I: "I... well, I never thought of it like that, Minsc.  I have my own sword and my own armour to protect me."
+M: "So you are both powerful sorceress and mighty berzerker all in one?  Minsc is awed at your powers, but he wonders how such a diminutive form can hold it all in."
+I: "Heehee!  Well, I'm not really a powerful sorceress, and when's the last time you saw me go berzerk?"
+M: "Boo tells me that it is the size of a person's heart that counts, not the size of his blade.  Personally, Minsc is glad he has both a big heart and a big sword.  The biggest!"
+
+Alora
+A: "Indira, I was thinking.  Ever think?  About thieving?  You know, like grand heists and exciting escapes and... and... and STUFF?"
+I: "Um, wow.  I can't say I've put any serious thought into it, Alora."
+A: "No?  Well I have, and I thought it would be just spiffy if you and I did something like that--oh... not to say that everyone else would be excluded, but wouldn't it be great?"
+   "You could be the lookout while I sneak in and grab the loot, and then we'd be away!  You could use your spells to distract people and... oh my!  You could turn us invisible!  And...!"
+I: "Alora!  Please!  That's... I mean, that's great, but shouldn't we just stick to what <CHARNAME> wants us to do for now?  We can plan this stuff later."
+A: "Oh, sure!  Right you are!  Good idea!  Does anyone mind if I hum?  I'm just sooo EXCITED about this!"
+
+Yeslick
+I: "Psst, yeslick?"
+Y: "'ere there, am I hearing things?"
+I: "Shh, it's me, Indira.  I just have a question to ask of you, and I don't want the others to hear."
+Y: "Oh.  Hrmm... well then, certainly.  What can I do for ye, young miss?"
+I: "Thanks Yeslick.  Okay now, you see, I've never actually met a dwarf, but I've heard stories about them back in my village and then on the road, and I can tell that some are obviously just stories, and others are real, but there's one thing I've never been too sure about."
+Y: "And what's that?"
+I: "I... No.  No, never mind.  It's silly."
+Y: "Oh, go on, Indira.  There's more to this old man than meets the eye.  Can't ruffle my feathers that easily."
+I: "Well, if you're sure."
+I: "I was wondering.  Do... do dwarven women REALLY have beards?"
+Y: "HO-hohoho!  Many's the time I've been asked such a question by curious young 'uns, and you know what Indira?"
+I: "What?"
+Y: "Even we dwarves don't know whether dwarf women have beards!"
+
+Imoen - 
+Im: "Hold still, Indira.  Your hair's come out of place again at the back."
+In: "Erf.  It has?  I guess it's stubborn stuff.  Like me, I guess.  It's always trying to escape."
+Im: "I know what you mean.  I would always just keep it pretty short at Candlekeep, but now it's been growing out since we left."
+In: "I have the same problem!  Back home I'd just get my sisters to braid it, and it could stay like that all day, but these days I never have the time!"
+Im: "I tell ya what.  When <CHARNAME> calls the next rest, I'll do up your hair, and you can do mine.  Whaddya say?"
+In: "That'd be great!  I can't believe we didn't start this earlier!"
+
+Mur'Neth
+M: 

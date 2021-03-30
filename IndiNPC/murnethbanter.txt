@@ -1,0 +1,47 @@
+Indi:  (<CHARNAME>?  Psst, <CHARNAME>!)
+
+1: What is it, Indira? [continue]
+2: Can't you see I'm busy right now?  Talk to me later. [later]
+3: Leave me be, wench, and get back in line! [never]
+
+Indi [continue]:  It's about Mur'Neth.  Now, I don't want to seem like I'm complaining, but he's just... [continue2]
+
+[later]: Oh.  Right, sorry.  Sorry, <CHARNAME>.  [end]
+
+[never]: But...!  I...  Oh, fine!  [end, set variable to done]
+
+[continue2]  He's *wrong*.  I mean, I may not have been all over the world, but... but *things* like him just aren't right.~
+=
+~Do we have to let him come with us?
+
+PC 1: Just because he's different doesn't mean you should hate him. [he's evil]
+PC 2: I know what you mean, but he's just too useful.  I need him around, at least for a little while. [well fine]
+PC 3: I've thought such things myself, but now is not the time to speak of them.  We should talk later. [well fine]
+PC 4: I make the decision around here, and Mur'Neth stays.  You're lucky I don't get rid of *you*. [whimper]
+PC 5: I... Perhaps you're right.  Mur'Neth?  I've come to a decision.  I don't think it's a good idea for you to travel with us any more. [go to Mur'Neth kicked dialogue?]
+
+[he's evil]
+It's not just that!  He's... I mean, some of the things he's said and done are just wrong.  I don't want to think about what he would do to me if he had the chance.~
+=
+~And sometimes when we camp I get the feeling he's looking at us, but without turning his head.  It's just creepy.  I'm not even really sure he sleeps at all!~
+
+PC 1: You're right.  I've been putting this off for too long, but now that I know I'm not the only one, I should take a stand.  Mur'Neth?  I'm going to have to ask you to leave. [go to Mur'Neth kicked dialogue?]
+PC 2: I think he's an asset to us, but if he makes you that uncomfortable, I'll do as you ask.  Mur'Neth?  I'm going to have to ask you to leave. [go to Mur'Neth kicked dialogue?]
+PC 3: Well, you and I both are just going to have to put up with him.  We need him right now. [well fine]
+PC 4: Despite what you think, Mur'Neth is a valuable asset to this party.  He stays. [whimper]
+
+[well fine]
+I guess that's all right.  As long as you think about it. [mur'neth]
+
+[whimper]
+But... mph.  Fine! [mur'neth]
+
+Mur'neth: Worry not, fleshling, for our purposes are in alignment... So long as the foes of Ghaunadaur are foes of yours, we shall be allies.
+
+Indi: Oh!  I'm sorry!  I didn't mean for you to hear.  I didn't mean anything!  Really!
+
+M: Grraaaaaahhhhhh... A Ghaunadan has other senses than your sight and hearing, Indira.  I bear you no ill will for your words;  many have misunderstood me, many more will, but their frailty of spirit is their flaw and not my issue.
+
+I: Okay then, I guess.  I don't suppose you could stop looking at me funny, though?
+
+M: I... never do.

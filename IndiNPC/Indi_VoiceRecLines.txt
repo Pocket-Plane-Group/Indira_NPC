@@ -1,0 +1,113 @@
+Right, the basic gist with Indira is that she's a rookie adventurer who's really enthusiastic, eager to please,
+eager to find excitement, but can be a bit whiny when things get rough.
+
+---------------------------
+
+Okay, so these lines are from her banters with other NPCs.  I think it's fairly obvious which ones are hers
+and which aren't.
+
+Xzar
+X: "You're a-scaring MEEEE!  Leave me alone, witchy witch!"
+Indi: "Funny, I was about to say the same of you.  I think we'll have no problems granting each other's wishes."
+
+Montaron
+Indi: "Whoa!  Watch where you're swinging that blade!  You almost caught me in the knee!"
+
+Garrick
+G: "As you may know, Indi, I've been writing down the details of our epic adventure, but I'm getting rather bored of it."
+I: "Bored?  If someone should chance to ask me, I'd call my time in the party anything but boring."
+
+Kagain
+K: "Hey, stop!  That ring you're wearing is the one I found on that dead gnoll!  Missy, if you've been pilferin' more than your share of the loot, you're gonna' get such a tanning."
+I: "Ring?  What, THIS ring?  I've had this since I left home!  What are you trying to pull?"
+
+Jaheira
+J: "Indira, your talents with magic are quite impressive, but I wonder whether you'll ever truly learn how to use that talent."
+I: "Oh, I'll improve, you mark my words.  What I know now is nothing compared to what I'm going to learn."
+
+Khalid
+I: "That was a nice trick you pulled last battle, Khalid.  I didn't think anyone expected it."
+
+Kivan
+K: "Move quickly, Indi.  There is no time for idling about."
+I: "I wasn't idling, I was just thinking!"
+
+Edwin
+E: "One of these days, Indi, I shall expect your magic will fail you.  It's just been luck that's kept you alive so far."
+I: "I'm of the opinion that people make their own luck, Edwin.  Some people make it harder for themselves than others, though."
+
+Dynaheir
+D: "I have been thinking, Indira, that it seems many of the attributes Minsc and I have between the two of us are bottled up together in that thin frame of yours."
+   "How must it be to contain so many... conflicting signals."
+I: "What are you trying to say?  I think I have a bit firmer grip on reality than Minsc, and you, well, I can't say I'm quite as... 'proud' as you are."
+
+Xan
+I: "Cheer up, Xan.  Soon we'll find out who's behind things and you can go back to Evereska."
+
+Shar-teel
+S: "How can someone so puny do so well in battle?  It's amazing to watch you fight."
+I: "You mean to say you've had the chance to watch me fight, and didn't joined in to help?  Gee, thanks."
+
+Viconia
+V: "Among the female drow, it is considered a vile degradation of oneself to practice arcane magic, or to rely solely on physical prowess in battle.  I find it amusing that you do both.  It's almost as if you were a lowly male."
+I: "Just leave me alone, Viconia.  I didn't ask for your opinion."
+
+Eldoth
+E: "Indi, be a darling and help me with this equipment.  You strut about like a peacock while I seem to be treated like the group's pack-mule."
+I: "Despite your overacting, you still don't look like you're carrying any more than you ought to be, Eldoth."
+
+Quayle
+Q: "Indi!  Think fast!  What's the sum of the root of seven quadrangles appended vertically over the north arc of a circle?"
+I: "Five?"
+
+Tiax
+I: "Ouch!  Tiax, you just stepped on my toe.  On purpose!"
+
+Safana
+S: "So tell me, Indira, what do you hope to gain by flaunting your stuff in front of the boys?"
+I: "Flaunting?  I don't know what you're talking about."
+------------------------------------
+
+And that's it for banter.  These lines are from her intial joining dialogue, where she's trapped in the Firewine
+Ruins by kobolds, so she's pretty desperate and scared.  She mistakes the PC for bad guys at first.
+~Away!  You'll not take me without a fight!~
+
+
+About to be kicked form the party:
+~You don't want me any more?  But I... I can do so much!~
+
+
+The party returns, after having kicked her out:
+~You're back!  What do you say?  Time to get back together and go on adventures!  I've been sharpening my blade and keeping my aim up.~
+--------------------------------
+
+Then we've got the selection and confirmation and death lines and all that jazz.
+
+If you could name the files as indicated in the brackets--[J#indi02] would be J#indi02.wav, for instance--that'd
+be great.
+
+For the damage and dying sounds, just do whatever's easiest for you.
+
+  SAY MORALE ~Ah!  This is too much!  I... I'm sorry, I've got to go!~ [J#indi02]
+  SAY HAPPY ~This is just great!  I bet we could hire a bard who'd write down our tales!~ [J#indi03]
+  SAY UNHAPPY_ANNOYED ~I just can't understand why you're doing this.  It's not right.~ [J#indi04]
+  SAY UNHAPPY_SERIOUS ~I never wanted this to happen!  Everything's going horribly wrong!~ [J#indi05]
+  SAY UNHAPPY_BREAKING ~This is it!  I just... I can't go on.  I'm sorry.~ [J#indi06]
+  SAY LEADER ~Um, are you sure you want me at the front?  I mean, ah, I have my sword but I'm all puny and stuff!~ [J#indi07]
+  SAY TIRED ~Can we stop soon?  My legs feel like they're on fire and my sword is getting HEAV-Y.~ [J#indi08]
+  SAY BORED ~Isn't there something else we could be doing?  Like... anything?  Maybe?  Please?~ [J#indi09]
+  SAY BATTLE_CRY1 ~Have at ye, villains!  Haha!~ [J#indi10]
+  SAY DAMAGE ~~ [J#indi11]
+  SAY DYING ~~ [J#indi12]
+  SAY HURT ~Healing!  Quick!  Please!~ [J#indi13]
+  SAY AREA_FOREST ~Y'know, my home was almost like this.  Sort of.  Only not.~ [J#indi14]
+  SAY AREA_DUNGEON ~Y'know, I heard dwarves actually live in places like this.  Is that true?~ [J#indi15]
+  SAY AREA_CITY ~Y'know, I really like the city.  Too bad about the smell, though.~ [J#indi16]
+  SAY AREA_DAY ~Y'know, I sure do enjoy the sunshine.  Rain, too.  Snow's okay, I guess.~ [J#indi17]
+  SAY AREA_NIGHT ~Y'know, if I weren't so brave, I'd probably be sort of spooked right now.  But I'm not!  No sirree.  Not me.  Nope.~ [J#indi18]
+  SAY SELECT_COMMON1 ~I'm all set!~ [J#indi19]
+  SAY SELECT_COMMON2 ~Who, me?~ [J#indi20]
+  SAY SELECT_COMMON3 ~Ready to go!~ [J#indi21]
+  SAY SELECT_ACTION1 ~Time to get to business!~ [J#indi22]
+  SAY SELECT_ACTION2 ~Yeah!~ [J#indi23]
+  SAY SELECT_ACTION3 ~You said it!~ [J#indi24]

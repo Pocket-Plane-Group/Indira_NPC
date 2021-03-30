@@ -1,0 +1,32 @@
+IF
+	GlobalLT("J#IndiSpawn","GLOBAL",1)
+	XPLT(Player1,20001)
+	!Exists("J#Indi")
+THEN
+	RESPONSE #100
+		SetGlobal("J#IndiSpawn","GLOBAL",1)
+		CreateCreature("J#Indi01",[1012.1467],14)
+END
+
+IF
+	GlobalLT("J#IndiSpawn","GLOBAL",1)
+	XPGT(Player1,20000)
+	XPLT(Player1,40001)
+	!Exists("J#Indi")
+THEN
+	RESPONSE #100
+		SetGlobal("J#IndiSpawn","GLOBAL",2)
+		CreateCreature("J#Indi03",[1012.1467],14)
+END
+
+IF
+	GlobalLT("J#IndiSpawn","GLOBAL",1)
+	XPGT(Player1,40000)
+	!Exists("J#Indi")
+THEN
+	RESPONSE #100
+		SetGlobal("J#IndiSpawn","GLOBAL",3)
+		CreateCreature("J#Indi04",[1012.1467],14)
+END
+
+
