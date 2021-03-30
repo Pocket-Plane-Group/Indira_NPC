@@ -1,8 +1,11 @@
 CHAIN
-IF ~CombatCounter(0) 
+IF ~CombatCounter(0)
+!See([ENEMY])
 InParty("J#Indi")
+InParty(Myself)
 See("J#Indi")
-!StateCheck("j#indi",STATE_SLEEPING)
+!StateCheck("j#indi",CD_STATE_NOTVALID)
+   !StateCheck(Myself,CD_STATE_NOTVALID)
 !AreaCheck("%er_FirewineRuins%")
 Global("FinchIndi1","LOCALS",0)~ THEN BSUFINCH FirewineBanter
 @1009  DO ~SetGlobal("FinchIndi1","LOCALS",1)~ 
@@ -15,6 +18,7 @@ EXIT
 //Must add AreaChecks. Don't want this to happen in an inn area.
 CHAIN
 IF ~CombatCounter(0)
+!See([ENEMY])
 !AreaCheck("%er_BladeStarsL1%")
 !AreaCheck("%er_BlushingMermaidL1%")
 !AreaCheck("%er_BlushingMermaidL2%")
@@ -52,8 +56,10 @@ IF ~CombatCounter(0)
 !AreaCheck("%er_NashkelInn%")
 !AreaCheck("%er_BelchingDragonTavern%")
 InParty("SUFINCH")
+InParty(Myself)
 See("SUFINCH")
-!StateCheck("SUFINCH",STATE_SLEEPING)
+!StateCheck("SUFINCH",CD_STATE_NOTVALID)
+   !StateCheck(Myself,CD_STATE_NOTVALID)
 Global("FinchIndi2","GLOBAL",0)~ THEN J#INDIB ForkFightPt1
 @1014  DO ~SetGlobal("FinchIndi2","GLOBAL",1)~
 == BSUFINCH @1015 
@@ -75,9 +81,12 @@ EXIT
 
 CHAIN
 IF ~CombatCounter(0)
+!See([ENEMY])
 InParty("SUFINCH")
+InParty(Myself)
 See("SUFINCH")
-!StateCheck("SUFINCH",STATE_SLEEPING)
+!StateCheck("SUFINCH",CD_STATE_NOTVALID)
+   !StateCheck(Myself,CD_STATE_NOTVALID)
 Global("FinchIndi3","LOCALS",0)~ THEN J#INDIB IndiraIsALegendaryTart
 @1029  DO ~SetGlobal("FinchIndi3","LOCALS",1)~
 = @1030 
@@ -97,10 +106,13 @@ Global("FinchIndi3","LOCALS",0)~ THEN J#INDIB IndiraIsALegendaryTart
 EXIT
 
 CHAIN
-IF ~CombatCounter(0) 
+IF ~CombatCounter(0)
+!See([ENEMY])
 InParty("J#Indi")
+InParty(Myself)
 See("J#Indi")
-!StateCheck("j#indi",STATE_SLEEPING)
+!StateCheck("j#indi",CD_STATE_NOTVALID)
+   !StateCheck(Myself,CD_STATE_NOTVALID)
 Global("FinchIndi4","LOCALS",0)~ THEN BSUFINCH KickAssBanter
 @1043  DO ~SetGlobal("FinchIndi4","LOCALS",1)~
 == J#INDIB @1044 
@@ -114,10 +126,10 @@ EXIT
 APPEND J#INDIB
 IF ~Global("FinchIndiRevengeOfFork", "GLOBAL",1)~ THEN BEGIN ForkFightPt2
 SAY @1048 
-IF ~!InParty("Edwin") !InParty("Dynaheir") !InParty("Skie")~ THEN DO ~SetGlobal("FinchIndiRevengeOfFork", "GLOBAL",2)~ GOTO IndiNoForks
-IF ~InParty("Edwin") !InParty("Dynaheir") !InParty("Skie")~ THEN DO ~SetGlobal("FinchIndiRevengeOfFork", "GLOBAL",2)~ EXTERN %er_tutu%EDWINJ EdwinNoForks
-IF ~InParty("Dynaheir") !InParty("Skie")~ THEN DO ~SetGlobal("FinchIndiRevengeOfFork", "GLOBAL",2)~ EXTERN %er_dynahj% DynaNoForks
-IF ~InParty("Skie")~ THEN DO ~SetGlobal("FinchIndiRevengeOfFork", "GLOBAL",2)~ EXTERN %er_tutu%SKIEJ SkieNoForks
+IF ~~ THEN DO ~SetGlobal("FinchIndiRevengeOfFork", "GLOBAL",2)~ GOTO IndiNoForks
+IF ~See("Edwin") InParty("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ THEN DO ~SetGlobal("FinchIndiRevengeOfFork", "GLOBAL",2)~ EXTERN %er_tutu%EDWINJ%eet_var% EdwinNoForks
+IF ~See("Dynaheir") InParty("Dynaheir") !StateCheck("Dynaheir",CD_STATE_NOTVALID)~ THEN DO ~SetGlobal("FinchIndiRevengeOfFork", "GLOBAL",2)~ EXTERN %er_dynahj% DynaNoForks
+IF ~See("Skie") InParty("Skie") !StateCheck("Skie",CD_STATE_NOTVALID)~ THEN DO ~SetGlobal("FinchIndiRevengeOfFork", "GLOBAL",2)~ EXTERN %er_tutu%SKIEJ SkieNoForks
 END
 
 IF ~~ THEN BEGIN IndiNoForks
@@ -140,17 +152,17 @@ APPEND %er_tutu%SKIEJ
 
 IF ~~ THEN BEGIN SkieNoForks
 SAY @1052
-IF ~!InParty("Edwin") !InParty("Dynaheir") !InParty("Eldoth")~ THEN EXTERN J#INDIB IndiNoForks
-IF ~InParty("Edwin") !InParty("Dynaheir") !InParty("Eldoth")~ THEN EXTERN %er_tutu%EDWINJ EdwinNoForks
-IF ~InParty("Dynaheir") !InParty("Eldoth")~ THEN EXTERN %er_dynahj% DynaNoForks
-IF ~InParty("Eldoth")~ THEN EXTERN %er_tutu%ELDOTJ EldothNoForks
+IF ~~ THEN EXTERN J#INDIB IndiNoForks
+IF ~See("Edwin") InParty("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ THEN EXTERN %er_tutu%EDWINJ%eet_var% EdwinNoForks
+IF ~See("Dynaheir") InParty("Dynaheir") !StateCheck("Dynaheir",CD_STATE_NOTVALID)~ THEN EXTERN %er_dynahj% DynaNoForks
+IF ~See("Eldoth") InParty("Eldoth") !StateCheck("Eldoth",CD_STATE_NOTVALID)~ THEN EXTERN %er_tutu%ELDOTJ EldothNoForks
 END
 
 IF ~~ THEN BEGIN SkieForkWhine
 SAY @1053
-IF ~!InParty("Edwin") !InParty("Dynaheir")~ THEN EXTERN J#INDIB IndiNoForks
-IF ~InParty("Edwin") !InParty("Dynaheir")~ THEN EXTERN %er_tutu%EDWINJ EdwinNoForks
-IF ~InParty("Dynaheir")~ THEN EXTERN %er_dynahj% DynaNoForks
+IF ~~ THEN EXTERN J#INDIB IndiNoForks
+IF ~See("Edwin") InParty("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ THEN EXTERN %er_tutu%EDWINJ%eet_var% EdwinNoForks
+IF ~See("Dynaheir") InParty("Dynaheir") !StateCheck("Dynaheir",CD_STATE_NOTVALID)~ THEN EXTERN %er_dynahj% DynaNoForks
 END
 END
 
@@ -168,12 +180,12 @@ APPEND %er_dynahj%
 
 IF ~~ THEN BEGIN DynaNoForks
 SAY @1056
-IF ~!InParty("Edwin")~ THEN EXTERN J#INDIB IndiNoForks
-IF ~InParty("Edwin")~ THEN EXTERN %er_tutu%EDWINJ EdwinNoForks
+IF ~~ THEN EXTERN J#INDIB IndiNoForks
+IF ~See("Edwin") InParty("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ THEN EXTERN %er_tutu%EDWINJ%eet_var% EdwinNoForks
 END
 END
 
-APPEND %er_tutu%EDWINJ
+APPEND %er_tutu%EDWINJ%eet_var%
 
 IF ~~ THEN BEGIN EdwinNoForks
 SAY @1057
@@ -185,9 +197,9 @@ APPEND SUFINCHJ
 
 IF ~~ THEN BEGIN FinchForksNoFuss
 SAY @1058
-IF ~!InParty("%er_imoen%") !InParty("Garrick")~ THEN EXTERN J#INDIB IndiSpiesForks
-IF ~!InParty("%er_imoen%") InParty("Garrick")~ THEN EXTERN %er_tutu%GARRIJ GarrickSpiesForks
-IF ~InParty("%er_imoen%")~ THEN EXTERN %er_bimoen% ImoenSpiesForks
+IF ~~ THEN EXTERN J#INDIB IndiSpiesForks
+IF ~See("Garrick") InParty("Garrick") !StateCheck("Garrick",CD_STATE_NOTVALID)~ THEN EXTERN %er_tutu%GARRIJ GarrickSpiesForks
+IF ~See("%er_imoen%") InParty("%er_imoen%") !StateCheck("%er_imoen%",CD_STATE_NOTVALID)~ THEN EXTERN %er_bimoen% ImoenSpiesForks
 END
 
 IF ~~ THEN BEGIN FinchShushImoen

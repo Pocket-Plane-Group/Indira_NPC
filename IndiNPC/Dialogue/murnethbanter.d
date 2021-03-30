@@ -16,10 +16,10 @@ IF ~CombatCounter(0)
 !See([ENEMY])
 InParty("J#INDI")
 See("J#INDI")
-!StateCheck("J#INDI",STATE_SLEEPING)
+!StateCheck("J#INDI",CD_STATE_NOTVALID)
 Global("A#MURN_INDI","GLOBAL",1)
 InParty("A#MURN")
-!StateCheck("A#MURN",STATE_SLEEPING)
+!StateCheck("A#MURN",CD_STATE_NOTVALID)
 !Dead("A#MURN")
 !Dead("J#INDI")~ THEN BEGIN Murn_Indi_2
 SAY @1 
@@ -75,10 +75,10 @@ CHAIN IF ~CombatCounter(0)
 !See([ENEMY])
 InParty("J#INDI")
 See("J#INDI")
-!StateCheck("J#INDI",STATE_SLEEPING)
+!StateCheck("J#INDI",CD_STATE_NOTVALID)
 Global("A#MURN_INDI","GLOBAL",0)
 InParty("A#MURN")
-!StateCheck("A#MURN",STATE_SLEEPING)
+!StateCheck("A#MURN",CD_STATE_NOTVALID)
 !Dead("A#MURN")
 !Dead("J#INDI")~ THEN ~BA#MURN~ Murn_Indi_1
 @23 
@@ -88,7 +88,7 @@ DO ~SetGlobal("A#MURN_INDI","GLOBAL",1)~
 == J#INDIB @26
 == ~%er_tutu%BFALDO~ IF ~InParty("FALDORN")
 See("FALDORN")
-!StateCheck("FALDORN",STATE_SLEEPING)
+!StateCheck("FALDORN",CD_STATE_NOTVALID)
 !Dead("FALDORN")~ THEN @27
 == BA#MURN @28
 == J#INDIB @29
@@ -96,23 +96,23 @@ See("FALDORN")
 == J#INDIB @31
 == ~%er_tutu%BALORA~ IF ~InParty("ALORA")
 See("ALORA")
-!StateCheck("ALORA",STATE_SLEEPING)
+!StateCheck("ALORA",CD_STATE_NOTVALID)
 !Dead("ALORA")~ THEN @32
 == BA#MURN @33
 == ~%er_tutu%BMONTA~ IF ~InParty("MONTARON")
 See("MONTARON")
-!StateCheck("MONTARON",STATE_SLEEPING)
+!StateCheck("MONTARON",CD_STATE_NOTVALID)
 !Dead("MONTARON")~ THEN @34
 == J#INDIB @35
 == BA#MURN @36
 == ~%er_tutu%BXZAR~ IF ~InParty("XZAR")
 See("XZAR")
-!StateCheck("XZAR",STATE_SLEEPING)
+!StateCheck("XZAR",CD_STATE_NOTVALID)
 !Dead("XZAR")~ THEN @37
 == J#INDIB @38
 == ~%er_tutu%BAJANT~ IF ~InParty("AJANTIS")
 See("AJANTIS")
-!StateCheck("AJANTIS",STATE_SLEEPING)
+!StateCheck("AJANTIS",CD_STATE_NOTVALID)
 !Dead("AJANTIS")~ THEN @39
 == BA#MURN @40
 END
@@ -127,7 +127,7 @@ CHAIN ~BA#MURN~ Murn_Indi_2
 == BA#MURN @47
 == ~%er_tutu%BXZAR~ IF ~InParty("XZAR")
 See("XZAR")
-!StateCheck("XZAR",STATE_SLEEPING)
+!StateCheck("XZAR",CD_STATE_NOTVALID)
 !Dead("XZAR")~ THEN @48
 == BA#MURN @49
 == J#INDIB @50
@@ -138,17 +138,17 @@ CHAIN IF ~CombatCounter(0)
 !See([ENEMY])
 InParty("J#INDI")
 See("J#INDI")
-!StateCheck("J#INDI",STATE_SLEEPING)
+!StateCheck("J#INDI",CD_STATE_NOTVALID)
 Global("A#MURN_INDI","GLOBAL",2)
 InParty("A#MURN")
-!StateCheck("A#MURN",STATE_SLEEPING)
+!StateCheck("A#MURN",CD_STATE_NOTVALID)
 !Dead("A#MURN")
 !Dead("J#INDI")~ THEN ~BA#MURN~ Murn_Indi_3
 @52 
 DO ~SetGlobal("A#MURN_INDI","GLOBAL",3)~
 == ~%er_tutu%BELDOT~ IF ~InParty("ELDOTH")
 See("ELDOTH")
-!StateCheck("ELDOTH",STATE_SLEEPING)
+!StateCheck("ELDOTH",CD_STATE_NOTVALID)
 !Dead("ELDOTH")~ THEN @53
 == BA#MURN @54
 == J#INDIB @55 

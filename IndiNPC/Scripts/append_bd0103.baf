@@ -1,0 +1,15 @@
+IF
+  OR(2)
+    InParty("J#Indi")
+    InPartyAllowDead("J#Indi")
+  GlobalLT("BD_PLOT","GLOBAL",51)
+THEN
+  RESPONSE #100
+    ActionOverride("J#Indi",LeaveParty())
+		ActionOverride("J#Indi",ChangeAIScript("",DEFAULT))
+		ActionOverride("J#Indi",ClearAllActions())
+	ActionOverride("PlayerChest00",TakeCreatureItems("J#Indi",BACKPACK))
+    SmallWait(1)
+    ActionOverride("J#Indi",DestroySelf())
+    Continue()
+END

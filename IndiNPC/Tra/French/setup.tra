@@ -1,7 +1,9 @@
 // -*- coding: ASCII -*-
 
 @0    = ~Indira PNJ~
-@2000 = ~Indira requiert Tutu, BG:EE ou BGT~
+@2000 = ~Indira requiert Tutu, BG:EE, BGT, ou EET~
+@2001 = ~Install Interjections for Indira (BETA)~
+@2002 = ~Indira NPC mod main component needs to be installed.~
 
 // WeiDU prompts
 @-1000= "Le mod %TP2_FILE_NAME% contient"

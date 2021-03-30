@@ -1,5 +1,7 @@
 IF
-	InParty("J#Indi")
+  OR(2)
+    InParty("J#Indi")
+    InPartyAllowDead("J#Indi")
 	Global("er_IndiraLeavesBGT","GLOBAL",0)
 THEN
 	RESPONSE #100

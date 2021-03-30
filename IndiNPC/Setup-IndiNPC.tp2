@@ -4,12 +4,17 @@ SUPPORT ~https://forums.pocketplane.net/index.php?topic=16098.0~
 VERSION ~v13~
 README ~IndiNPC/Docs/indi_readme.html~
 
-AUTO_TRA ~IndiNPC/Tra/%s~
+AUTO_TRA ~IndiNPC/Tra/autotra/%s~
 
 ALWAYS
   INCLUDE ~IndiNPC/Lib/er_lib.tpa~
-  LAM bgee_language
   LAF autotra_workaround END
+  LAM bgee_language
+
+// Adds CD_STATE_NOTVALID state
+APPEND ~STATE.IDS~ ~0x80101FEF CD_STATE_NOTVALID~
+UNLESS ~CD_STATE_NOTVALID~
+
 END
 
 LANGUAGE ~English~
@@ -51,11 +56,10 @@ LANGUAGE ~Russian~
          ~IndiNPC/Tra/English/game.tra~
          ~IndiNPC/Tra/English/setup.tra~
          ~IndiNPC/Tra/Russian/game.tra~
-         ~IndiNPC/Tra/Russian/setup-%WEIDU_OS%.tra~
 
 BEGIN @0
 
-REQUIRE_PREDICATE GAME_IS ~tutu tutu_totsc bgee bgt~ @2000
+REQUIRE_PREDICATE GAME_IS ~tutu tutu_totsc bgee bgt eet~ @2000
 
 COPY ~IndiNPC/Creatures/J#Indi01.cre~ ~override/J#Indi01.cre~
   WRITE_SHORT 0x28 0x6111
@@ -122,20 +126,20 @@ COPY ~IndiNPC/Creatures/J#Indi03.cre~ ~override/J#Indi03.cre~
   SAY BIO @26
   LAUNCH_PATCH_MACRO ~ER_PATCH_ITEMS_ON_INDIRA~
 
-ACTION_IF FILE_EXISTS_IN_GAME ~%er_bimoen%.dlg~
- THEN BEGIN
+ACTION_IF NOT FILE_EXISTS_IN_GAME ~%er_bimoen%.dlg~ BEGIN
+	COMPILE EVALUATE_BUFFER ~IndiNPC/bimoen.d~
 END
-ELSE BEGIN
-  COMPILE EVALUATE_BUFFER ~IndiNPC/bimoen.d~
+
+ACTION_IF GAME_IS ~eet~ BEGIN
+	APPEND ~BGBANTER.2DA~ ~%er_uimoen%        %er_bimoen%~ UNLESS ~%er_uimoen%~
+END ELSE BEGIN
+	APPEND ~Interdia.2da~ ~%er_uimoen%        %er_bimoen%~ UNLESS ~%er_uimoen%~
 END
 
 COPY_EXISTING ~%er_FirewineRuins%.are~ ~override/%er_FirewineRuins%.are~
-  WRITE_EVALUATED_ASCII 0x94 ~%er_5201%~
-BUT_ONLY_IF_IT_CHANGES
+	WRITE_EVALUATED_ASCII 0x94 ~%er_5201%~
+	BUT_ONLY_IF_IT_CHANGES
 
-APPEND ~Interdia.2da~
-~%er_uimoen%        %er_bimoen%~
-UNLESS ~%er_uimoen%~
 
 COMPILE EVALUATE_BUFFER ~IndiNPC/Dialogue/indi.d~
   USING ~%er_tra_path%/English/indi.tra~
@@ -155,6 +159,12 @@ COPY ~IndiNPC/Items/J#indi01.itm~ ~override/J#indi01.itm~
   SAY NAME2 @27
   SAY DESC @28
 
+ACTION_IF NOT FILE_EXISTS_IN_GAME ~J#indi.bcs~ BEGIN
+<<<<<<<<J#indi.baf
+>>>>>>>>
+	COMPILE ~J#indi.baf~
+END
+
 //Finch-Indira banter
 ACTION_IF FILE_EXISTS ~override/bsufinch.DLG~ AND NOT FILE_EXISTS ~override/INDIRAFINCH.XXX~
 THEN BEGIN
@@ -165,18 +175,50 @@ END
 
 EXTEND_TOP ~%er_5201%.bcs~ ~IndiNPC/Scripts/_ar5201.baf~
 
+// SoD/BGT compatibility: Indira leaves the party at transition.
+ACTION_IF (GAME_IS ~bgee~ AND GAME_INCLUDES ~sod~) OR (GAME_IS ~eet~) THEN BEGIN
+	EXTEND_TOP ~bd0103.bcs~ ~IndiNPC/Scripts/append_bd0103.baf~
+END 
 ACTION_IF GAME_IS ~bgt~ THEN BEGIN
-  EXTEND_TOP ~aram00.bcs~ ~IndiNPC/Scripts/append_aram00.baf~
+	EXTEND_TOP ~aram00.bcs~ ~IndiNPC/Scripts/append_aram00.baf~
 END
 
-/* APPEND ~NPCLevel.2da~
-~J#Indi      J#Indi01    J#Indi03    J#Indi03    J#Indi04    J#Indi04    J#Indi04   J#Indi04    J#Indi04    J#Indi04    J#Indi04    J#Indi04   J#Indi04  J#Indi04  J#Indi04    J#Indi04    J#Indi04   J#Indi04   J#Indi04    J#Indi04~
-UNLESS ~J#Indi~ */
-APPEND ~PDialog.2da~
-~J#Indi       J#IndiP            J#IndiJ~
-UNLESS ~J#Indi~
-APPEND ~Interdia.2da~
-~J#Indi       J#IndiB~
-UNLESS ~J#Indi~
+ACTION_IF GAME_IS ~eet~ BEGIN
+	APPEND ~BGDIALOG.2da~ ~J#Indi       J#IndiP            J#IndiJ          J#IndiD~ UNLESS ~J#Indi~
+	APPEND ~BGBANTER.2da~ ~J#Indi       J#IndiB~                                     UNLESS ~J#Indi~
+END ELSE BEGIN
+	APPEND ~PDialog.2da~  ~J#Indi       J#IndiP            J#IndiJ          J#IndiD~ UNLESS ~J#Indi~
+	APPEND ~Interdia.2da~ ~J#Indi       J#IndiB~                                     UNLESS ~J#Indi~
+END
+
 
 LAF HANDLE_AUDIO END
+
+
+ACTION_IF GAME_IS ~eet~ BEGIN
+	ACTION_MATCH ~%LANGUAGE%~ WITH
+		~English~  BEGIN OUTER_SPRINT lng ~en_US~ END
+		~Francais~ BEGIN OUTER_SPRINT lng ~fr_FR~ END
+		~Polski~   BEGIN OUTER_SPRINT lng ~pl_PL~ END
+		~Espanol~  BEGIN OUTER_SPRINT lng ~es_ES~ END
+		~Deutsch~  BEGIN OUTER_SPRINT lng ~de_DE~ END
+		~Russian~  BEGIN OUTER_SPRINT lng ~ru_RU~ END
+	DEFAULT
+		OUTER_SPRINT lng ~en_US~
+	END
+	INCLUDE ~EET/other/EET_functions.tph~
+	LAF ~EET_NPC_TRANSITION~
+		INT_VAR
+			type = 1
+		STR_VAR
+			dv = "J#Indi"
+			override_BG1 = "J#Indi"
+			traFile = EVAL "EET/lang/%lng%/compatibility.tra"
+			string = "@5000000"
+	END
+END
+
+BEGIN @2001 /* ~Install Interjections for Indira (BETA)~ */
+REQUIRE_COMPONENT ~setup-indinpc.tp2~ 0 @2002 /* ~Indira NPC mod main component needs to be installed.~ */
+
+COMPILE EVALUATE_BUFFER ~IndiNPC/Dialogue/indij.d~

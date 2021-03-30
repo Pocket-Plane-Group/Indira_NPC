@@ -114,10 +114,12 @@ END
 BEGIN J#IndiB
 
 CHAIN
-  IF ~Global("J#indixzar","GLOBAL",0)
+  IF ~CombatCounter(0)
+!See([ENEMY])
+Global("J#indixzar","GLOBAL",0)
       InParty("J#Indi")
       See("J#Indi")
-      !StateCheck("j#indi",STATE_SLEEPING)~ THEN %er_tutu%bxzar indixzar
+      !StateCheck("j#indi",CD_STATE_NOTVALID)~ THEN %er_tutu%bxzar indixzar
   @43
 DO ~SetGlobal("J#indixzar","GLOBAL",1)~
   == J#indib
@@ -129,10 +131,13 @@ DO ~SetGlobal("J#indixzar","GLOBAL",1)~
 EXIT
 
 CHAIN
-  IF ~Global("J#indimonty","GLOBAL",0)
+  IF ~CombatCounter(0)
+!See([ENEMY])
+Global("J#indimonty","GLOBAL",0)
       InParty("Montaron")
       See("Montaron")
-      !StateCheck("Montaron",STATE_SLEEPING)~ THEN J#IndiB indimonty
+      !StateCheck("Montaron",CD_STATE_NOTVALID)
+      !StateCheck(Myself,CD_STATE_NOTVALID)~ THEN J#IndiB indimonty
   @47 
 DO ~SetGlobal("J#indimonty","GLOBAL",1)~
   == %er_tutu%bmonta
@@ -140,10 +145,13 @@ DO ~SetGlobal("J#indimonty","GLOBAL",1)~
 EXIT
 
 CHAIN
-  IF ~Global("J#indigarrick","GLOBAL",0)
+  IF ~CombatCounter(0)
+!See([ENEMY])
+Global("J#indigarrick","GLOBAL",0)
       InParty("J#Indi")
       See("J#Indi")
-      !StateCheck("j#indi",STATE_SLEEPING)~ THEN %er_tutu%bgarri indigarrick
+      !StateCheck("j#indi",CD_STATE_NOTVALID)
+      !StateCheck(Myself,CD_STATE_NOTVALID)~ THEN %er_tutu%bgarri indigarrick
   @49
 DO ~SetGlobal("J#indigarrick","GLOBAL",1)~
   == J#indib
@@ -157,10 +165,13 @@ DO ~SetGlobal("J#indigarrick","GLOBAL",1)~
 EXIT
 
 CHAIN
-  IF ~Global("J#indikagain","GLOBAL",0)
+  IF ~CombatCounter(0)
+!See([ENEMY])
+Global("J#indikagain","GLOBAL",0)
       InParty("J#Indi")
       See("J#Indi")
-      !StateCheck("j#indi",STATE_SLEEPING)~ THEN %er_tutu%bkagai indikagain
+      !StateCheck("j#indi",CD_STATE_NOTVALID)
+      !StateCheck(Myself,CD_STATE_NOTVALID)~ THEN %er_tutu%bkagai indikagain
   @54
 DO ~SetGlobal("J#indikagain","GLOBAL",1)~
   == J#indib
@@ -170,10 +181,13 @@ DO ~SetGlobal("J#indikagain","GLOBAL",1)~
 EXIT
 
 CHAIN
-  IF ~Global("J#indijaheira","GLOBAL",0)
+  IF ~CombatCounter(0)
+!See([ENEMY])
+Global("J#indijaheira","GLOBAL",0)
       InParty("J#Indi")
       See("J#Indi")
-      !StateCheck("j#indi",STATE_SLEEPING)~ THEN %er_bjahei% indijaheira
+      !StateCheck("j#indi",CD_STATE_NOTVALID)
+      !StateCheck(Myself,CD_STATE_NOTVALID)~ THEN %er_bjahei% indijaheira
   @57
 DO ~SetGlobal("J#indijaheira","GLOBAL",1)~
   == J#indib
@@ -187,10 +201,13 @@ DO ~SetGlobal("J#indijaheira","GLOBAL",1)~
 EXIT
 
 CHAIN
-  IF ~Global("J#indikhali","GLOBAL",0)
+  IF ~CombatCounter(0)
+!See([ENEMY])
+Global("J#indikhali","GLOBAL",0)
       InParty("khalid")
       See("khalid")
-      !StateCheck("khalid",STATE_SLEEPING)~ THEN J#IndiB indikhali
+      !StateCheck("khalid",CD_STATE_NOTVALID)
+      !StateCheck(Myself,CD_STATE_NOTVALID)~ THEN J#IndiB indikhali
   @62 
 DO ~SetGlobal("J#indikhali","GLOBAL",1)~
   == %er_tutu%bkhali
@@ -202,10 +219,13 @@ DO ~SetGlobal("J#indikhali","GLOBAL",1)~
 EXIT
 
 CHAIN
-  IF ~Global("J#indiKivan","GLOBAL",0)
+  IF ~CombatCounter(0)
+!See([ENEMY])
+Global("J#indiKivan","GLOBAL",0)
       InParty("J#Indi")
       See("J#Indi")
-      !StateCheck("j#indi",STATE_SLEEPING)~ THEN %er_tutu%bkivan indiKivan
+      !StateCheck("j#indi",CD_STATE_NOTVALID)
+      !StateCheck(Myself,CD_STATE_NOTVALID)~ THEN %er_tutu%bkivan indiKivan
   @66
 DO ~SetGlobal("J#indiKivan","GLOBAL",1)~
   == J#indib
@@ -221,15 +241,18 @@ DO ~SetGlobal("J#indiKivan","GLOBAL",1)~
 EXIT
 
 CHAIN
-  IF ~Global("J#indiEdwin","GLOBAL",0)
+  IF ~CombatCounter(0)
+!See([ENEMY])
+Global("J#indiEdwin","GLOBAL",0)
       InParty("J#Indi")
       See("J#Indi")
-      !StateCheck("j#indi",STATE_SLEEPING)~ THEN %er_tutu%bedwin indiEdwin
+      !StateCheck("j#indi",CD_STATE_NOTVALID)
+      !StateCheck(Myself,CD_STATE_NOTVALID)~ THEN %er_tutu%bedwin%eet_var% indiEdwin
   @72
 DO ~SetGlobal("J#indiEdwin","GLOBAL",1)~
   == J#indib
   @73 
-  == %er_tutu%bedwin
+  == %er_tutu%bedwin%eet_var%
   @74
   =
   @75
@@ -238,10 +261,13 @@ DO ~SetGlobal("J#indiEdwin","GLOBAL",1)~
 EXIT
 
 CHAIN
-  IF ~Global("J#indidynah","GLOBAL",0)
+  IF ~CombatCounter(0)
+!See([ENEMY])
+Global("J#indidynah","GLOBAL",0)
       InParty("J#Indi")
       See("J#Indi")
-      !StateCheck("j#indi",STATE_SLEEPING)~ THEN %er_bdynah% indidynah
+      !StateCheck("j#indi",CD_STATE_NOTVALID)
+      !StateCheck(Myself,CD_STATE_NOTVALID)~ THEN %er_bdynah% indidynah
   @77
   =
   @78
@@ -257,10 +283,13 @@ DO ~SetGlobal("J#indidynah","GLOBAL",1)~
 EXIT
 
 CHAIN
-  IF ~Global("J#indiXan","GLOBAL",0)
+  IF ~CombatCounter(0)
+!See([ENEMY])
+Global("J#indiXan","GLOBAL",0)
       InParty("Xan")
       See("Xan")
-      !StateCheck("Xan",STATE_SLEEPING)~ THEN J#IndiB indiXan
+      !StateCheck("Xan",CD_STATE_NOTVALID)
+      !StateCheck(Myself,CD_STATE_NOTVALID)~ THEN J#IndiB indiXan
   @83 
 DO ~SetGlobal("J#indiXan","GLOBAL",1)~
   == %er_tutu%bxannn
@@ -282,10 +311,13 @@ DO ~SetGlobal("J#indiXan","GLOBAL",1)~
 EXIT
 
 CHAIN
-  IF ~Global("J#indiSharTe","GLOBAL",0)
+  IF ~CombatCounter(0)
+!See([ENEMY])
+Global("J#indiSharTe","GLOBAL",0)
       InParty("J#Indi")
       See("J#Indi")
-      !StateCheck("j#indi",STATE_SLEEPING)~ THEN %er_tutu%bshart indiSharTe
+      !StateCheck("j#indi",CD_STATE_NOTVALID)
+      !StateCheck(Myself,CD_STATE_NOTVALID)~ THEN %er_tutu%bshart indiSharTe
   @92
 DO ~SetGlobal("J#indiSharTe","GLOBAL",1)~
   == J#indib
@@ -299,10 +331,13 @@ DO ~SetGlobal("J#indiSharTe","GLOBAL",1)~
 EXIT
 
 CHAIN
-  IF ~Global("J#indiVicon","GLOBAL",0)
+  IF ~CombatCounter(0)
+!See([ENEMY])
+Global("J#indiVicon","GLOBAL",0)
       InParty("J#Indi")
       See("J#Indi")
-      !StateCheck("j#indi",STATE_SLEEPING)~ THEN %er_bvicon% indiVicon
+      !StateCheck("j#indi",CD_STATE_NOTVALID)
+      !StateCheck(Myself,CD_STATE_NOTVALID)~ THEN %er_bvicon% indiVicon
   @97
 DO ~SetGlobal("J#indiVicon","GLOBAL",1)~
   == J#indib
@@ -316,10 +351,13 @@ DO ~SetGlobal("J#indiVicon","GLOBAL",1)~
 EXIT
 
 CHAIN
-  IF ~Global("J#indiEldot","GLOBAL",0)
+  IF ~CombatCounter(0)
+!See([ENEMY])
+Global("J#indiEldot","GLOBAL",0)
       InParty("J#Indi")
       See("J#Indi")
-      !StateCheck("j#indi",STATE_SLEEPING)~ THEN %er_tutu%beldot indiEldot
+      !StateCheck("j#indi",CD_STATE_NOTVALID)
+      !StateCheck(Myself,CD_STATE_NOTVALID)~ THEN %er_tutu%beldot indiEldot
   @102
 DO ~SetGlobal("J#indiEldot","GLOBAL",1)~
   == J#indib
@@ -333,10 +371,13 @@ DO ~SetGlobal("J#indiEldot","GLOBAL",1)~
 EXIT
 
 CHAIN
-  IF ~Global("J#indiQuayl","GLOBAL",0)
+  IF ~CombatCounter(0)
+!See([ENEMY])
+Global("J#indiQuayl","GLOBAL",0)
       InParty("J#Indi")
       See("J#Indi")
-      !StateCheck("j#indi",STATE_SLEEPING)~ THEN %er_tutu%bquayl indiQuayl
+      !StateCheck("j#indi",CD_STATE_NOTVALID)
+      !StateCheck(Myself,CD_STATE_NOTVALID)~ THEN %er_tutu%bquayl indiQuayl
   @107
 DO ~SetGlobal("J#indiQuayl","GLOBAL",1)~
   == J#indib
@@ -358,10 +399,13 @@ DO ~SetGlobal("J#indiQuayl","GLOBAL",1)~
 EXIT
 
 CHAIN
-  IF ~Global("J#indiTiax","GLOBAL",0)
+  IF ~CombatCounter(0)
+!See([ENEMY])
+Global("J#indiTiax","GLOBAL",0)
       InParty("Tiax")
       See("Tiax")
-      !StateCheck("Tiax",STATE_SLEEPING)~ THEN J#IndiB indiTiax
+      !StateCheck("Tiax",CD_STATE_NOTVALID)
+      !StateCheck(Myself,CD_STATE_NOTVALID)~ THEN J#IndiB indiTiax
   @116 
 DO ~SetGlobal("J#indiTiax","GLOBAL",1)~
   == %er_tutu%btiax
@@ -373,10 +417,13 @@ DO ~SetGlobal("J#indiTiax","GLOBAL",1)~
 EXIT
 
 CHAIN
-  IF ~Global("J#indiSafan","GLOBAL",0)
+  IF ~CombatCounter(0)
+!See([ENEMY])
+Global("J#indiSafan","GLOBAL",0)
       InParty("J#Indi")
       See("J#Indi")
-      !StateCheck("j#indi",STATE_SLEEPING)
+      !StateCheck("j#indi",CD_STATE_NOTVALID)
+      !StateCheck(Myself,CD_STATE_NOTVALID)
       Exists(StrongestOfMale)~ THEN %er_tutu%bsafan indiSafan
   @120
 DO ~SetGlobal("J#indiSafan","GLOBAL",1)~
@@ -393,29 +440,35 @@ DO ~SetGlobal("J#indiSafan","GLOBAL",1)~
 EXIT
 
 CHAIN
-  IF WEIGHT #-1 ~Global("J#indiminsc","GLOBAL",0)
+  IF WEIGHT #-1 ~CombatCounter(0)
+!See([ENEMY])
+Global("J#indiminsc","GLOBAL",0)
       InParty("J#Indi")
       See("J#Indi")
-      !StateCheck("j#indi",STATE_SLEEPING)~ THEN %er_tutu%bminsc indiminsc
+      !StateCheck("j#indi",CD_STATE_NOTVALID)
+      !StateCheck(Myself,CD_STATE_NOTVALID)~ THEN %er_tutu%bminsc%eet_var% indiminsc
   @126
 DO ~SetGlobal("J#indiminsc","GLOBAL",1)~
   =
   @127
   == J#indib
   @128 
-  == %er_tutu%bminsc
+  == %er_tutu%bminsc%eet_var%
   @129
   == J#indib
   @130
-  == %er_tutu%bminsc
+  == %er_tutu%bminsc%eet_var%
   @131
 EXIT
 
 CHAIN
-  IF ~Global("J#indialora","GLOBAL",0)
+  IF ~CombatCounter(0)
+!See([ENEMY])
+Global("J#indialora","GLOBAL",0)
       InParty("J#Indi")
       See("J#Indi")
-      !StateCheck("j#indi",STATE_SLEEPING)~ THEN %er_tutu%balora indialora
+      !StateCheck("j#indi",CD_STATE_NOTVALID)
+      !StateCheck(Myself,CD_STATE_NOTVALID)~ THEN %er_tutu%balora indialora
   @132
 DO ~SetGlobal("J#indialora","GLOBAL",1)~
   == J#indib
@@ -431,10 +484,13 @@ DO ~SetGlobal("J#indialora","GLOBAL",1)~
 EXIT
 
 CHAIN
-  IF ~Global("J#indiyeslick","GLOBAL",0)
+  IF ~CombatCounter(0)
+!See([ENEMY])
+Global("J#indiyeslick","GLOBAL",0)
       InParty("yeslick")
       See("yeslick")
-      !StateCheck("yeslick",STATE_SLEEPING)~ THEN J#IndiB indiyeslick
+      !StateCheck("yeslick",CD_STATE_NOTVALID)
+      !StateCheck(Myself,CD_STATE_NOTVALID)~ THEN J#IndiB indiyeslick
   @138 
 DO ~SetGlobal("J#indiyeslick","GLOBAL",1)~
   == %er_tutu%byesli
@@ -464,10 +520,13 @@ DO ~SetGlobal("J#indiyeslick","GLOBAL",1)~
 EXIT
 
 CHAIN
-  IF ~Global("J#indiimoen","GLOBAL",0)
+  IF ~CombatCounter(0)
+!See([ENEMY])
+Global("J#indiimoen","GLOBAL",0)
       InParty("J#Indi")
       See("J#Indi")
-      !StateCheck("j#indi",STATE_SLEEPING)~ THEN %er_bimoen% indiimoen
+      !StateCheck("j#indi",CD_STATE_NOTVALID)
+      !StateCheck(Myself,CD_STATE_NOTVALID)~ THEN %er_bimoen% indiimoen
   @151
 DO ~SetGlobal("J#indiimoen","GLOBAL",1)~
   == J#indib
@@ -485,10 +544,13 @@ EXIT
 
 /*
 CHAIN
-  IF ~Global("J#indi___","GLOBAL",0)
+  IF ~CombatCounter(0)
+!See([ENEMY])
+Global("J#indi___","GLOBAL",0)
       InParty("J#Indi")
       See("J#Indi")
-      !StateCheck("j#indi",STATE_SLEEPING)~ THEN _b___ indi___
+      !StateCheck("j#indi",CD_STATE_NOTVALID)
+      !StateCheck(Myself,CD_STATE_NOTVALID)~ THEN _b___ indi___
   ~~
 DO ~SetGlobal("J#indi___","GLOBAL",1)~
   == J#indib
@@ -502,10 +564,13 @@ DO ~SetGlobal("J#indi___","GLOBAL",1)~
 EXIT
 
 CHAIN
-  IF ~Global("J#indi___","GLOBAL",0)
+  IF ~CombatCounter(0)
+!See([ENEMY])
+Global("J#indi___","GLOBAL",0)
       InParty("___")
       See("___")
-      !StateCheck("___",STATE_SLEEPING)~ THEN J#IndiB indi___
+      !StateCheck("___",CD_STATE_NOTVALID)
+      !StateCheck(Myself,CD_STATE_NOTVALID)~ THEN J#IndiB indi___
   ~~
 DO ~SetGlobal("J#indi___","GLOBAL",1)~
   == _b___

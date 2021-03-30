@@ -1,7 +1,9 @@
 IF
    InParty("sufinch")
+InParty(Myself)
    See("SUFINCH")
-   !StateCheck("SUFINCH",STATE_SLEEPING)
+   !StateCheck("SUFINCH",CD_STATE_NOTVALID)
+   !StateCheck(Myself,CD_STATE_NOTVALID)
    Global("FinchIndi2","GLOBAL",1)
    Global("FinchIndiRevengeOfFork", "GLOBAL",0)
    OR(25)
