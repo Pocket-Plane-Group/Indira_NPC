@@ -1,7 +1,7 @@
 BACKUP ~IndiNPC/Backup~
 //AUTHOR ~ghreyfain@pocketplane.net~
 SUPPORT ~https://forums.pocketplane.net/index.php?topic=16098.0~
-VERSION ~v13~
+VERSION ~v13.1~
 README ~IndiNPC/Docs/indi_readme.html~
 
 AUTO_TRA ~IndiNPC/Tra/autotra/%s~

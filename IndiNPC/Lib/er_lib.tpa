@@ -57,7 +57,7 @@ ACTION_IF GAME_IS ~eet~ THEN BEGIN
 END
 ACTION_IF GAME_IS ~tutu tutu_totsc~ THEN BEGIN
   OUTER_SPRINT er_tutu ~_~
-  OUTER_SPRINT er_tutc ~-~
+  OUTER_SPRINT er_tutc ~_~
   OUTER_SPRINT er_bdynah ~_BDYNAH~
   OUTER_SPRINT er_bimoen ~_BIMOEN~
   OUTER_SPRINT er_bjahei ~_BJAHEI~
