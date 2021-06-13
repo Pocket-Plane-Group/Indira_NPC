@@ -1,40 +1,40 @@
 // -*- coding: cp1252 -*-
 
 @1    = ~Indira~
-@2    = ~Via!  Non mi prenderai senza combattere!~ [J#indi01]
-@3    = ~Ah!  Questo è troppo!  So... Sono spiacente, devo andare!~ [J#indi02]
+@2    = ~Via! Non mi prenderai senza combattere!~ [J#indi01]
+@3    = ~Ah! Questo è troppo!  So... Sono spiacente, devo andare!~ [J#indi02]
 @4    = ~Questo è proprio grande!  Scommetto che potremmo assumere un bardo per fargli srivere la nostre avventure!~ [J#indi03]
-@5    = ~Non capisco proprio perchè lo dobbiamo fare.  Non è giusto.~ [J#indi04]
-@6    = ~Non avrei voluto che fosse successo!  Ogni cosa è terribilmente sbagliata!~ [J#indi05]
-@7    = ~Questo è!  Io proprio... non posso proseguire.  Mi dispiace.~ [J#indi06]
-@8    = ~Um, sei sicuro che mi vuoi davanti a tutti?  Voglio dire, ah, ho la mia spada ma sono debole, e senza valore!~ [J#indi07]
-@9    = ~Possiamo fermarci?  Sento le mie gambe andare a fuoco e la mia spada sta diventando PESAN-TE.~ [J#indi08]
-@10   = ~Non c'è qualcos'altro che potremmo fare?  Tipo... qualsiasi cosa?  Forse?  Per favore?~ [J#indi09]
-@11   = ~In guardia, scellerato!  Haha!~ [J#indi10]
+@5    = ~Non capisco proprio perchè lo dobbiamo fare. Non è giusto.~ [J#indi04]
+@6    = ~Avrei voluto che non fosse successo! È tutto così terribilmente sbagliato!~ [J#indi05]
+@7    = ~È finita! Io proprio... non posso proseguire. Mi dispiace.~ [J#indi06]
+@8    = ~Um, sei sicuro che mi vuoi davanti a tutti? Voglio dire, ah, ho la mia spada ma sono debole, e senza valore!~ [J#indi07]
+@9    = ~Possiamo fermarci? Sento le mie gambe andare a fuoco e la mia spada sta diventando PESAN-TE.~ [J#indi08]
+@10   = ~Non c'è qualcos'altro che potremmo fare? Tipo... qualsiasi cosa? Forse? Per favore?~ [J#indi09]
+@11   = ~In guardia, scellerati! Ah ah!~ [J#indi10]
 
-@14   = ~Guarigione!  Presto!  Per favore!~ [J#indi13]
-@15   = ~Lo sai, casa mia era quasi come questa.  Più o meno.  Non solo.~ [J#indi14]
-@16   = ~Lo sai, ho sentito dire che i nani vivevano realmente in posti come questo.  E' vero?~ [J#indi15]
-@17   = ~Lo sai, mi piace veramente la città.  Bruttissima come la sua puzza, tuttavia.~ [J#indi16]
-@18   = ~Lo sai, mi diverto sicuramente quando c'è il sole.  Piove, troppo.  Nevica okay, scommetto.~ [J#indi17]
-@19   = ~Lo sai, se non fossi stata così coraggiosa, avrei scelto di parlare giusto adesso.  Ma non lo sono!  Nossignore.  Non io.  No.~ [J#indi18]
-@20   = ~Son tutta a posto!~ [J#indi19]
+@14   = ~Guarigione! Presto! Per favore!~ [J#indi13]
+@15   = ~Lo sai, casa mia era quasi come questa. Più o meno. Ma anche no.~ [J#indi14]
+@16   = ~Lo sai, ho sentito dire che i nani vivevano realmente in posti come questo. È vero?~ [J#indi15]
+@17   = ~Lo sai, mi piace veramente la città.  Peccato per questa orribile puzza, tuttavia.~ [J#indi16]
+@18   = ~Lo sai, mi piace un sacco quando c'è il sole. Ma anche quando piove. La neve ci può stare, suppongo.~ [J#indi17]
+@19   = ~Lo sai, se non fossi così coraggiosa, sarei probabilmente alquanto spaventata ora. Ma non lo sono! Nossignore. Non io. No, no.~ [J#indi18]
+@20   = ~Sto alla grande!~ [J#indi19]
 @21   = ~Chi, io?~ [J#indi20]
 @22   = ~Pronta a partire!~ [J#indi21]
-@23   = ~E' tempo di darsi da fare!~ [J#indi22]
+@23   = ~È tempo di darsi da fare!~ [J#indi22]
 @24   = ~Siii!~ [J#indi23]
 @25   = ~L'hai detto!~ [J#indi24]
-@26   = ~Quando gli chiedi sul suo passato, INDIRA di dice con un leggero tono insolente che lei è cresciuta in un piccolo villaggio elfico proprio a est di Scornubel.  Questa vicinanza agli umani finì per dividere gli elfi della piccola comunità, e dopo molte argomentazioni e discussioni, fu deciso che l'intero villaggio sarebbe stato abbandonato.
+@26   = ~Alla domanda sul suo passato, INDIRA ti dice con un tono leggermente insolente che è cresciuta in un piccolo villaggio elfico appena ad est di Scornubel. Questa vicinanza agli umani divise gli elfi della piccola comunità e, dopo parecchie discussioni, fu deciso che l'intero villaggio si sarebbe dovuto trasferire.
 
-Uno sparuto gruppo di puri-sanguinari elfi restò, e la maggior parte della prole che nacque dall'unione di elfi e umani rimase, tuttavia erano troppo pochi come numero.  I rimanenti peregrinarono a est di Cormanthor.  Quelli che rimasero tendettero a essere in primo luogo indipendenti di natura, e senza la forza di una guida che sapesse tenerli uniti, essi si persero di vista.  Alcuni girarono il mondo, altri si spostarono in città, e altri semplicemente stettero per conto loro.
+Rimasero solo pochi elfi purosangue, e la maggior parte della prole venuta da un'unione tra elfi e uomini, sebbene anche loro fossero pochi di numero. Il resto si diresse a est fino a Cormanthor. Coloro che rimasero tendevano già ad essere di natura indipendente, e senza alcuna forza guida che li tenesse uniti, ognuno andò presto per la sua strada. Alcuni hanno viaggiato per il mondo, altri si sono trasferiti in città e altri semplicemente sono rimasti per conto proprio.
 
-Indi era una di quelli che erano stata morsa dallo spirito vagabondo, e in Scornubel lei trovò un gruppo di mercenari con idee simili i quali si vendevano come cercatori di antichi artefatti.  E' stato con questo gruppo che Indi viaggiò verso la Sword Coast e insieme a loro rimase fino al disastroso agguato in Firewine Ruins per mano dei coboldi.~
-@27   = ~Corpetto di maglia di Indi~
-@28   = ~Questo in apparenza è un leggero corpetto di maglia forgiato più o meno allo stesso modo di una normale cotta di maglia.  La sua manifattura è di eccellente qualità, e gli permette molta più flessibilità di quanta te ne possa aspettare.  Mentre lo indossa, Indira, o qualsiasi altro mago, può lanciare incantesimi liberamente.
+Indi è stata una di quelle che è stata morsa dalla voglia di viaggiare, e a Scornubel ha trovato un gruppo di mercenari con le stesse idee che si sono autoproclamati cercatori di antichi manufatti. Fu con questo gruppo che Indi viaggiò verso la Costa della Spada e insieme rimasero fino alla disastrosa imboscata alle Rovine di Firewine per mano dei coboldi.~
+@27   = ~Corpetto di Maglia di Indi~
+@28   = ~Questo è in apparenza un leggero corpetto di maglia forgiato più o meno allo stesso modo di una normale cotta di maglia. La sua lavorazione artigianale è di ottima qualità e consente una flessibilità maggiore di quanto ci si aspetterebbe. Mentre lo indossa, Indira, o qualsiasi altro mago, può lanciare incantesimi senza impedimenti.
 
 STATISTICHE:
 
 Classe Armatura: 7
 Peso: 20
-Non Usabile Da:
+Non Utilizzabile Da:
  Druido~
