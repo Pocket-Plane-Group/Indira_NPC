@@ -1,7 +1,7 @@
 BACKUP ~IndiNPC/Backup~
 //AUTHOR ~ghreyfain@pocketplane.net~
 SUPPORT ~https://forums.pocketplane.net/index.php?topic=16098.0~
-VERSION ~v14~
+VERSION ~v14.1~
 README ~IndiNPC/Docs/indi_readme.html~
 
 AUTO_TRA ~IndiNPC/Tra/autotra/%s~
@@ -213,7 +213,7 @@ ACTION_IF GAME_IS ~eet~ BEGIN
 		STR_VAR
 			dv = "J#Indi"
 			override_BG1 = "J#Indi"
-			traFile = EVAL "EET/lang/%lng%/compatibility.tra"
+			traFile = EVAL "IndiNPC/Tra/autotra/%s/game.tra"
 			string = "@5000000"
 	END
 END
