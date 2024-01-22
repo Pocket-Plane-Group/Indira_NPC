@@ -1,6 +1,4 @@
-<!-- saved from url=(0022)http://internet.e-mail -->
 <HTML>
-
 <HEAD>
     <TITLE>Indira NPC for BG1</TITLE>
     <STYLE>
