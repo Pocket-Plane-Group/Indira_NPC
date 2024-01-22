@@ -1,334 +1,282 @@
+<!-- saved from url=(0022)http://internet.e-mail -->
 <HTML>
-<HEAD>
-    <TITLE>Indira NPC for BG1</TITLE>
-    <STYLE>
-        <!--
-        BODY {
-            color: #FFFFFF;
-        }
-
-        A:link {
-            color: #0000CC;
-            text-decoration: none;
-            font-weight: bold;
-            font-family: Verdana;
-        }
-
-        A:visited {
-            color: #0000CC;
-            text-decoration: none;
-            font-weight: bold;
-            font-family: Verdana;
-        }
-
-        A:hover {
-            color: #000099;
-            text-decoration: underline;
-            font-weight: bold;
-            font-family: Verdana;
-        }
-
-        DIV.a {
-            font-family: Verdana;
-            font-size: 0.8em;
-            color: #000000;
-        }
-
-        TD {
-            font-family: Verdana;
-            font-size: 0.8em;
-            color: #000000;
-        }
-
-        SPAN {
-            color: #FFFFFF;
-        }
-        -->
-    </STYLE>
+<HEAD><TITLE>Indira NPC for BG1</TITLE>
+<STYLE>
+<!--
+BODY { color: #FFFFFF; }
+A:link { color: #0000CC; 
+	text-decoration: none;
+	font-weight: bold;                
+	font-family: Verdana; }
+A:visited { color: #0000CC;
+	text-decoration: none;
+	font-weight: bold;  
+         font-family: Verdana; }
+A:hover { color: #000099;
+	text-decoration: underline;
+	font-weight: bold;
+         font-family: Verdana; }
+DIV.a {   font-family: Verdana;
+	font-size: 0.8em; 
+	color: #000000; }
+TD {   font-family: Verdana;
+	font-size: 0.8em; 
+	color: #000000; }
+SPAN { color: #FFFFFF; }
+-->
+</STYLE>
 </HEAD>
 
 <body>
 
-    <div CLASS="a">
-        <center><b>
-                <font SIZE="150em">The Indira NPC for BG1</font>
-            </b><br>
-            Get it at the <a HREF="https://www.pocketplane.net/" TARGET="_blank">Pocket Plane Group</a><br>
-            <b>A mod for Baldur's Gate (Tutu, BGT, BG:EE, EET)<br>
-                Version 15<br></b>
-            <p>Developed by: <a HREF="mailto:ghreyfain@pocketplane.net">Ghreyfain</a>
-            <p>The Tutu forums: <a HREF="http://forums.pocketplane.net/index.php?board=46.0" TARGET="_blank&quot;">http://forums.pocketplane.net/index.php?board=46.0</a><br>
-                The Indira Homepage: <a HREF="https://www.pocketplane.net/bg1tutu-enhancements/" TARGET="_blank">http://www.pocketplane.net/indira</a>
-        </center><br CLEAR="ALL">
-        <a NAME="top">
-            <p>&nbsp;
-    </div>
-    <div CLASS="a">
-        <b>TABLE OF CONTENTS</b>
-        <p>&nbsp;
-        <ol>
-            <li TYPE="I"></a><a HREF="#general">General Overview</a>
-            <li TYPE="I"><a HREF="#install">Installation</a>
-            <li TYPE="I"><a HREF="#uninstall">Uninstallation</a>
-            <li TYPE="I"><a HREF="#spoilers">Spoilers</a>
-            <li TYPE="I"><a HREF="#legal">Legal Matters</a>
-            <li TYPE="I"><a HREF="#credit">Credits & Cast</a>
-            <li TYPE="I"><a HREF="#version">Version History</a>
-        </ol>
-        <p><br CLEAR="ALL">
-            <b>I. <a NAME="general">GENERAL OVERVIEW</a></b><a NAME="general"></a>
-        <p>The One-Day NPC concept was originally conceived by Jason Compton of PPG, who I believe was just feeling left
-            out since he couldn't participate in any of the Iron Modder competitions (what with being the Insane Overlord for
-            the competition and all). The basic idea is that you make an NPC as complete as possible within a 24 hour time-span.
-            I took this idea and proceeded to make a complete and total mockery of it, and present to you: Indira. It took about
-            four months to make, mainly because I procrastinated as only I can.
-        <p>
-            Due to some coding issues, I was unable to make her compatible with BG1 sans Tutu, and so converted her to a Tutu-compatible format.
-        <p>
-            Indira is a half-elven, lawful good fighter/mage from an area just east of the Baldur's Gate region. She
-            has banters with all BG1 NPCs except Branwen, Coran, Ajantis, Faldorn, and Skie, for a grand total of 20... I think.
-            Check the <a href="#spoilers">spoilers</a> section for more info on where to find her, and what she comes equipped with.
-        <p>
-        <p>
-            Version 13 comes with an optional component that adds interjections of Indira to some game characters' dialogue. This is content that already was in the mod but was never added to the game. It is available now in the hope that this is the author's intend. THe component is flagged BETA because it was not tested yet.
+<div CLASS="a">
+  <center><b><font SIZE="150em">The Indira NPC for BG1</font></b><br>
+  Get it at the <a HREF="https://www.pocketplane.net/" TARGET="_blank">Pocket Plane Group</a><br>
+  <b>A mod for Baldur's Gate (Tutu, BGT, BG:EE, EET)<br>
+  Version 15<br></b>
+  <p>Developed by: <a HREF="mailto:ghreyfain@pocketplane.net">Ghreyfain</a>
+  <p>The Tutu forums: <a HREF="http://forums.pocketplane.net/index.php?board=46.0" TARGET="_blank&quot;">http://forums.pocketplane.net/index.php?board=46.0</a><br>
+  The Indira Homepage: <a HREF="https://www.pocketplane.net/bg1tutu-enhancements/" TARGET="_blank">http://www.pocketplane.net/indira</a></center><br CLEAR="ALL">
+  <a NAME="top">
+  <p>&nbsp;
+  </div>
+  <div CLASS="a">
+    <b>TABLE OF CONTENTS</b>
+    <p>&nbsp;
+    <ol>
+      <li TYPE="I"></a><a HREF="#general">General Overview</a>
+      <li TYPE="I"><a HREF="#install">Installation</a>
+      <li TYPE="I"><a HREF="#uninstall">Uninstallation</a>
+      <li TYPE="I"><a HREF="#spoilers">Spoilers</a>
+      <li TYPE="I"><a HREF="#legal">Legal Matters</a>
+      <li TYPE="I"><a HREF="#credit">Credits & Cast</a>
+      <li TYPE="I"><a HREF="#version">Version History</a>
+    </ol>
+  <p><br CLEAR="ALL">
+  <b>I. <a NAME="general">GENERAL OVERVIEW</a></b><a NAME="general"></a>
+  <p>The One-Day NPC concept was originally conceived by Jason Compton of PPG, who I believe was just feeling left
+out since he couldn't participate in any of the Iron Modder competitions (what with being the Insane Overlord for
+the competition and all).  The basic idea is that you make an NPC as complete as possible within a 24 hour time-span.
+I took this idea and proceeded to make a complete and total mockery of it, and present to you: Indira.  It took about
+four months to make, mainly because I procrastinated as only I can.
+<p>
+Due to some coding issues, I was unable to make her compatible with BG1 sans Tutu, and so converted her to a Tutu-compatible format.
+<p>
+Indira is a half-elven, lawful good fighter/mage from an area just east of the Baldur's Gate region.  She 
+has banters with all BG1 NPCs except Branwen, Coran, Ajantis, Faldorn, and Skie, for a grand total of 20... I think.
+Check the <a href="#spoilers">spoilers</a> section for more info on where to find her, and what she comes equipped with.
+<p><p>
+Version 13 comes with an optional component that adds interjections of Indira to some game characters' dialogue. This is content that already was in the mod but was never added to the game. It is available now in the hope that this is the author's intend. THe component is flagged BETA because it was not tested yet.
 
-        <p><a NAME="install"><b>II. INSTALLATION</b></a>
-        <ol>
-            <li TYPE="i">Run the file "IndiraNPC_V9.exe". From there, it should automatically determine the location of your Tutu install.
-            <li TYPE="i">If your Tutu path is different from what's displayed, change it manually, then continue with the installation.
-        </ol>
-        <p>Though this mod is made using the WeiDU standard, and *should* be
-            compatible with all other WeiDU-based mods, there is always the possibility
-            for conflicts.&nbsp; We suggest you install this mod AFTER the official
-            patches, Baldurdash, and .tlk-based mods.&nbsp;
-            If you encounter any problems installing the mod, please send the file SETUP-INDINPC.DEBUG
-            to </a><a HREF="mailto:ghreyfain@pocketplane.net">ghreyfain@pocketplane.net</a>.
-        <p><a HREF="#top">Back to top</a>
-        <p><a NAME="uninstall"><b>III. UNINSTALLATION</b></a>
-        <p>Uninstalling is simple. Double-click the setup-indiNPC.exe file and enter the
-            given commands for Uninstallation.<br>
-            Afterwards, you may delete the following files:
-        <ul>
-            <li>setup-indiNPC.exe
-            <li>The &quot;IndiNPC&quot; subfolder
-        </ul>
-        <p></a><a HREF="#top">Back to top</a>
-        <p><a NAME="spoilers"><b>IV. SPOILERS</b></a>
-        <p>Q: Where can I find Indira?<br>
-            A: She is in the Firewine Ruins, near the entrance from the halfling inn.
-        <p>Q: What equipment/spells does Indira come with?<br>
-            A: She comes with a small array of low level spells, a broken weapon, a custom-fitted
-            chain shirt that allows for spell-casting, and a few scavenged kobold arrows for her bow.
-            She's in a sorry state, that's for sure.
-        <p><a HREF="#top">Back to top</a>
-        <p><b><a NAME="legal">V. LEGAL MATTERS</a></b><a NAME="legal"></a>
-        <p>The Indira NPC for BG1Tutu is copyright © 2004-2005 by Jesse Meyers (aka
-            Ghreyfain)
-        <p>BALDUR'S GATE I, BALDUR'S GATE I: TALES OF THE SWORD COAST: ©
-            1998, 1999 Bioware Corp. All Rights Reserved.
-        <p>BALDUR'S GATE II: SHADOWS OF AMN, BALDUR'S GATE II: THRONE OF BHAAL: ©
-            2000, 2001 Bioware Corp. All Rights Reserved.
-        <p>The Indira NPC for BG1Tutu is not developed, supported, or endorsed by BioWare or
-            Interplay/Black Isle.<br>
-            All images and contents of this mod are copyright BioWare, Interplay/Black
-            Isle or Wizards of the Coast.
-        <p>REDISTRIBUTION NOTE: Indira was created to be freely enjoyed
-            by all Baldur's Gate gamers. This mod, however,
-            may not be sold, published, compiled or redistributed in any form without the
-            consent of its author.</a>
-        <p><a HREF="#top">Back to top</a>
-        <p><a NAME="credit"><b>VI. CREDITS & CAST</b></a>
-        <p>The creation of Indira was a not particularly rigorous and not terribly gruelling ordeal of constant slacking
-            and procrastination. It would not have been possible without the (hard?) work of the following people:
-        <blockquote>
-            <table WIDTH="50%">
-                <tr>
-                    <td>Bons</td>
-                    <td>Best Boy & Special Effects</td>
-                </tr>
-                <tr>
-                    <td>Coland</td>
-                    <td>Italian translator</td>
-                </tr>
-                <tr>
-                    <td>Egrevyn</td>
-                    <td>French translator</td>
-                </tr>
-                <tr>
-                    <td>Elgaern</td>
-                    <td>French translator</td>
-                </tr>
-                <tr>
-                    <td>Erg</td>
-                    <td>BG:EE compatibility</td>
-                </tr>
-                <tr>
-                    <td>Isaya</td>
-                    <td>French translator</td>
-                </tr>
-                <tr>
-                    <td>Stoplight Red</td>
-                    <td>as Indira</td>
-                </tr>
-                <tr>
-                    <td>tipun</td>
-                    <td>EET compatibility, bugfixes</td>
-                </tr>
-                <tr>
-                    <td>yota13</td>
-                    <td>Russian translator</td>
-                </tr>
-                <tr>
-                    <td>Kish</td>
-                    <td>Sarcastic Nagger #1</td>
-                </tr>
-                <tr>
-                    <td>Icelus</td>
-                    <td>Sarcastic Nagger #2</td>
-                </tr>
-                <tr>
-                    <td>Corvis</td>
-                    <td>Gaffer</td>
-                </tr>
-                <tr>
-                    <td>Alarielle</td>
-                    <td>Boom Mic Operator</td>
-                </tr>
-                <tr>
-                    <td>Ghreyfain</td>
-                    <td>Everything Else</td>
-                </tr>
-            </table>
-        </blockquote>
-        <p><a HREF="#top">Back to top</a>
-        <p><b><a NAME="version">VII. VERSION HISTORY</a></b>
-        <table>
-            <tr>
-                <td>Version 1</td>
-                <td>- Initial Release</td>
-            </tr>
-            <tr>
-                <td>Version 2</td>
-                <td>- Fixed a bug with Minsc and Indira's banter</td>
-            </tr>
-            <tr>
-                <td>Version 3</td>
-                <td>- Indira should spawn properly. Also, Styphelus rocks.</td>
-            </tr>
-            <tr>
-                <td>Version 4</td>
-                <td>- Indira should spawn properly for real. Seriously.</td>
-            </tr>
-            <tr>
-                <td>Version 5</td>
-                <td>- French translation by Elgaern and Egrevyn from the d'Oghmatiques added.</td>
-            </tr>
-            <tr>
-                <td>Version 6</td>
-                <td>- Mur'Neth/Indira banter added, with audio.</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td>- NSIS installer implemented.</td>
-            </tr>
-            <tr>
-                <td>Version 7</td>
-                <td>- Polish translation by Damian Staniszewski added.</td>
-            </tr>
-            <tr>
-                <td>Version 8</td>
-                <td>- Finch and Indira banter code added.</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td>- Indira now has an override script (j#indi.bcs).</td>
-            </tr>
-            <tr>
-                <td>Version 9</td>
-                <td>- French translation bug fixed.</td>
-            </tr>
-            <tr>
-                <td>Version 10</td>
-                <td>- Italian translation by Andariel added.</td>
-            </tr>
-            <tr>
-                <td>Version 11</td>
-                <td>- Spanish translation by Clan DLAN added.</td>
-            </tr>
-            <tr>
-                <td>Version 12, by Erg</td>
-                <td>- BG:EE and BGT compatibility added.</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td>- German translation by Leonardo Watson added.</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td>- French translation improved by Isaya.</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td>- Russian translation added.</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td>- Replaced AT_INTERACTIVE_EXIT with the more up to date README as command to display the ReadMe (suggested by Isaya).</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td>- Removed Backup folder (obsolete practice).</td>
-            </tr>
-            <tr>
-                <td>Version 13, by tipun and jastey</td>
-                <td>- EET compatibility added.</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td>- Russian translation completed and improved by yota13.</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td>- Banter triggers are more stable (banter should only start if both NPCs are in the group and can talk).</td>
-            </tr>
-            <td>Version 13.1</td>
-            <td>- Fixed Tutu install error.</td>
-            </tr>
-            <td>Version 14</td>
-            <td>- Revised Italian Version by Coland.</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td>- Full Russian translation will be used for EE games, too.</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td>- Fixed EET install error (EET v13.x).</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td>- added globally unique LABEL to support Project Infinity.</td>
-            </tr>
-            </tr>
-            <td>Version 15</td>
-            <td>- Russian translation completed (missing Russian files for EE added), by Balabokhin.</td>
-            </tr>
-            <td>Version 15.1</td>
-            <td>- fixed malformed data in IndiNPC.ini</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td>- remove 'setup-' prefix from tp2</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td>- Update Infinity Auto Packager</td>
-            </tr>
-            <tr>
-        </table>
-        </blockquote>
-        <p><a HREF="#top">Back to top</a>
-    </div>
+  <p><a NAME="install"><b>II. INSTALLATION</b></a>
+  <ol>
+    <li TYPE="i">Run the file "IndiraNPC_V9.exe".  From there, it should automatically determine the location of your Tutu install.
+    <li TYPE="i">If your Tutu path is different from what's displayed, change it manually, then continue with the installation.
+  </ol>
+  <p>Though this mod is made using the WeiDU standard, and *should* be
+  compatible with all other WeiDU-based mods, there is always the possibility
+  for conflicts.&nbsp; We suggest you install this mod AFTER the official
+  patches, Baldurdash, and .tlk-based mods.&nbsp;
+  If you encounter any problems installing the mod, please send the file SETUP-INDINPC.DEBUG
+  to </a><a HREF="mailto:ghreyfain@pocketplane.net">ghreyfain@pocketplane.net</a>.
+  <p><a HREF="#top">Back to top</a>
+  <p><a NAME="uninstall"><b>III. UNINSTALLATION</b></a>
+  <p>Uninstalling is simple. Double-click the setup-indiNPC.exe file and enter the
+  given commands for Uninstallation.<br>
+  Afterwards, you may delete the following files:
+  <ul>
+    <li>setup-indiNPC.exe
+    <li>The &quot;IndiNPC&quot; subfolder
+  </ul>
+  <p></a><a HREF="#top">Back to top</a>
+  <p><a NAME="spoilers"><b>IV. SPOILERS</b></a>
+  <p>Q: Where can I find Indira?<br>
+  A: She is in the Firewine Ruins, near the entrance from the halfling inn.
+  <p>Q: What equipment/spells does Indira come with?<br>
+  A: She comes with a small array of low level spells, a broken weapon, a custom-fitted
+chain shirt that allows for spell-casting, and a few scavenged kobold arrows for her bow.
+She's in a sorry state, that's for sure.
+  <p><a HREF="#top">Back to top</a>
+  <p><b><a NAME="legal">V. LEGAL MATTERS</a></b><a NAME="legal"></a>
+  <p>The Indira NPC for BG1Tutu is copyright © 2004-2005 by Jesse Meyers (aka
+  Ghreyfain)
+  <p>BALDUR'S GATE I, BALDUR'S GATE I: TALES OF THE SWORD COAST: ©
+  1998, 1999 Bioware Corp. All Rights Reserved.
+  <p>BALDUR'S GATE II: SHADOWS OF AMN, BALDUR'S GATE II: THRONE OF BHAAL: ©
+  2000, 2001 Bioware Corp. All Rights Reserved.
+  <p>The Indira NPC for BG1Tutu is not developed, supported, or endorsed by BioWare or
+  Interplay/Black Isle.<br>
+  All images and contents of this mod are copyright BioWare, Interplay/Black
+  Isle or Wizards of the Coast.
+  <p>REDISTRIBUTION NOTE: Indira was created to be freely enjoyed
+  by all Baldur's Gate gamers. This mod, however,
+  may not be sold, published, compiled or redistributed in any form without the
+  consent of its author.</a>
+  <p><a HREF="#top">Back to top</a>
+  <p><a NAME="credit"><b>VI. CREDITS & CAST</b></a>
+  <p>The creation of Indira was a not particularly rigorous and not terribly gruelling ordeal of constant slacking
+and procrastination.  It would not have been possible without the (hard?) work of the following people:
+<blockquote>
+    <table WIDTH="50%">
+      <tr>
+	<td>Bons</td>
+	<td>Best Boy & Special Effects</td>
+      </tr>
+      <tr>
+	<td>Coland</td>
+	<td>Italian translator</td>
+      </tr>
+      <tr>
+	<td>Egrevyn</td>
+	<td>French translator</td>
+      </tr>
+      <tr>
+	<td>Elgaern</td>
+	<td>French translator</td>
+      </tr>
+      <tr>
+	<td>Erg</td>
+	<td>BG:EE compatibility</td>
+      </tr>
+      <tr>
+	<td>Isaya</td>
+	<td>French translator</td>
+      </tr>
+      <tr>
+	<td>Stoplight Red</td>
+	<td>as Indira</td>
+      </tr>
+      <tr>
+	<td>tipun</td>
+	<td>EET compatibility, bugfixes</td>
+      </tr>
+      <tr>
+	<td>yota13</td>
+	<td>Russian translator</td>
+      </tr>
+      <tr>
+	<td>Kish</td>
+	<td>Sarcastic Nagger #1</td>
+      </tr>
+      <tr>
+	<td>Icelus</td>
+	<td>Sarcastic Nagger #2</td>
+      </tr>
+      <tr>
+	<td>Corvis</td>
+	<td>Gaffer</td>
+      </tr>
+      <tr>
+	<td>Alarielle</td>
+	<td>Boom Mic Operator</td>
+      </tr>
+      <tr>
+	<td>Ghreyfain</td>
+	<td>Everything Else</td>
+      </tr>
+    </table>
+  </blockquote>
+  <p><a HREF="#top">Back to top</a>
+  <p><b><a NAME="version">VII. VERSION HISTORY</a></b>
+    <table>
+      <tr>
+	<td>Version 1</td><td>- Initial Release</td>
+      </tr>
+      <tr>
+	<td>Version 2</td><td>- Fixed a bug with Minsc and Indira's banter</td>
+      </tr>
+      <tr>
+	<td>Version 3</td><td>- Indira should spawn properly.  Also, Styphelus rocks.</td>
+      </tr>
+      <tr>
+	<td>Version 4</td><td>- Indira should spawn properly for real.  Seriously.</td>
+      </tr>
+      <tr>
+	<td>Version 5</td><td>- French translation by Elgaern and Egrevyn from the d'Oghmatiques added.</td>
+      </tr>
+      <tr>
+	<td>Version 6</td><td>- Mur'Neth/Indira banter added, with audio.</td>
+      </tr>
+      <tr>
+	<td></td><td>- NSIS installer implemented.</td>
+      </tr>
+      <tr>
+	<td>Version 7</td><td>- Polish translation by Damian Staniszewski added.</td>
+      </tr>
+      <tr>
+	<td>Version 8</td><td>- Finch and Indira banter code added.</td>
+      </tr>
+      <tr>
+	<td></td><td>- Indira now has an override script (j#indi.bcs).</td>
+      </tr> 
+      <tr>
+	<td>Version 9</td><td>- French translation bug fixed.</td>
+      </tr> 
+      <tr>
+	<td>Version 10</td><td>- Italian translation by Andariel added.</td>
+      </tr>
+      <tr>
+	<td>Version 11</td><td>- Spanish translation by Clan DLAN added.</td>
+      </tr>
+      <tr>
+	<td>Version 12, by Erg</td><td>- BG:EE and BGT compatibility added.</td>
+      </tr>
+      <tr>
+	<td></td><td>- German translation by Leonardo Watson added.</td>
+      </tr>
+      <tr>
+	<td></td><td>- French translation improved by Isaya.</td>
+      </tr>
+      <tr>
+	<td></td><td>- Russian translation added.</td>
+      </tr>
+      <tr>
+	<td></td><td>- Replaced AT_INTERACTIVE_EXIT with the more up to date README as command to display the ReadMe (suggested by Isaya).</td>
+      </tr>
+      <tr>
+	<td></td><td>- Removed Backup folder (obsolete practice).</td>
+      </tr>
+      <tr>
+	<td>Version 13, by tipun and jastey</td><td>- EET compatibility added.</td>
+      </tr>
+      <tr>
+	<td></td><td>- Russian translation completed and improved by yota13.</td>
+      </tr>
+      <tr>
+	<td></td><td>- Banter triggers are more stable (banter should only start if both NPCs are in the group and can talk).</td>
+      </tr>
+	<td>Version 13.1</td><td>- Fixed Tutu install error.</td>
+      </tr>
+	<td>Version 14</td><td>- Revised Italian Version by Coland.</td>
+      </tr>
+      <tr>
+	<td></td><td>- Full Russian translation will be used for EE games, too.</td>
+      </tr>
+      <tr>
+	<td></td><td>- Fixed EET install error (EET v13.x).</td>
+      </tr>
+      <tr>
+	<td></td><td>- added globally unique LABEL to support Project Infinity.</td>
+      </tr>
+      </tr>
+	<td>Version 15</td><td>- Russian translation completed (missing Russian files for EE added), by Balabokhin.</td>
+      </tr>
+    <td>Version 15.1</td>
+    <td>- fixed malformed data in IndiNPC.ini</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>- remove 'setup-' prefix from tp2</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>- Update Infinity Auto Packager</td>
+    </tr>
+    <tr>
+    </table>
+  </blockquote>
+  <p><a HREF="#top">Back to top</a>
+</div>
 
 </body>
 
