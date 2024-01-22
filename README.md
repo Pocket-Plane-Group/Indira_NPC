@@ -46,9 +46,7 @@
         -->
     </STYLE>
 </HEAD>
-
 <body>
-
     <div CLASS="a">
         <center><b>
                 <font SIZE="150em">The Indira NPC for BG1</font>
