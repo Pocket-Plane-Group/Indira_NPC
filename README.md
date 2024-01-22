@@ -46,7 +46,9 @@
         -->
     </STYLE>
 </HEAD>
+
 <body>
+
     <div CLASS="a">
         <center><b>
                 <font SIZE="150em">The Indira NPC for BG1</font>
@@ -120,11 +122,11 @@
             She's in a sorry state, that's for sure.
         <p><a HREF="#top">Back to top</a>
         <p><b><a NAME="legal">V. LEGAL MATTERS</a></b><a NAME="legal"></a>
-        <p>The Indira NPC for BG1Tutu is copyright � 2004-2005 by Jesse Meyers (aka
+        <p>The Indira NPC for BG1Tutu is copyright © 2004-2005 by Jesse Meyers (aka
             Ghreyfain)
-        <p>BALDUR'S GATE I, BALDUR'S GATE I: TALES OF THE SWORD COAST: �
+        <p>BALDUR'S GATE I, BALDUR'S GATE I: TALES OF THE SWORD COAST: ©
             1998, 1999 Bioware Corp. All Rights Reserved.
-        <p>BALDUR'S GATE II: SHADOWS OF AMN, BALDUR'S GATE II: THRONE OF BHAAL: �
+        <p>BALDUR'S GATE II: SHADOWS OF AMN, BALDUR'S GATE II: THRONE OF BHAAL: ©
             2000, 2001 Bioware Corp. All Rights Reserved.
         <p>The Indira NPC for BG1Tutu is not developed, supported, or endorsed by BioWare or
             Interplay/Black Isle.<br>
