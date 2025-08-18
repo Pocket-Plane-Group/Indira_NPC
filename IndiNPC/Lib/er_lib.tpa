@@ -102,7 +102,7 @@ ACTION_IF GAME_IS ~tutu tutu_totsc~ THEN BEGIN
   OUTER_SPRINT er_FirewineRuins ~FW5201~
   OUTER_SPRINT er_5201 ~_AR5201~
   OUTER_SPRINT eet_var ~~
-END 
+END
 ACTION_IF GAME_IS ~bgee~ THEN BEGIN
     OUTER_SPRINT er_port ~BGEE~
     OUTER_SPRINT er_bdynah ~BDYNAH~
@@ -220,7 +220,7 @@ DEFINE_ACTION_FUNCTION autotra_workaround BEGIN
 END
 
 // Convert items on Indira inventory (from BG:EE/BGT to Tutu names)
-DEFINE_PATCH_MACRO ~ER_PATCH_ITEMS_ON_INDIRA~ 
+DEFINE_PATCH_MACRO ~ER_PATCH_ITEMS_ON_INDIRA~
 BEGIN
   PATCH_IF GAME_IS ~tutu tutu_totsc~ BEGIN
     READ_LONG 0x2bc er_ioff

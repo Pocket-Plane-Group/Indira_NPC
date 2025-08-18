@@ -1,38 +1,38 @@
 // -*- coding: cp1252 -*-
 
 @1    = ~Indira~
-@2    = ~¡Fuera! ¡No me llevaréis sin pelear!~ [J#indi01]
-@3    = ~¡Ah! ¡Esto es demasiado! Lo... Lo siento, ¡tengo que irme!~ [J#indi02]
-@4    = ~¡Esto es perfecto! ¡Apuesto a que podríamos contratar un bardo para que escribiera nuestras historias!~ [J#indi03]
-@5    = ~No entiendo por qué estáis haciendo esto. No está bien.~ [J#indi04]
-@6    = ~¡Nunca quise que esto sucediera! ¡Todo está saliendo mal!~ [J#indi05]
-@7    = ~¡Basta ya! Yo... no puedo seguir. Lo siento.~ [J#indi06]
-@8    = ~Um, ¿estáis seguro de que me queréis al frente? Digo, ah, ¡tengo una espada pero soy débil y tal!~ [J#indi07] ~Um, ¿estáis segura de que me queréis al frente? Digo, ah, ¡tengo una espada pero soy débil y tal!~ [J#indi07]
-@9    = ~¿Podemos detenernos? Mis piernas se sienten como si estuvieran quemándose y mi espada ya me PE-SA.~ [J#indi08]
-@10   = ~¿No hay algo más que pudiéramos estar haciendo? Como... ¿algo? ¿Tal vez? ¿Por favor?~ [J#indi09]
-@11   = ~¡Tomad ya, villanos! ¡Jajaja!~ [J#indi10]
+@2    = ~ï¿½Fuera! ï¿½No me llevarï¿½is sin pelear!~ [J#indi01]
+@3    = ~ï¿½Ah! ï¿½Esto es demasiado! Lo... Lo siento, ï¿½tengo que irme!~ [J#indi02]
+@4    = ~ï¿½Esto es perfecto! ï¿½Apuesto a que podrï¿½amos contratar un bardo para que escribiera nuestras historias!~ [J#indi03]
+@5    = ~No entiendo por quï¿½ estï¿½is haciendo esto. No estï¿½ bien.~ [J#indi04]
+@6    = ~ï¿½Nunca quise que esto sucediera! ï¿½Todo estï¿½ saliendo mal!~ [J#indi05]
+@7    = ~ï¿½Basta ya! Yo... no puedo seguir. Lo siento.~ [J#indi06]
+@8    = ~Um, ï¿½estï¿½is seguro de que me querï¿½is al frente? Digo, ah, ï¿½tengo una espada pero soy dï¿½bil y tal!~ [J#indi07] ~Um, ï¿½estï¿½is segura de que me querï¿½is al frente? Digo, ah, ï¿½tengo una espada pero soy dï¿½bil y tal!~ [J#indi07]
+@9    = ~ï¿½Podemos detenernos? Mis piernas se sienten como si estuvieran quemï¿½ndose y mi espada ya me PE-SA.~ [J#indi08]
+@10   = ~ï¿½No hay algo mï¿½s que pudiï¿½ramos estar haciendo? Como... ï¿½algo? ï¿½Tal vez? ï¿½Por favor?~ [J#indi09]
+@11   = ~ï¿½Tomad ya, villanos! ï¿½Jajaja!~ [J#indi10]
 
-@14   = ~¡Curación! ¡Rápido! ¡Por favor!~ [J#indi13]
-@15   = ~Sabéis, mi casa era casi como esto. Algo así. Sólo que no tanto.~ [J#indi14]
-@16   = ~Sabéis, oí que los enanos viven en estos lugares. ¿Es verdad?~ [J#indi15]
-@17   = ~Sabéis, de verdad que me gusta la ciudad. Qué mal lo del olor, la verdad.~ [J#indi16]
-@18   = ~Sabéis, me encanta el brillo del sol. La lluvia también. Y la nieve, supongo.~ [J#indi17]
-@19   = ~Sabéis, si no fuera tan valiente, estaría un poco asustada ahora. ¡Pero no lo estoy! No señoooor. Yo no. Nope.~ [J#indi18]
-@20   = ~¡Estoy lista!~ [J#indi19]
-@21   = ~¿Quién, yo?~ [J#indi20]
-@22   = ~¡Lista para partir!~ [J#indi21]
-@23   = ~¡Hora de ponerse en marcha!~ [J#indi22]
-@24   = ~¡Sí!~ [J#indi23]
-@25   = ~¡Eso mismo!~ [J#indi24]
-@26   = ~Cuando le preguntáis por su pasado, INDIRA os dice en un tono un poco desafiante, que se crió en una villa elfa muy pequeña al este de Scornubel. Esta proximidad con los humanos dividía a los elfos de la comunidad, y luego de muchas discusiones, se decidió que la villa entera se marcharía.
+@14   = ~ï¿½Curaciï¿½n! ï¿½Rï¿½pido! ï¿½Por favor!~ [J#indi13]
+@15   = ~Sabï¿½is, mi casa era casi como esto. Algo asï¿½. Sï¿½lo que no tanto.~ [J#indi14]
+@16   = ~Sabï¿½is, oï¿½ que los enanos viven en estos lugares. ï¿½Es verdad?~ [J#indi15]
+@17   = ~Sabï¿½is, de verdad que me gusta la ciudad. Quï¿½ mal lo del olor, la verdad.~ [J#indi16]
+@18   = ~Sabï¿½is, me encanta el brillo del sol. La lluvia tambiï¿½n. Y la nieve, supongo.~ [J#indi17]
+@19   = ~Sabï¿½is, si no fuera tan valiente, estarï¿½a un poco asustada ahora. ï¿½Pero no lo estoy! No seï¿½oooor. Yo no. Nope.~ [J#indi18]
+@20   = ~ï¿½Estoy lista!~ [J#indi19]
+@21   = ~ï¿½Quiï¿½n, yo?~ [J#indi20]
+@22   = ~ï¿½Lista para partir!~ [J#indi21]
+@23   = ~ï¿½Hora de ponerse en marcha!~ [J#indi22]
+@24   = ~ï¿½Sï¿½!~ [J#indi23]
+@25   = ~ï¿½Eso mismo!~ [J#indi24]
+@26   = ~Cuando le preguntï¿½is por su pasado, INDIRA os dice en un tono un poco desafiante, que se criï¿½ en una villa elfa muy pequeï¿½a al este de Scornubel. Esta proximidad con los humanos dividï¿½a a los elfos de la comunidad, y luego de muchas discusiones, se decidiï¿½ que la villa entera se marcharï¿½a.
 
-Muy pocos elfos puros y la mayoría de los medio-elfos, aunque también muy escasos en número, quedaron. El resto marchó a Cormanthor. Los que quedaron de por sí tienen una naturaleza independiente, y al no tener niguna fuerza que los uniese, se alejaron. Algunos viajaron por el mundo, otros se fueron a la ciudad, y otros simplemente se quedaron consigo mismos.
+Muy pocos elfos puros y la mayorï¿½a de los medio-elfos, aunque tambiï¿½n muy escasos en nï¿½mero, quedaron. El resto marchï¿½ a Cormanthor. Los que quedaron de por sï¿½ tienen una naturaleza independiente, y al no tener niguna fuerza que los uniese, se alejaron. Algunos viajaron por el mundo, otros se fueron a la ciudad, y otros simplemente se quedaron consigo mismos.
 
-A Indi le dió por salir por ahí, y en Scornubel encontró a un grupo de mercenarios que se alquilaban para buscar artefactos antiguos.  Fue con este grupo que Indi llegó a la Costa de la Espada y juntos permanecieron hasta la desastrosa emboscada en las Ruinas de Firewine a manos de un grupo de kobolds.~
+A Indi le diï¿½ por salir por ahï¿½, y en Scornubel encontrï¿½ a un grupo de mercenarios que se alquilaban para buscar artefactos antiguos. Fue con este grupo que Indi llegï¿½ a la Costa de la Espada y juntos permanecieron hasta la desastrosa emboscada en las Ruinas de Firewine a manos de un grupo de kobolds.~
 @27   = ~Chaleco de Cota de Malla de Indi~
-@28   = ~Este parece ser un chaleco de cota de malla creado de la misma forma que uno normal.  Es una pieza de gran calidad y más flexible de lo que se esperaría. Mientras se equipe, Indira, o cualquier otro mago puede lanzar hechizos.
+@28   = ~Este parece ser un chaleco de cota de malla creado de la misma forma que uno normal. Es una pieza de gran calidad y mï¿½s flexible de lo que se esperarï¿½a. Mientras se equipe, Indira, o cualquier otro mago puede lanzar hechizos.
 
-ESTADÍSTICAS:
+ESTADï¿½STICAS:
 
 Clase de Armadura: 7
 Peso: 20

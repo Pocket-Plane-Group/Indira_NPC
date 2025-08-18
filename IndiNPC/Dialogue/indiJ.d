@@ -3,7 +3,7 @@
 BEGIN J#IndiJ
 
 /* INTERJECT IDRYAD1 1 MinscDryad
-  == MINSCJ IF ~IsValidForPartyDialog("Minsc")~ THEN 
+  == MINSCJ IF ~IsValidForPartyDialog("Minsc")~ THEN
     ~Boo is outraged that the strange wizard would own these lovely ladies!
     Can Minsc and Boo help you nice girls?~
 END IDRYAD2 1 */

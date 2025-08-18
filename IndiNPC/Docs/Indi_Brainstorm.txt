@@ -237,7 +237,7 @@ Y: "HO-hohoho!  Many's the time I've been asked such a question by curious young
 I: "What?"
 Y: "Even we dwarves don't know whether dwarf women have beards!"
 
-Imoen - 
+Imoen -
 Im: "Hold still, Indira.  Your hair's come out of place again at the back."
 In: "Erf.  It has?  I guess it's stubborn stuff.  Like me, I guess.  It's always trying to escape."
 Im: "I know what you mean.  I would always just keep it pretty short at Candlekeep, but now it's been growing out since we left."
@@ -246,4 +246,4 @@ Im: "I tell ya what.  When <CHARNAME> calls the next rest, I'll do up your hair,
 In: "That'd be great!  I can't believe we didn't start this earlier!"
 
 Mur'Neth
-M: 
+M:

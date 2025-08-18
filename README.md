@@ -4,23 +4,23 @@
 <STYLE>
 <!--
 BODY { color: #FFFFFF; }
-A:link { color: #0000CC; 
+A:link { color: #0000CC;
 	text-decoration: none;
-	font-weight: bold;                
+	font-weight: bold;
 	font-family: Verdana; }
 A:visited { color: #0000CC;
 	text-decoration: none;
-	font-weight: bold;  
+	font-weight: bold;
          font-family: Verdana; }
 A:hover { color: #000099;
 	text-decoration: underline;
 	font-weight: bold;
          font-family: Verdana; }
 DIV.a {   font-family: Verdana;
-	font-size: 0.8em; 
+	font-size: 0.8em;
 	color: #000000; }
 TD {   font-family: Verdana;
-	font-size: 0.8em; 
+	font-size: 0.8em;
 	color: #000000; }
 SPAN { color: #FFFFFF; }
 -->
@@ -62,7 +62,7 @@ four months to make, mainly because I procrastinated as only I can.
 <p>
 Due to some coding issues, I was unable to make her compatible with BG1 sans Tutu, and so converted her to a Tutu-compatible format.
 <p>
-Indira is a half-elven, lawful good fighter/mage from an area just east of the Baldur's Gate region.  She 
+Indira is a half-elven, lawful good fighter/mage from an area just east of the Baldur's Gate region.  She
 has banters with all BG1 NPCs except Branwen, Coran, Ajantis, Faldorn, and Skie, for a grand total of 20... I think.
 Check the <a href="#spoilers">spoilers</a> section for more info on where to find her, and what she comes equipped with.
 <p><p>
@@ -208,10 +208,10 @@ and procrastination.  It would not have been possible without the (hard?) work o
       </tr>
       <tr>
 	<td></td><td>- Indira now has an override script (j#indi.bcs).</td>
-      </tr> 
+      </tr>
       <tr>
 	<td>Version 9</td><td>- French translation bug fixed.</td>
-      </tr> 
+      </tr>
       <tr>
 	<td>Version 10</td><td>- Italian translation by Andariel added.</td>
       </tr>

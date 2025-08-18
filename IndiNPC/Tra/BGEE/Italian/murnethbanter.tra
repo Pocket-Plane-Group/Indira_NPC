@@ -1,15 +1,15 @@
 // -*- coding: utf-8 -*-
 
 @0    = ~Pazzi, la pagherete per questa insolenza... Possa Ghaunadaur putrefarvi il cervello!~ [A#MI01]
-@1    = ~(<CHARNAME>?  Psst, <CHARNAME>!)~ [A#MI02]
+@1    = ~(<CHARNAME>? Psst, <CHARNAME>!)~ [A#MI02]
 @2    = ~Cosa c'è, Indira?~
 @3    = ~Non vedi che sono occupato adesso? Parlami più tardi~
 		~Non vedi che sono occupata adesso? Parlami più tardi~
 @4    = ~Lasciami stare, ragazza, e torna nei ranghi!~
 @5    = ~Oh. Giusto, mi dispiace. Scusami, <CHARNAME>.~ [j#indim2]
 @6    = ~Ma...! Io... Oh, va bene!~ [j#indim3]
-@7    = ~È a proposito di Mur'Neth.  Dunque, non voglio fare quella che si lamenta, ma lui ha proprio...~ [j#indim4]
-@8    = ~Lui ha *torto*.  Voglio dire, non posso essere stata in tutto il mondo, ma... ma gli *esseri* come lui non sono giusti.~
+@7    = ~È a proposito di Mur'Neth. Dunque, non voglio fare quella che si lamenta, ma lui ha proprio...~ [j#indim4]
+@8    = ~Lui ha *torto*. Voglio dire, non posso essere stata in tutto il mondo, ma... ma gli *esseri* come lui non sono giusti.~
 @9    = ~Dobbiamo lasciarlo venire con noi?~
 @10   = ~Solo perchè lui è diverso non vuol dire che tu lo debba odiare.~
 @11   = ~So cosa intendi dire, ma lui è troppo utile. Ho bisogno di lui, almeno ancora per un po' di tempo.~
