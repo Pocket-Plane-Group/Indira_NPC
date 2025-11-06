@@ -218,7 +218,7 @@ ACTION_IF GAME_IS ~eet~ BEGIN
 	END
 END
 
-BEGIN @2001 DESIGNATED 2001 /* ~Install Interjections for Indira (BETA)~ */
+BEGIN @2001 DESIGNATED 1 /* ~Install Interjections for Indira (BETA)~ */
 LABEL IndiraNPC-interjections
 REQUIRE_COMPONENT ~setup-indinpc.tp2~ 0 @2002 /* ~Indira NPC mod main component needs to be installed.~ */
 
