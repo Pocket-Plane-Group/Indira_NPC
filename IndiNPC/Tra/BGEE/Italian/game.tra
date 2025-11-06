@@ -2,14 +2,14 @@
 
 @1    = ~Indira~
 @2    = ~Via! Non mi prenderai senza combattere!~ [J#indi01]
-@3    = ~Ah! Questo è troppo!  So... Sono spiacente, devo andare!~ [J#indi02]
-@4    = ~Questo è proprio grande!  Scommetto che potremmo assumere un bardo per fargli srivere la nostre avventure!~ [J#indi03]
+@3    = ~Ah! Questo è troppo! So... Sono spiacente, devo andare!~ [J#indi02]
+@4    = ~Questo è proprio grande! Scommetto che potremmo assumere un bardo per fargli srivere la nostre avventure!~ [J#indi03]
 @5    = ~Non capisco proprio perchè lo dobbiamo fare. Non è giusto.~ [J#indi04]
 @6    = ~Avrei voluto che non fosse successo! È tutto così terribilmente sbagliato!~ [J#indi05]
 @7    = ~È finita! Io proprio... non posso proseguire. Mi dispiace.~ [J#indi06]
 @8    = ~Um, sei sicuro che mi vuoi davanti a tutti? Voglio dire, ah, ho la mia spada ma sono debole, e senza valore!~ [J#indi07]
 @9    = ~Possiamo fermarci? Sento le mie gambe andare a fuoco e la mia spada sta diventando PESAN-TE.~ [J#indi08]
-@10   = ~Non c'è qualcos'altro che potremmo fare?  Tipo... qualsiasi cosa? Forse? Per favore?~ [J#indi09]
+@10   = ~Non c'è qualcos'altro che potremmo fare? Tipo... qualsiasi cosa? Forse? Per favore?~ [J#indi09]
 @11   = ~In guardia, scellerati! Ah ah!~ [J#indi10]
 
 @14   = ~Guarigione! Presto! Per favore!~ [J#indi13]
@@ -38,6 +38,6 @@ Classe Armatura: 7
 Peso: 20
 Non Utilizzabile Da:
  Druido~
- 
+
  //Indira
 @5000000 = ~Bring me Indira, the half-elven fighter/mage.~

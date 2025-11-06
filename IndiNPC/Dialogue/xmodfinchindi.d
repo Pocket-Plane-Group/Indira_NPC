@@ -8,8 +8,8 @@ See("J#Indi")
    !StateCheck(Myself,CD_STATE_NOTVALID)
 !AreaCheck("%er_FirewineRuins%")
 Global("FinchIndi1","LOCALS",0)~ THEN BSUFINCH FirewineBanter
-@1009  DO ~SetGlobal("FinchIndi1","LOCALS",1)~ 
-== J#INDIB @1010 
+@1009  DO ~SetGlobal("FinchIndi1","LOCALS",1)~
+== J#INDIB @1010
 == BSUFINCH @1011
 == J#INDIB @1012
 == BSUFINCH @1013
@@ -62,7 +62,7 @@ See("SUFINCH")
    !StateCheck(Myself,CD_STATE_NOTVALID)
 Global("FinchIndi2","GLOBAL",0)~ THEN J#INDIB ForkFightPt1
 @1014  DO ~SetGlobal("FinchIndi2","GLOBAL",1)~
-== BSUFINCH @1015 
+== BSUFINCH @1015
 == J#INDIB @1016
 == BSUFINCH @1017
 == J#INDIB @1018
@@ -89,8 +89,8 @@ See("SUFINCH")
    !StateCheck(Myself,CD_STATE_NOTVALID)
 Global("FinchIndi3","LOCALS",0)~ THEN J#INDIB IndiraIsALegendaryTart
 @1029  DO ~SetGlobal("FinchIndi3","LOCALS",1)~
-= @1030 
-== BSUFINCH @1031 
+= @1030
+== BSUFINCH @1031
 == J#INDIB @1032
 == BSUFINCH @1033
 == J#INDIB @1034
@@ -115,7 +115,7 @@ See("J#Indi")
    !StateCheck(Myself,CD_STATE_NOTVALID)
 Global("FinchIndi4","LOCALS",0)~ THEN BSUFINCH KickAssBanter
 @1043  DO ~SetGlobal("FinchIndi4","LOCALS",1)~
-== J#INDIB @1044 
+== J#INDIB @1044
 == BSUFINCH @1045
 == J#INDIB @1046
 == BSUFINCH @1047
@@ -125,7 +125,7 @@ EXIT
 
 APPEND J#INDIB
 IF ~Global("FinchIndiRevengeOfFork", "GLOBAL",1)~ THEN BEGIN ForkFightPt2
-SAY @1048 
+SAY @1048
 IF ~~ THEN DO ~SetGlobal("FinchIndiRevengeOfFork", "GLOBAL",2)~ GOTO IndiNoForks
 IF ~See("Edwin") InParty("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ THEN DO ~SetGlobal("FinchIndiRevengeOfFork", "GLOBAL",2)~ EXTERN %er_tutu%EDWINJ%eet_var% EdwinNoForks
 IF ~See("Dynaheir") InParty("Dynaheir") !StateCheck("Dynaheir",CD_STATE_NOTVALID)~ THEN DO ~SetGlobal("FinchIndiRevengeOfFork", "GLOBAL",2)~ EXTERN %er_dynahj% DynaNoForks
@@ -133,7 +133,7 @@ IF ~See("Skie") InParty("Skie") !StateCheck("Skie",CD_STATE_NOTVALID)~ THEN DO ~
 END
 
 IF ~~ THEN BEGIN IndiNoForks
-SAY @1049 
+SAY @1049
 IF ~~ THEN EXTERN SUFINCHJ FinchForksNoFuss
 END
 

@@ -3,12 +3,12 @@
 @0    = ~Unwissende, Ihr werdet für diese Frechheit zahlen... Auf dass Ghaunadaur Euch umkommen lässt.!~ [A#MI01]
 @1    = ~(<CHARNAME> ? Psst, <CHARNAME>!)~ [A#MI02]
 @2    = ~Was ist los, Indira ?~
-@3    = ~Könnt Ihr nicht sehen, dass ich gerade beschäftigt bin? Redet später mit mir.~ 
+@3    = ~Könnt Ihr nicht sehen, dass ich gerade beschäftigt bin? Redet später mit mir.~
 @4    = ~Lasst mich in Ruhe, Weibsbild, und geht zur Gruppe zurück!~
 @5    = ~Oh. In Ordnung, entschuldigt. Entschuldigt, <CHARNAME>.~ [j#indim2]
 @6    = ~Aber...! Ich... Oh, schön!~ [j#indim3]
 @7    = ~Es ist wegen Mur'Neth. Nun, ich will nicht, dass es aussieht als ob ich mich beklage, aber er ist halt...~ [j#indim4]
-@8    = ~Er ist "nicht normal". Ich meine, ich kann nicht in der ganzen Welt gewesen sein, aber ... aber "Dinge" wie er sind einfach nicht richtig.~
+@8    = ~Er ist "nicht normal". Ich meine, ich kann nicht in der ganzen Welt gewesen sein, aber... aber "Dinge" wie er sind einfach nicht richtig.~
 @9    = ~Müssen wir ihn mit uns kommen lassen?~
 @10   = ~Nur weil er anders ist, bedeutet das nicht, dass Ihr ihn hassen solltet.~
 @11   = ~Ich weiß, was Ihr meint, aber er ist im Augenblick zu nützlich. Ich brauche ihn in der Nähe, zumindest für kurze Zeit..~
@@ -62,5 +62,5 @@
 @59   = ~Machmal fürchte ich sogar <PRO_HESHE> könnte Euch nicht zügeln. Euer menschliches Aussehen bedeutet nichts. Ihr seid immer noch ein Ungeheuer!~
 @60   = ~Pah! Selbst wenn ich Hunger hŠtte, würde ich mich hüten, Euch zu schmausen!~
 @61   = ~Und warum ist das so? Liegen Euch Mahlzeiten mit Moral schwer im Magen?~
-@62   = ~Eure Verwandtschaft schmeckt widerlich! Vermischung des leichten Fleisches der Elfen mit der Rauheit der Menschheit... Ihr würdet es sich verzehrenden Exkrementen ähnlich finden! ~
+@62   = ~Eure Verwandtschaft schmeckt widerlich! Vermischung des leichten Fleisches der Elfen mit der Rauheit der Menschheit... Ihr würdet es sich verzehrenden Exkrementen ähnlich finden!~
 @63   = ~Nun, da wir uns nicht sorgen, gegessen zu werden, kümmert mich das nicht! Aber irgendwie werde ich gesunder zukünftig schlafen.~

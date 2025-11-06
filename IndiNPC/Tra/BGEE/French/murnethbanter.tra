@@ -1,12 +1,12 @@
 // -*- coding: utf-8 -*-
 
 @0    = ~Ignorants, vous allez payer pour cette insolence... Que Ghaunadaur vous fasse périr !~ [A#MI01]
-@1    = ~(<CHARNAME> ? Psst, <CHARNAME>!)~ [A#MI02]
+@1    = ~(<CHARNAME> ? Psst, <CHARNAME> !)~ [A#MI02]
 @2    = ~Qu'y a t-il, Indira ?~
 @3    = ~Ne vois-tu pas que je suis un peu occupé ? Parlons plus tard.~ ~Ne vois-tu pas que je suis un peu occupée ? Parlons plus tard.~
 @4    = ~Laisse-moi tranquille, gamine, et retourne dans le groupe !~
 @5    = ~Oh. D'accord, désolée. Vraiment désolée, <CHARNAME>.~ [j#indim2]
-@6    = ~Mais...! Je... Bien !~ [j#indim3]
+@6    = ~Mais... ! Je... Bien !~ [j#indim3]
 @7    = ~C’est au sujet de Mur'Neth. Ce n’est pas que je me plains, mais il est, comment dire, un peu...~ [j#indim4]
 @8    = ~Il n’est pas *normal*. Je veux dire, je n’ai peut-être pas beaucoup voyagé mais… une *chose* comme lui n’a pas sa place ici.~
 @9    = ~Faut-il vraiment le prendre avec nous ?~

@@ -17,7 +17,7 @@
 @16 = ~Tu sais, j'ai cru entendre que les nains vivaient vraiment dans de tels endroits. C'est vrai ?~ [J#indi15]
 @17 = ~Tu sais, j'adore vraiment la ville. Quel dommage pour la puanteur.~ [J#indi16]
 @18 = ~Tu sais, j'aime beaucoup le soleil. La pluie aussi, d'ailleurs. Remarque la neige ne me gêne pas non plus, enfin je pense.~
-@19 = ~Tu sais, si je n'étais pas aussi intrépide, la peur m'aurait sûrement envahie à l'heure qu'il est. Mais c'est pas le cas. Oh que non, chef ! Pas moi! Jamais de la vie !~ [J#indi18]
+@19 = ~Tu sais, si je n'étais pas aussi intrépide, la peur m'aurait sûrement envahie à l'heure qu'il est. Mais c'est pas le cas. Oh que non, chef ! Pas moi ! Jamais de la vie !~ [J#indi18]
 @20 = ~Je suis prête !~ [J#indi19]
 @21 = ~Qui, moi ?~ [J#indi20]
 @22 = ~Prête à y aller !~ [J#indi21]
@@ -35,7 +35,7 @@ Indi fut l'une de ceux qui furent frappés par la soif d'aventure, et elle déco
 PARAMÈTRES :
 
 Classe d'armure : 7 (9 contre les armes contondantes, 5 contre les armes tranchantes)
-Nécessite : 8 en Force
+Nécessite : 8 en Force
 
 Poids : 20~
 

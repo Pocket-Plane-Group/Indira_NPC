@@ -1,11 +1,11 @@
 // -*- coding: utf-8 -*-
 
 @0    = ~Indietro!  Non mi prenderai senza combattere!~ [J#indi01]
-@1    = ~Metti via le tue armi!  Non intendo farti del male!~
+@1    = ~Metti via le tue armi! Non intendo farti del male!~
 @2    = ~Muori!~
 @3    = ~Aspettate, voi non siete coboldi, io... per favore, non fatemi del male.~
 @4    = ~Siamo stati mandati qui... i coboldi, erano troppi e il... quella creatura. Ha ucciso i miei amici. Li ha ammazzati tutti.~
-@5    = ~Era un Ogre Magi.  Per favore, devi aiutarmi ad ucciderlo!~
+@5    = ~Era un Ogre Magi. Per favore, devi aiutarmi ad ucciderlo!~
 @6    = ~Se ti riferisci al comandante dei coboldi, allora è già morto.~
 @7    = ~Non sei in condizione di dare la caccia ad un Ogre Magi.~
 @8    = ~Se una bestia così feroce si aggira davvero da queste parti, ti aiuteremo a distruggerla.~
@@ -14,7 +14,7 @@
 		~Non sono convinta. No, non ucciderò questa creatura per te.~
 @11   = ~Non ancora! Solamente... dimmi solo che stai andando ad ucciderlo.~
 @12   = ~Sono ben oltre le tue capacità. È morto stecchito mentre parliamo.~
-@13   = ~Vedo che sei determinata.  Molto bene, ti aiuteremo in questa faccenda.~
+@13   = ~Vedo che sei determinata. Molto bene, ti aiuteremo in questa faccenda.~
 @14   = ~Davvero? Allora... in questo caso vorrei lasciare questo posto il prima possibile. I miei compagni sono... perduti. Per favore, portami con te!~
 @15   = ~Ti porterò in un luogo sicuro, ma non oltre.~
 @16   = ~Sono sempre alla ricerca di nuovi compagni. (Termino i vecchi così velocemente.)~

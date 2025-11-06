@@ -1,7 +1,7 @@
 APPEND BA#MURN
 
 IF ~~ THEN BEGIN IndiBanterFlee
-SAY @0 
+SAY @0
 IF ~~ THEN DO ~ActionOverride("A#MURN",LeaveParty())
 ReallyForceSpellRES("A#GHAUN1","A#MURN")
 ActionOverride("A#MURN",EscapeArea())
@@ -22,24 +22,24 @@ InParty("A#MURN")
 !StateCheck("A#MURN",CD_STATE_NOTVALID)
 !Dead("A#MURN")
 !Dead("J#INDI")~ THEN BEGIN Murn_Indi_2
-SAY @1 
+SAY @1
 IF ~~ THEN REPLY @2 DO ~SetGlobal("A#MURN_INDI","GLOBAL",2)~ GOTO indi_continue
 IF ~~ THEN REPLY @3 GOTO indi_later
 IF ~~ THEN REPLY @4 GOTO indi_never
 END
 
 IF ~~ THEN BEGIN indi_later
-SAY @5 
+SAY @5
 IF ~~ THEN EXIT
 END
 
 IF ~~ THEN BEGIN indi_never
-SAY @6 
+SAY @6
 IF ~~ THEN DO ~SetGlobal("A#MURN_INDI","GLOBAL",2)~ EXIT
 END
 
 IF ~~ THEN BEGIN indi_continue
-SAY @7 
+SAY @7
 = @8
 = @9
 IF ~~ THEN REPLY @10 GOTO hes_evil
@@ -81,9 +81,9 @@ InParty("A#MURN")
 !StateCheck("A#MURN",CD_STATE_NOTVALID)
 !Dead("A#MURN")
 !Dead("J#INDI")~ THEN ~BA#MURN~ Murn_Indi_1
-@23 
+@23
 DO ~SetGlobal("A#MURN_INDI","GLOBAL",1)~
-== J#INDIB @24 
+== J#INDIB @24
 == BA#MURN @25
 == J#INDIB @26
 == ~%er_tutu%BFALDO~ IF ~InParty("FALDORN")
@@ -122,8 +122,8 @@ IF ~~ THEN REPLY @43 EXIT
 IF ~~ THEN REPLY @44 EXTERN BA#Murn IndiBanterFlee
 
 CHAIN ~BA#MURN~ Murn_Indi_2
-@45 
-== J#INDIB @46 
+@45
+== J#INDIB @46
 == BA#MURN @47
 == ~%er_tutu%BXZAR~ IF ~InParty("XZAR")
 See("XZAR")
@@ -144,16 +144,16 @@ InParty("A#MURN")
 !StateCheck("A#MURN",CD_STATE_NOTVALID)
 !Dead("A#MURN")
 !Dead("J#INDI")~ THEN ~BA#MURN~ Murn_Indi_3
-@52 
+@52
 DO ~SetGlobal("A#MURN_INDI","GLOBAL",3)~
 == ~%er_tutu%BELDOT~ IF ~InParty("ELDOTH")
 See("ELDOTH")
 !StateCheck("ELDOTH",CD_STATE_NOTVALID)
 !Dead("ELDOTH")~ THEN @53
 == BA#MURN @54
-== J#INDIB @55 
+== J#INDIB @55
 == BA#MURN @56
-== J#INDIB @57 
+== J#INDIB @57
 == BA#MURN @58
 == J#INDIB @59
 == BA#MURN @60

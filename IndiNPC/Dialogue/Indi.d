@@ -1,7 +1,7 @@
 BEGIN J#Indi // Initial .dlg
 
 IF ~NumTimesTalkedTo(0)~ grahdiedie
-  SAY @0 
+  SAY @0
   IF ~CheckStatGT(LastTalkedToBy(Myself),13,DEX)~ THEN REPLY @1 GOTO notkobs
   IF ~CheckStatGT(LastTalkedToBy(Myself),13,DEX)~ THEN REPLY @2 DO ~Enemy()~ EXIT
   IF ~CheckStatLT(LastTalkedToBy(Myself),14,DEX)~ THEN GOTO notkobs
@@ -72,7 +72,7 @@ END
 BEGIN J#IndiP // Indi kicked out
 
 IF ~Global("J#KickedIndi","GLOBAL",0)~ kickout
-  SAY @28 
+  SAY @28
   IF ~~ THEN REPLY @29 DO ~SetGlobal("J#kickedindi","GLOBAL",1)~ GOTO alright
   IF ~~ THEN REPLY @30 GOTO hooray
   IF ~~ THEN REPLY @31 GOTO hooray
@@ -91,7 +91,7 @@ IF ~~ alright
 END
 
 IF ~Global("J#KickedIndi","GLOBAL",1)~ youreback
-  SAY @36 
+  SAY @36
   IF ~~ THEN REPLY @37 DO ~SetGlobal("J#KickedIndi","GLOBAL",0)
 JoinParty()~ EXIT
   IF ~~ THEN REPLY @38 DO ~SetGlobal("J#KickedIndi","GLOBAL",0)
@@ -123,7 +123,7 @@ Global("J#indixzar","GLOBAL",0)
   @43
 DO ~SetGlobal("J#indixzar","GLOBAL",1)~
   == J#indib
-  @44 
+  @44
   == %er_tutu%bxzar
   @45
   == J#indib
@@ -138,7 +138,7 @@ Global("J#indimonty","GLOBAL",0)
       See("Montaron")
       !StateCheck("Montaron",CD_STATE_NOTVALID)
       !StateCheck(Myself,CD_STATE_NOTVALID)~ THEN J#IndiB indimonty
-  @47 
+  @47
 DO ~SetGlobal("J#indimonty","GLOBAL",1)~
   == %er_tutu%bmonta
   @48
@@ -155,7 +155,7 @@ Global("J#indigarrick","GLOBAL",0)
   @49
 DO ~SetGlobal("J#indigarrick","GLOBAL",1)~
   == J#indib
-  @50 
+  @50
   == %er_tutu%bgarri
   @51
   == J#indib
@@ -175,7 +175,7 @@ Global("J#indikagain","GLOBAL",0)
   @54
 DO ~SetGlobal("J#indikagain","GLOBAL",1)~
   == J#indib
-  @55 
+  @55
   == %er_tutu%bkagai
   @56
 EXIT
@@ -191,7 +191,7 @@ Global("J#indijaheira","GLOBAL",0)
   @57
 DO ~SetGlobal("J#indijaheira","GLOBAL",1)~
   == J#indib
-  @58 
+  @58
   == %er_bjahei%
   @59
   == J#indib
@@ -208,7 +208,7 @@ Global("J#indikhali","GLOBAL",0)
       See("khalid")
       !StateCheck("khalid",CD_STATE_NOTVALID)
       !StateCheck(Myself,CD_STATE_NOTVALID)~ THEN J#IndiB indikhali
-  @62 
+  @62
 DO ~SetGlobal("J#indikhali","GLOBAL",1)~
   == %er_tutu%bkhali
   @63
@@ -229,7 +229,7 @@ Global("J#indiKivan","GLOBAL",0)
   @66
 DO ~SetGlobal("J#indiKivan","GLOBAL",1)~
   == J#indib
-  @67 
+  @67
   == %er_tutu%bkivan
   @68
   == J#indib
@@ -251,7 +251,7 @@ Global("J#indiEdwin","GLOBAL",0)
   @72
 DO ~SetGlobal("J#indiEdwin","GLOBAL",1)~
   == J#indib
-  @73 
+  @73
   == %er_tutu%bedwin%eet_var%
   @74
   =
@@ -273,7 +273,7 @@ Global("J#indidynah","GLOBAL",0)
   @78
 DO ~SetGlobal("J#indidynah","GLOBAL",1)~
   == J#indib
-  @79 
+  @79
   == %er_bdynah%
   @80
   == J#indib
@@ -290,7 +290,7 @@ Global("J#indiXan","GLOBAL",0)
       See("Xan")
       !StateCheck("Xan",CD_STATE_NOTVALID)
       !StateCheck(Myself,CD_STATE_NOTVALID)~ THEN J#IndiB indiXan
-  @83 
+  @83
 DO ~SetGlobal("J#indiXan","GLOBAL",1)~
   == %er_tutu%bxannn
   @84
@@ -321,7 +321,7 @@ Global("J#indiSharTe","GLOBAL",0)
   @92
 DO ~SetGlobal("J#indiSharTe","GLOBAL",1)~
   == J#indib
-  @93 
+  @93
   == %er_tutu%bshart
   @94
   == J#indib
@@ -341,7 +341,7 @@ Global("J#indiVicon","GLOBAL",0)
   @97
 DO ~SetGlobal("J#indiVicon","GLOBAL",1)~
   == J#indib
-  @98 
+  @98
   == %er_bvicon%
   @99
   == J#indib
@@ -361,7 +361,7 @@ Global("J#indiEldot","GLOBAL",0)
   @102
 DO ~SetGlobal("J#indiEldot","GLOBAL",1)~
   == J#indib
-  @103 
+  @103
   =
   @104
   == %er_tutu%beldot
@@ -381,7 +381,7 @@ Global("J#indiQuayl","GLOBAL",0)
   @107
 DO ~SetGlobal("J#indiQuayl","GLOBAL",1)~
   == J#indib
-  @108 
+  @108
   == %er_tutu%bquayl
   @109
   == J#indib
@@ -406,7 +406,7 @@ Global("J#indiTiax","GLOBAL",0)
       See("Tiax")
       !StateCheck("Tiax",CD_STATE_NOTVALID)
       !StateCheck(Myself,CD_STATE_NOTVALID)~ THEN J#IndiB indiTiax
-  @116 
+  @116
 DO ~SetGlobal("J#indiTiax","GLOBAL",1)~
   == %er_tutu%btiax
   @117
@@ -428,7 +428,7 @@ Global("J#indiSafan","GLOBAL",0)
   @120
 DO ~SetGlobal("J#indiSafan","GLOBAL",1)~
   == J#indib
-  @121 
+  @121
   == %er_tutu%bsafan
   @122
   =
@@ -452,7 +452,7 @@ DO ~SetGlobal("J#indiminsc","GLOBAL",1)~
   =
   @127
   == J#indib
-  @128 
+  @128
   == %er_tutu%bminsc%eet_var%
   @129
   == J#indib
@@ -472,7 +472,7 @@ Global("J#indialora","GLOBAL",0)
   @132
 DO ~SetGlobal("J#indialora","GLOBAL",1)~
   == J#indib
-  @133 
+  @133
   == %er_tutu%balora
   @134
   =
@@ -491,7 +491,7 @@ Global("J#indiyeslick","GLOBAL",0)
       See("yeslick")
       !StateCheck("yeslick",CD_STATE_NOTVALID)
       !StateCheck(Myself,CD_STATE_NOTVALID)~ THEN J#IndiB indiyeslick
-  @138 
+  @138
 DO ~SetGlobal("J#indiyeslick","GLOBAL",1)~
   == %er_tutu%byesli
   @139
@@ -530,7 +530,7 @@ Global("J#indiimoen","GLOBAL",0)
   @151
 DO ~SetGlobal("J#indiimoen","GLOBAL",1)~
   == J#indib
-  @152 
+  @152
   == %er_bimoen%
   @153
   == J#indib
