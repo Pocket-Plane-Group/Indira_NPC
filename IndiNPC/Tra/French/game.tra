@@ -1,29 +1,29 @@
 // -*- coding: cp1252 -*-
 
 @1 = ~Indira~
-@2 = ~Eloignez vous! Vous ne m'aurez pas sans combattre!~ [J#indi01]
-@3 = ~Ah! C'en est trop! Je... je suis d�sol�e, il me faut partir!~ [J#indi02]
-@4 = ~C'est fabuleux! Je parie m�me que nous pourrions engager quelque barde pour mettre en r�cit nos aventures!~ [J#indi03]
+@2 = ~Eloignez vous ! Vous ne m'aurez pas sans combattre !~ [J#indi01]
+@3 = ~Ah ! C'en est trop ! Je... je suis d�sol�e, il me faut partir !~ [J#indi02]
+@4 = ~C'est fabuleux ! Je parie m�me que nous pourrions engager quelque barde pour mettre en r�cit nos aventures !~ [J#indi03]
 @5 = ~Je ne parviens pas � comprendre pourquoi tu agis comme cela. Ce n'est pas juste.~ [J#indi04]
-@6 = ~Jamais je n'ai voulu en arriver l�! Tout va si mal!~ [J#indi05]
-@7 = ~Je n'en peux plus! Je...je ne peux continuer ainsi! Je suis d�sol�e.~ [J#indi06]
-@8 = ~Euh, es-tu certain de vouloir me mettre en premi�re ligne? Je veux dire, hum, je suis certes arm�e d'une �p�e mais je suis toute fr�le et tout ce qui s'en suit!~ [J#indi07] ~Euh, es-tu certaine de vouloir me mettre en premi�re ligne? Je veux dire, hum, je suis certes arm�e d'une �p�e mais je suis toute fr�le et tout ce qui s'en suit!~ [J#indi07]
-@9 = ~Pouvons-nous nous reposer sans tarder? Mes jambes sont en feu et mon �p�e devient de plus en plus LOURDE.~ [J#indi08]
-@10 = ~N'y a-t-il pas autre chose que nous pourrions faire? Une activit� quelconque? Peut-�tre? S'il te pla�t?~ [J#indi09]
-@11 = ~Gare � vous, sc�l�rats! H�h�!~ [J#indi10]
+@6 = ~Jamais je n'ai voulu en arriver l� ! Tout va si mal !~ [J#indi05]
+@7 = ~Je n'en peux plus ! Je...je ne peux continuer ainsi ! Je suis d�sol�e.~ [J#indi06]
+@8 = ~Euh, es-tu certain de vouloir me mettre en premi�re ligne ? Je veux dire, hum, je suis certes arm�e d'une �p�e mais je suis toute fr�le et tout ce qui s'en suit !~ [J#indi07] ~Euh, es-tu certaine de vouloir me mettre en premi�re ligne ? Je veux dire, hum, je suis certes arm�e d'une �p�e mais je suis toute fr�le et tout ce qui s'en suit !~ [J#indi07]
+@9 = ~Pouvons-nous nous reposer sans tarder ? Mes jambes sont en feu et mon �p�e devient de plus en plus LOURDE.~ [J#indi08]
+@10 = ~N'y a-t-il pas autre chose que nous pourrions faire ? Une activit� quelconque ? Peut-�tre ? S'il te pla�t ?~ [J#indi09]
+@11 = ~Gare � vous, sc�l�rats ! H�h� !~ [J#indi10]
 
-@14 = ~Soignez-moi! Viite! Je vous en prie!~ [J#indi13]
+@14 = ~Soignez-moi ! Viite ! Je vous en prie !~ [J#indi13]
 @15 = ~Tu sais, c'�tait presque pareil chez moi. Si l'on peut dire. Mais pas seulement.~ [J#indi14]
-@16 = ~Tu sais, j'ai cru entendre que les nains vivaient vraiment dans de tels endroits. C'est vrai?~ [J#indi15]
+@16 = ~Tu sais, j'ai cru entendre que les nains vivaient vraiment dans de tels endroits. C'est vrai ?~ [J#indi15]
 @17 = ~Tu sais, j'adore vraiment la ville. Quel dommage pour la puanteur.~ [J#indi16]
 @18 = ~Tu sais, j'aime beaucoup le soleil. La pluie aussi, d'ailleurs. Remarque la neige ne me g�ne pas non plus, enfin je pense.~
-@19 = ~Tu sais, si je n'�tais pas aussi intr�pide, la peur m'aurait s�rement envahie � l'heure qu'il est. Mais c'est pas le cas. Oh que non, chef! Pas moi! Jamais de la vie!~ [J#indi18]
-@20 = ~Je suis pr�te!~ [J#indi19]
-@21 = ~Qui, moi?~ [J#indi20]
-@22 = ~Pr�te � y aller!~ [J#indi21]
-@23 = ~C'est l'heure d'en d�coudre!~ [J#indi22]
-@24 = ~Ou��!~ [J#indi23]
-@25 = ~Tu l'as dit!~ [J#indi24]
+@19 = ~Tu sais, si je n'�tais pas aussi intr�pide, la peur m'aurait s�rement envahie � l'heure qu'il est. Mais c'est pas le cas. Oh que non, chef ! Pas moi ! Jamais de la vie !~ [J#indi18]
+@20 = ~Je suis pr�te !~ [J#indi19]
+@21 = ~Qui, moi ?~ [J#indi20]
+@22 = ~Pr�te � y aller !~ [J#indi21]
+@23 = ~C'est l'heure d'en d�coudre !~ [J#indi22]
+@24 = ~Ou�� !~ [J#indi23]
+@25 = ~Tu l'as dit !~ [J#indi24]
 @26 = ~Quand vous l'interrogez sur son pass�, Indira vous r�v�le, avec un air mutin, qu'elle a �t� �lev�e dans un petit village elfe situ� juste � l'est de Scornubel. Vivre si pr�s des humains a fini par causer de profondes dissensions parmi les elfes de cette petite communaut�, et apr�s de nombreux conflits et pourparlers, l'exode de l'int�gralit� du village fut d�cid�.
 
 A peine quelques individus d'ascendance elfique pure ont subsist�, la majeure partie � rester �tant constitu�e de descendants de l'union d'un elfe avec un humain, m�me si ces derniers �taient aussi en faible nombre. Les autres natifs du village all�rent s'�tablir encore plus � l'est, vers le Cormanthor. Ainsi, ceux qui demeur�rent finirent par d�velopper un esprit d'ind�pendance assez solide, et sans force sup�rieure pour les guider et pr�server leurs liens, la communaut� s'est d�sagr�g�e. Certains ont choisi de voyager � travers F��rune, d'autres se sont install�s dans des cit�s, les derniers choisirent de rester entre eux.
